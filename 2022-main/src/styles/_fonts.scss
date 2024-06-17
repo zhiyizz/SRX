@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'buickfont';
+  src: url('../../public/fonts/t450.eot');
+  src: url('../../public/fonts/t450.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/t450.woff2') format('woff2'),
+       url('../../public/fonts/t450.woff') format('woff'),
+       url('../../public/fonts/t450.ttf') format('truetype');
+  font-weight: 400 500;
+}
+@font-face {
+  font-family: 'buickfont';
+  src: url('../../public/fonts/t700.eot');
+  src: url('../../public/fonts/t700.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/t700.woff2') format('woff2'),
+       url('../../public/fonts/t700.woff') format('woff'),
+       url('../../public/fonts/t700.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'buickfont-headline';
+  src: url('../../public/fonts/h450.eot');
+  src: url('../../public/fonts/h450.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/h450.woff2') format('woff2'),
+       url('../../public/fonts/h450.woff') format('woff'),
+       url('../../public/fonts/h450.ttf') format('truetype');
+  font-weight: 400 500;
+}
+@font-face {
+  font-family: 'buickfont-headline';
+  src: url('../../public/fonts/h600.eot');
+  src: url('../../public/fonts/h600.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/h600.woff2') format('woff2'),
+       url('../../public/fonts/h600.woff') format('woff'),
+       url('../../public/fonts/h600.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'buickfont-headline';
+  src: url('../../public/fonts/h700.eot');
+  src: url('../../public/fonts/h700.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/h700.woff2') format('woff2'),
+       url('../../public/fonts/h700.woff') format('woff'),
+       url('../../public/fonts/h700.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'buicken';
+  src: url('../../public/fonts/en-tl.eot');
+  src: url('../../public/fonts/en-tl.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/en-tl.woff2') format('woff2'),
+       url('../../public/fonts/en-tl.woff') format('woff'),
+       url('../../public/fonts/en-tl.ttf') format('truetype');
+  font-weight: 400 500;
+}
+@font-face {
+  font-family: 'buicken';
+  src: url('../../public/fonts/en-tr.eot');
+  src: url('../../public/fonts/en-tr.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/en-tr.woff2') format('woff2'),
+       url('../../public/fonts/en-tr.woff') format('woff'),
+       url('../../public/fonts/en-tr.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'buicken';
+  src: url('../../public/fonts/en-tm.eot');
+  src: url('../../public/fonts/en-tm.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/en-tm.woff2') format('woff2'),
+       url('../../public/fonts/en-tm.woff') format('woff'),
+       url('../../public/fonts/en-tm.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'buicken-headline';
+  src: url('../../public/fonts/en-hl.eot');
+  src: url('../../public/fonts/en-hl.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/en-hl.woff2') format('woff2'),
+       url('../../public/fonts/en-hl.woff') format('woff'),
+       url('../../public/fonts/en-hl.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'buicken-headline';
+  src: url('../../public/fonts/en-hr.eot');
+  src: url('../../public/fonts/en-hr.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/en-hr.woff2') format('woff2'),
+       url('../../public/fonts/en-hr.woff') format('woff'),
+       url('../../public/fonts/en-hr.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'buicken-headline';
+  src: url('../../public/fonts/en-hm.eot');
+  src: url('../../public/fonts/en-hm.eot?#iefix') format('embedded-opentype'),
+       url('../../public/fonts/en-hm.woff2') format('woff2'),
+       url('../../public/fonts/en-hm.woff') format('woff'),
+       url('../../public/fonts/en-hm.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'buickfont-vf';
+  src: url('../../public/fonts/yhvf.woff2') format('woff2') tech('variations'),
+       url('../../public/fonts/yhvf.woff2') format('woff2-variations');
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+}
