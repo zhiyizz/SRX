@@ -1,0 +1,50 @@
+.maintenance {
+
+  .section {
+    padding:20px 0;
+    .container {
+      padding:0 0 20px;
+      .text {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .maintenance {
+
+    .section {
+
+      .container {
+        &.flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          p {
+            padding-right: 40px;
+            font-size: 15px;
+          }
+          p,img {
+            width: 45%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .maintenance {
+    .section {
+      .container {
+        &.flex {
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

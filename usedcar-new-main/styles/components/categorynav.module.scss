@@ -1,0 +1,65 @@
+.category_nav {
+  .category_sub_tab {
+    margin:0;
+    list-style: none;
+    padding:0;
+    white-space: nowrap;
+    display: flex;
+    overflow-x:auto;
+    li {
+      padding:0 10px;
+      font-size: 14px;
+      cursor: pointer;
+      &.active {
+        color: var(--color-primary);
+      }
+    }
+  }
+  .category_sub_main {
+
+    .swiper-box {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .slide {
+      text-align: center;
+      font-weight: 600;
+      height: 200px;
+      overflow: hidden;
+      cursor: pointer;
+      padding: 0 10px;
+      box-sizing: border-box;
+      &:hover {
+        box-shadow: 3px 0 20px rgba(0, 0, 0, .05), -3px 0 20px rgba(0, 0, 0, .05);
+      }
+      position: relative;
+      .pic {
+        display: block;
+        font-size: 18px;  
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .inner {
+        .name {
+          font:600  16px  'buickfont-headline';
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (min-width:768px){
+  .category_nav {
+    .category_sub_tab {
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+}

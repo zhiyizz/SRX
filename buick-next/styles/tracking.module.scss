@@ -1,0 +1,118 @@
+@use 'variables' as *;
+
+.icon-success {
+  color: #3abd20;
+}
+
+.main {
+  min-height: calc(100vh - var(--nav-height));
+
+  .hint {
+    background: #fff4d4;
+    border-bottom: solid 1px #efefef;
+    box-shadow: 0 0 4px rgba($color: #000, $alpha: 0.06);
+    padding: 20px 0;
+    position: sticky;
+    text-align: center;
+    top: 0;
+    z-index: 9;
+  }
+  
+  /* CSS */
+  .button-25 {
+    background-color: #2663db;
+    background-image: linear-gradient(#4477db, #2663db);
+    border: 1px solid #234fa7;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    // font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 9px 14px 10px;
+    text-align: center;
+    transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  .button-25:hover {
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+    text-decoration: none;
+    transition-duration: .15s, .15s;
+  }
+  
+  .button-25:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+  }
+  
+  .button-25:disabled {
+    cursor: not-allowed;
+    opacity: .6;
+  }
+  
+  .button-25:disabled:active {
+    pointer-events: none;
+  }
+  
+  .button-25:disabled:hover {
+    box-shadow: none;
+  }
+  .action {
+    column-gap: 10px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+
+    button {
+      cursor: pointer;
+    }
+  }
+
+  .data {
+    padding-bottom: 60px;
+
+    table {
+      border: solid 1px #efefef;
+      border-collapse: collapse;
+      letter-spacing: 0;
+      margin: 0 auto;
+      min-width: 920px;
+      width: 60%;
+    }
+    th,
+    td {
+      border: solid 1px #eee;
+      font-size: 14px;
+      height: 30px;
+      padding: 0 10px;
+    }
+    th {
+      color: #333;
+      font-size: 15px;
+      height: 40px;
+    }
+    thead {
+      background-color: #f2f2f2;
+      background-image: linear-gradient(#fafafa, #f2f2f2);
+      // color: #fff;
+      text-align: left;
+    }
+    .empty {
+      color: #999;
+      height: 50px;
+      text-align: center;
+    }
+    code {
+      color: $color-primary;
+      font-size: 13px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+
+
+.swiper {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+.swiper-slide.swiper-slide-active .copy {
+  display: block;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+@media (min-width: 998px) {
+  /* body {
+    min-width: 1200px;
+  } */
+}

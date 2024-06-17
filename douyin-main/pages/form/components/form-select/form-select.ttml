@@ -1,0 +1,20 @@
+<i-panel title="{{label}}">
+    <view tt:for="{{levelOptions}}" tt:for-item="levelOption" tt:for-index="level">
+       <i-checkbox-group tt:if="{{element.expand.multiple && level === multiLevel}}">
+          <i-checkbox 
+            tt:for="{{levelOption}}" 
+            tt:key="{{item.id}}"
+            bindchange="checkboxChangeHandler"
+            value="{{item.name}}" 
+            checked="{{multiLevelValueMap[item.name]}}"
+          ></i-checkbox>
+        </i-checkbox-group>
+
+        <picker tt:else id="{{level}}" class="td-select"  range="{{ levelOption }}" bindchange="pickerChange" bindcancel="pickerCancel"
+        range-key="name">
+        <view class="label">{{elements.fields[level].name}}</view>
+        <input class="input-common" placeholder-style="color:rgba(255,255,255,.3)" placeholder="请选择{{elements.fields[level].name}}" disabled="true" value="{{selectItems[level][0]['name']}}"></input>
+        <!-- <input class="input-common" disabled="true" value="{{selectItems[level][0]['name']}}"></input> -->
+    </picker>
+    </view>
+</i-panel>

@@ -1,0 +1,182 @@
+page {
+    background:#6b90ba;
+}
+.td  {
+    width: 100%;
+    overflow: hidden;
+}
+.td image {
+    display:block;
+    width: calc( 100% + 2px);
+}
+.formContainer {
+    overflow: hidden;
+    width: 100%;
+}
+.formContainer image {
+    position: absolute;
+    display: block;
+    width:100%;
+}
+.from {
+    position:relative;
+    width: 76%;
+    margin: 15% auto 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 20rpx;
+    padding-bottom: 20rpx;
+}
+.from .item {
+    height: 70rpx;
+    line-height: 70rpx;
+    padding:0 10px;
+    border-radius: 2px;
+    font-size:12px;
+    color:#333;
+    background:#fff;
+    display: flex;
+    grid-column: span 1/span 1;
+}
+.from .item input {
+    width: calc(100% - 60px);
+}
+.from .item:nth-child(1),.from .item:nth-child(2),.from picker:nth-child(7),.from view:nth-child(8),.from view:nth-child(9)   {
+    grid-column: span 2/span 2;
+}
+.from .item view {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.from .item.phone {
+    border:0;
+    padding:0;
+     display: grid;
+    grid-template-columns: 3fr 1.5fr; 
+}
+
+.from .item.phone .wrap {
+    margin-right:20px;
+     display: grid;
+    padding:0 10px;
+    grid-template-columns:  40px auto;
+}
+.from .item.phone .wrap input {
+    width: auto;
+}
+.from .item label {
+display:inline-block;
+   width: 60px;
+}
+.from .item  button {
+    display:inline-block;
+    background: none;
+    font-size:12px;
+    height: 50rpx;
+    line-height: 50rpx;
+    border-radius:0;
+    margin:0;
+    color:#333;
+    border-left:1px solid #b1b1b1;
+    margin-top:10rpx;
+}
+.from .item  button::after{
+    display: none;
+}
+.from .item button.disabled {
+    color:#ccc !important;
+}
+.from .item input {
+    height:70rpx;
+    line-height:70rpx;
+    color:#333;
+
+}
+.from .item view {
+    width: 100%;
+}
+.from .select {
+    position: relative;
+}
+.from .select::after  {
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-30%);
+    border:5px solid transparent;
+    border-top: 10px solid #000;
+}
+.from .ttui-cells .check {
+    display: flex;
+    font-size:12px;
+    color:#fff;
+    line-height: 30px;
+    margin-top:10px;
+    vertical-align: middle;
+}
+.from .ttui-cells .check .privacy {
+    display: inline-block;
+}
+.from .ttui-cells .check checkbox {
+    transform: scale(.6);
+}
+.submit-button {
+    text-align: center;
+   
+}
+.submit-button button {
+    border-radius: 0;
+    background: #fff;
+    color:#2a609b;
+    display: inline-block;
+    font-size: 14px;
+    padding:0 80rpx;
+    border-radius: 10rpx;
+    box-shadow: 0 0 10rpx #fff;
+}
+.submit-button button::after {
+    display: none;
+}
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 100;
+    padding: 1em;
+    box-sizing: border-box;
+    display:none;
+    overflow: hidden;
+}
+.popup.show {
+    display: block;
+}
+.popup .close {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.popup .close::after,.popup .close::before {
+    background-color: #000;
+    content: "";
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    width: 1px;
+}
+.popup .close::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+}

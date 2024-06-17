@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "/data/series/*.json"
+      ],
+      "url": ".vscode/schema/series.json"
+    }
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
+}

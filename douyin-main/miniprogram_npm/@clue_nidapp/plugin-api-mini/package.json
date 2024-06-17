@@ -1,0 +1,28 @@
+{
+  "name": "@clue_nidapp/plugin-api-mini",
+  "version": "0.0.2-alpha.2",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "files": [
+    "dist",
+    "es"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "ts-node ./test/errors/index.ts",
+    "build": "rm -rf ./dist ./es && tsc -p tsconfig.json && tsc --outDir ./es --module ES6 && node ../afterBuild.js api-mini"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@clue_nidapp/shared": "^2.0.1-alpha.2"
+  }
+}

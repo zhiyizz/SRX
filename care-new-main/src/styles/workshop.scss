@@ -1,0 +1,121 @@
+.workshop {
+
+  .text {
+    &.head-text {
+      padding:30px 0;
+    }
+  }
+
+  .grid {
+    .row {
+      position: relative;
+      padding-bottom: 10px;
+      margin-bottom: 40px;
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+      p {
+        text-align: center;
+        padding:20px 0;
+      }
+      &::after {
+        content: "";
+        width: 15px;
+        height: 15px;
+        display: block;
+        border-left:1px solid #7f7f7f;
+        border-bottom:1px solid #7f7f7f;
+        position: absolute;
+        bottom: 0;
+        left:50%;
+        transform: rotate(-45deg) translateX(-50%);
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .workshop {
+    
+    .text {
+      font-size: 14px;
+      text-align: center;
+      &.head-text {
+        padding:50px 0 70px;
+      }
+    }
+    .grid {
+      padding:20px 0;
+      display: grid;
+      gap: 20px 60px;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas: 
+      "item1 item2 item3"
+      "item6 item5 item4"
+      "item7 item8 item9";
+      .row {
+        margin:0;
+        p {
+          padding:0;
+          font-size: 16px;
+          line-height:40px;
+        }
+
+        &:nth-child(3) {
+          &::after {
+            right: 50%;
+            bottom:0;
+            transform: rotate(-90deg) scaleX(-1);
+
+          }
+        }
+        &:nth-child(4),
+        &:nth-child(5) {
+          &::after {
+            right: inherit;
+            left:-40px;
+            transform: rotate(0) scaleX(-1);
+          }
+        }
+        &:nth-child(4) {
+          grid-area: item4;
+        }
+        &:nth-child(5) {
+          grid-area: item5;
+        }
+        &:nth-child(6) {
+          grid-area: item6;
+          &::after {
+            right: 50%;
+            bottom:0;
+            transform: rotate(-90deg) scaleX(-1);
+          }
+        }
+        &:nth-child(7) {
+          grid-area: item7;
+        }
+        &::after {
+          background: url('../img/workshop/arrow.jpg') no-repeat;
+          width: 20px;
+          background-size:100%;
+          border:0;
+          left:inherit;
+          right: -40px;
+          bottom: calc(50% + 10px);
+          transform: rotate(0);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .workshop {
+    .text {
+      font-size: 18px;
+    }
+  }
+}

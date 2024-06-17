@@ -1,0 +1,78 @@
+<view class="td">
+    <image src="{{kv}}" mode="widthFix">
+    </image>
+</view>
+<view class="formContainer">
+    <image src="{{td}}" mode="widthFix">
+    </image>
+    <form catchsubmit="formSubmit" class="from">
+        <view class="item">
+            <label>用户名</label>
+            <input name="name" value="{{name}}" placeholder="请输入用户名" placeholder-style="color:#8e96a0; font-size:12px;"
+                bindinput="bindNameChange">
+            </input>
+        </view>
+        <view class="item">
+            <label>手机</label>
+            <input name="phone" value="{{mobile}}" placeholder="手机号码" type="number" maxlength="11"
+                placeholder-style="color:#8e96a0; font-size:12px;" bindinput="bindMobileChange">
+            </input>
+            <!-- <button
+                open-type="getPhoneNumber"
+                bindgetphonenumber="getPhoneNumberHandler"
+                >
+                获取手机号码
+            </button> -->
+        </view>
+        <picker value="{{seriesIdx}}" range-key="name" range="{{series}}" bindchange="bindSeriesChange" class="item"
+            name="car">
+            <view class="picker"><label>选择车型</label>{{series[seriesIdx].name}} </view>
+        </picker>
+        <picker range-key="name" range="{{dealer}}" value="{{seriesIdx}}" bindchange="bindProvinceChange" class="item">
+            <view>
+                <label>省份</label>
+                {{dealer[province.index].name}}
+            </view>
+        </picker>
+        <picker range-key="name" range="{{province.city}}" value={{cityIdx}} bindchange="bindCityChange" class="item">
+            <view>
+                <label>城市</label>
+                {{province.city[cityIdx].name}}
+            </view>
+        </picker>
+        <picker range-key="name" range="{{city &&  city.district}}" value="{{districtIdx}}"
+            bindchange="bindDistrictChange" class="item">
+            <view>
+                <label>区</label>
+                {{districtIdx !== null ? city.district[districtIdx].name : '全部' }}
+                <!-- {{city && city.district[districtIdx].name}} -->
+            </view>
+        </picker>
+        <picker range-key="namekm" range="{{filtered}}" class="item" bindchange="bindDealerChange">
+            <view>
+                <label>经销商</label>
+                {{filtered[filteredIdx].namekm}} 
+            </view>
+        </picker>
+        <view class="ttui-cells">
+            <checkbox-group name="check">
+                <label class="ttui-cell check">
+                    <view>
+                        <checkbox color="#000000" />
+                    </view>
+               
+                    <view class="ttui-cell__bd">已阅读并同意<view class="privacy" bindtap="bindPrivacy">《个人信息与隐私保护条款》</view>
+                    </view>
+                </label>
+
+            </checkbox-group>
+        </view>
+        <view class="submit-button">
+            <button type="primary" formType="submit">预约试驾</button>
+        </view>
+    </form>
+</view>
+<view class="{{privacy?'popup show':'popup'}}" >
+    <view class="close" bindtap="bindPrivacy"></view>
+    <provacy-component></provacy-component>
+</view>

@@ -1,0 +1,30 @@
+/* .formContainer {
+  padding:0 25px;
+}
+.formContainer .item {
+  height: 30px;
+  line-height: 30px;
+  border-bottom:1px solid #ddd;
+} */
+.section image {
+  width:calc( 100% + 2px);
+  display:block;
+  margin-top:-1px;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: #a1aab1;
+  height: 80px;
+  bottom:0;
+
+}
+.fixed .button {
+  text-align: center;
+  color:#fff;
+  font-size:0;
+  padding:0;
+}
+.fixed .button image {
+    width: 100%;
+}

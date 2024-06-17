@@ -1,0 +1,111 @@
+@import '../variables';
+
+.main {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 103;
+    --swiper-navigation-color: #fff;
+
+    &::before {
+      background: rgba($color: #000, $alpha: 0.99);
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    .close {
+      cursor: pointer;
+      height: 40px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      width: 40px;
+      z-index: 5;
+    }
+
+    .wrapper {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+
+      .slider {
+        height: 100%;
+      }
+      figure {
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        img {
+          display: block;
+          object-fit: contain;
+        }
+      }
+
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 100%;
+        z-index: 3;
+
+        >div {
+          cursor: pointer;
+          pointer-events: all;
+        }
+        .next {
+          transform: scaleX(-1);
+        }
+        svg {
+          display: block;
+          stroke: #fff;
+          transform: scaleX(0.75);
+          width: 60px;
+        }
+      }
+
+      .controls {
+        bottom: 20px;
+        column-gap: 10px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+
+        >* {
+          cursor: pointer;
+          width: 36px;
+
+          &:hover {
+            svg {
+              stroke: var(--color-primary);
+            }
+          }
+          svg {
+            display: block;
+            stroke: #fff;
+            transform: scaleY(-1);
+          }
+        }
+      }
+    }
+  }
+}

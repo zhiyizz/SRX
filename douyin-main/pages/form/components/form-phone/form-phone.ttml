@@ -1,0 +1,7 @@
+<view class="phone-wrapper">
+  <i-input title="{{label}}" maxlength="11" value="{{value}}" type="number" bind:focus="focusHandler" bind:blur="blurHandler"
+    bind:change="changeHandler"></i-input>
+  <i-button open-type="getPhoneNumber" disabled="{{value?true:false}}" class="btn-phone" size="small" bindgetphonenumber="getPhoneNumber">
+    使用本机号码
+  </i-button>
+</view>

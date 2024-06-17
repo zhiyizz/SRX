@@ -1,0 +1,14 @@
+<view class="section">
+    <image mode="widthFix" src="{{img.p1}}"></image>
+    <image mode="widthFix" src="{{img.p2}}"></image>
+</view>
+
+<view class="fixed">
+    <view class="button" bindtap="onClick"><image mode="widthFix" src="{{img.button}}"></image></view> 
+    <!-- <button
+        open-type="getPhoneNumber"
+        bindgetphonenumber="getPhoneNumberHandler"
+        >
+        获取手机号码
+    </button>   -->
+</view>

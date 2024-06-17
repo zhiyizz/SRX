@@ -1,0 +1,15 @@
+.float {
+  left: 0;
+  position: fixed;
+  top: 40%;
+  z-index: 100;
+
+  a {
+    background-color: #d6401e;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    padding: 6px 8px;
+    text-decoration: none;
+  }
+}

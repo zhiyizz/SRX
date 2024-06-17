@@ -1,0 +1,79 @@
+{
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "autoCompile": true,
+    "localPlugins": false,
+    "mockUpdate": false,
+    "mockLogin": false,
+    "scripts": false,
+    "autoPush": false,
+    "IDEPreviewHotRestartCache": false
+  },
+  "appid": "tt1d716bcc824f558201",
+  "projectname": "douyin",
+  "condition": {
+    "miniprogram": {
+      "current": 1663754838109,
+      "list": [
+        {
+          "id": 1663754838109,
+          "name": " 五要素",
+          "pathName": "pages/brand1214/index",
+          "query": "utm_source=123&utm_campaign=compaign&utm_medium=utm_medium&utm_term=utm_medium&utm_content=utm_content",
+          "scene": "990001",
+          "launchFrom": "scan",
+          "location": "qr_code"
+        },
+        {
+          "id": 1666579219917,
+          "name": "线索通",
+          "pathName": "pages/testdrive/testdrive2",
+          "query": "",
+          "scene": "990001",
+          "launchFrom": "scan",
+          "location": "qr_code"
+        },
+        {
+          "id": 1670575248868,
+          "name": "林志炫",
+          "pathName": "pages/promotion1111/index",
+          "query": "utm_source=DouYin&utm_campaign=brand&utm_medium=DouYin&utm_term=SP-CCX2215208_S888820221123M_INT281-110_SGADM1310-110&utm_content=SGMMRK2022000272",
+          "scene": "990001",
+          "launchFrom": "scan",
+          "location": "qr_code"
+        },
+        {
+          "id": 1672976700748,
+          "name": "模板",
+          "pathName": "pages/template/index",
+          "query": "key=f96a8c5785744bae9a8e8c2c2b407a19",
+          "scene": "990001",
+          "launchFrom": "scan",
+          "location": "qr_code"
+        },
+        {
+          "id": 1675220501329,
+          "name": "pages/template/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": "990001",
+          "launchFrom": "scan",
+          "location": "qr_code"
+        },
+        {
+          "id": 1678180947939,
+          "name": "模板2",
+          "pathName": "pages/template/index",
+          "query": "key=22b70d6f556243d98cd9cbeb5a403d46",
+          "scene": "990001",
+          "launchFrom": "scan",
+          "location": "qr_code"
+        }
+      ]
+    }
+  }
+}

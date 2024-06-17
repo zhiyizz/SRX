@@ -1,0 +1,247 @@
+
+@import 'normalize.css';
+body {
+  color:var(--color-dark);
+  font-size: 14px;
+  line-height: 1.5;
+}
+input:focus,input:focus-visible,select:focus,select:focus-visible {
+  border:0;
+  outline: none;
+}
+div,p {
+  margin:0;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin:0;
+  font-weight: normal;
+}
+svg {
+  fill:#323233;
+  stroke:#323233;
+}
+select {
+  appearance: none;  
+}
+.wd {
+  width: 94%;
+  max-width: 1200px;
+  margin:0 auto;
+
+}
+.sub-title {
+  font-size: 18px;
+  font-family: "buickfont-headline";
+  font-weight: 600;
+  padding-bottom:10px;
+  border-bottom:1px solid #999;
+  position:relative;
+  box-sizing: border-box;
+  margin-bottom:20px;
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left:0;
+    bottom:-1px;
+    width: 6%;
+    height: 1px;
+    background-color: var(--color-primary);
+  }
+}
+.trade_sub_title {
+  line-height: 1.2;
+  margin: 20px 0;
+  
+  .trade_sub_title_en {
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 16px;
+
+    span {
+      color: var(--color-primary);
+      margin-right: 5px;
+    }
+
+    b {
+      font-family: 'buickfont-headline';
+      font-weight: 600;
+    }
+  }
+}
+
+.btn {
+  background-color: var(--color-primary);
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  color: var(--color-light);
+  cursor: pointer;
+  font: 14px var(--font-headline);
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 16px;
+  text-align: center;
+  text-decoration: none;
+  min-width: 120px;
+}
+.nav-global .wrapper .right-action .btn {
+  background-color: inherit !important;
+  height: auto !important;
+  line-height: inherit !important;
+  min-width: inherit !important;
+  color: inherit !important;
+  padding: 0 !important;
+  font-size: 0 !important;
+
+}
+.nav-global .wrapper .right-action .btn  svg {
+
+  stroke: #333;
+}
+.policyfloat,
+.phonecode,
+.testdrive-result {
+  background: rgba(0, 0, 0, .7);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:100;
+  color:var(--color-dark);
+  display: none;
+  &.show{
+    display:block;
+  }
+
+  .wrap {
+    background: #fff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    padding: 24px 20px;
+    width:90%;
+    max-width: 530px;
+    max-height:260px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.2;
+    font-size:14px;
+    .close {
+      width: 35px;
+      height: 35px;
+      position: absolute;
+      top:4%;
+      right:2%;
+      background-size: 18px;
+      cursor: pointer;
+    }
+    h3{
+      font-size:18px;
+      font-family: var(--font-headline);
+      margin-top: 20px;
+      font-weight: 300;
+      line-height: 50px;
+    }
+    p {
+        margin-bottom: 20px;
+        padding: 0 15px;
+
+      &.code {
+        color: #b4b4b4;
+        font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        font-size: 11px;
+      }
+    }
+    .btn{
+      margin: 20px auto 0;
+    }
+    a,a:hover{
+      color:var(--color-dark);
+      text-decoration: underline;
+    }
+  }
+  &.has-error {
+    .wrap {
+      h3 {
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  &.phonecode {
+    .wrap {
+      max-height: 300px;
+      h3 {
+        font-size: 20px;
+      }
+    }
+    .code {
+      width: 70%;
+      margin:0 auto;
+      display: flex;
+      padding:15px 0;
+    
+      input {
+        border:0;
+        flex: 1;
+        appearance:none;
+        outline: 0;
+        border-bottom:1px solid rgba(51,51,51,.25);
+        
+      }
+      .current {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        border:0;
+        background-color: var(--color-primary);
+        border-radius: 5px;
+        color:#fff;
+        &:disabled {
+          background: rgba(51,51,51,.25);
+        }
+       
+      }
+    }
+    .btn {
+      width: 70%;
+      height: 30px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .sub-title {
+    font-size: 20px;
+    &::before {
+      width: 5%;
+    }
+  }
+  .trade_sub_title {
+    .trade_sub_title_en {
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width:1200px) {
+  .sub-title {
+    font-size: 28px;
+    &::before {
+      width: 3%;
+    }
+  }
+}

@@ -1,0 +1,708 @@
+<view class="scroll">
+<view class="main">
+    <view class="main-title tt">上汽通用汽车个人信息保护政策</view>
+    <view class="main-day tr">更新、发布并生效于：2022年06月08日</view>
+    <!-- href="https://iq.apps-qa.sgmlink.com/ibuick/app/userSpec/info_history.html?type=1" -->
+    <!--测试环境  https://iq.apps-qa.sgmlink.com/ibuick/--> 
+    <!--生产环境 https://raa.oc.saic-gm.com/publish/ibuick/ -->
+    <!-- <view class="main-day1 tr">style="color: #238be7" href="https://raa.oc.saic-gm.com/publish/ibuick/app/userSpec/info_history.html?type=1">点击查看历史版本</a></view> -->
+    <view class="indent">感谢您使用上汽通用汽车的产品和服务！上汽通用汽车（“<view class="b">上汽通用</view>”或“<view class="b">我们</view>”）深知个人信息对您的重要性，我们将秉承合法、正当、必要原则处理您的个人信息。以下我们将通过《上汽通用汽车个人信息保护政策》（“<view class="b">本政策</view>”）向您说明：我们收集什么信息、我们如何使用信息、我们如何保护信息以及您所享有的权利。请您在使用我们的产品和服务前仔细阅读本政策，在充分理解并同意本政策后再使用我们的产品和服务。若您购买了上汽通用的产品和服务，您有义务向经您同意的其他实际使用人告知本政策，并确保他们在已充分理解并同意本政策后再使用我们的产品和服务。</view>
+    <view class="h3"><view class="span">一、关于本政策</view></view>
+    <view class="indent">本政策适用于您拜访或联系我们、到访我们的直营门店，使用上汽通用官网、APP、微信/微博等社交媒体官方号或主页、微信/支付宝小程序（统称“<view class="b">上汽通用官方在线平台</view>”），以及您使用上汽通用车辆或其他服务时我们收集、处理您的个人信息的行为。</view>
+    <view class="indent">对于某些产品和服务，我们制定了单独的个人信息保护政策，该单独个人信息保护政策将优先于本政策适用；对于单独个人信息保护政策未涵盖的部分，请以本政策的内容为准。</view>
+    <view class="indent">本政策中“上汽通用汽车”包括上汽通用汽车有限公司、上汽通用汽车销售有限公司、上汽通用东岳汽车有限公司、上汽通用东岳动力总成有限公司、上汽通用（沈阳）北盛汽车有限公司、泛亚汽车技术中心有限公司、上汽通用新能源汽车销售服务（广州）有限公司、上汽通用新能源汽车销售服务（深圳）有限公司。</view>
+    <view class="h3"><view class="span">二、我们如何收集和使用您的个人信息</view></view>
+    <view>
+      
+      <!-- 在向您提供产品和服务的过程中，我们可能会收集您的个人信息。我们收集的您的个人信息中，可能包含您的个人敏感个人信息。
+      个人敏感信息是指一旦泄露、非法提供或滥用可能危害人身和财产安全，极易导致个人名誉、身心健康受到损害或歧视性待遇等的个人信息。银行账户、交易记录、
+      个人生物识别信息和行踪轨迹等可能构成个人敏感信息。我们会在本个人信息保护政策中将个人敏感信息以<view class="u">加粗加下划线形式</view>标记，提醒您特别注意。 -->
+      在向您提供产品和服务的过程中，我们可能会收集您的个人信息。我们收集的您的个人信息中，可能包含您的敏感个人信息。
+      敏感个人信息是一旦泄露或者非法使用，容易导致自然人的人格尊严受到侵害或者人身、财产安全受到危害的个人信息，包括生物识别、宗教信仰、特定身份、医疗健康、
+      金融账户、行踪轨迹等信息，以及不满十四周岁未成年人的个人信息。我们会在本政策中将敏感个人信息以<view class="u">加粗加下划线形式</view>标记，提醒您特别注意
+    
+    </view>
+    <view>我们收集的您的个人信息分为（1）为提供服务的基本功能而必须收集的个人信息和（2）为提供服务的附加功能您可以选择同意我们收集的个人信息。对于前者，若您不提供，我们可能无法为您提供服务的基本功能；对于后者，若您不提供，我们可能无法提供服务的附加功能，但这不影响您使用服务的基本功能。为了确保您能体验完整和优秀的服务，我们建议您提供相应的个人信息。请您注意，本政策中列明的场景和服务会收集的个人信息为我们可能收集的信息范围，并不代表我们将在任何服务中收集全部这些个人信息。对于基于您的同意收集的个人信息，我们将在具体的服务场景中对信息收集的情况进行进一步的说明。</view>
+    <view>（一）为您体验、购买、使用上汽通用产品和服务提供服务和支持</view>
+    <view class="ol">
+      <view>1.为向您提供便捷地产品和服务浏览和介绍服务，持续优化我们的服务，保障您账号安全，当您通过上汽通用官方在线平台进行浏览、搜索、登陆、聊天、交易和其他活动时，我们会收集您的设备信息、操作系统、运营商、IP地址、设备Mac地址（主要用于设备识别、统计访问量及用户量）、经您同意的您与我们客服人员的聊天记录。</view>
+      <view>2.当您拜访我们的直营门店时，为保障门店财产、您的人身安全和公共场所秩序，为可能的事故提供调查取证协助的目的，我们的门店装有视频监控系统，会拍摄并记录门店内的活动。</view>
+      <view>3.当您对我们的产品或服务感兴趣并留下您的联系资料时，我们会通过上汽通用官方平台（包括但不限于上汽通用官方在线平台、热线电话、直营门店、官方线下活动，下同）收集您的姓名、联系电话、电子邮箱、社交账号、所在地信息。</view>
+      <view>4.当您拜访我们的直营门店，为向您介绍我们的产品或服务，持续优化售前和售后服务，向您推荐您感兴趣的内容，提供个性化服务，统计数据并进行分析，进行回访等目的，我们可能收集您的姓名、联系电话、电子邮箱、社交账号、所在地、住址、用车喜好。</view>
+      <view>5.为向您提供试乘试驾服务，我们会通过上汽通用官方平台收集您的有效身份证件信息（包括身份证、户口簿、护照、军官证、港澳居民居住证、台湾居民居住证和其他有效身份证件上的所有信息，下同）、驾照信息、联系方式、电子邮箱、社交账号、所在地、住址信息。</view>
+      <view>6.为帮助您成为上汽通用品牌会员，我们会通过上汽通用官方平台收集您的联系电话、昵称、头像；若您需要注册成为我们的车主会员，我们会进一步收集您的有效身份证件信息、电子邮箱、社交账号、所在地、住址、购车发票、驾照信息、行驶证信息、车辆信息（含车辆识别码，即VIN，以及车型车系，下同）、设备信息。</view>
+      <view>7.为了向您提供会员服务（包括但不限于APP使用、会员积分、会员俱乐部、车友会活动等），我们会通过上汽通用官方平台收集您的姓名、性别、联系电话、电子邮箱、社交账号、头像、昵称、会员账户信息、订单信息、所在地、住址、用车喜好、车辆信息、有效身份证件信息、驾照信息、行驶证信息、兴趣爱好。</view>
+      <view>8.为向您提供购车服务，我们会通过上汽通用官方平台收集您的有效身份证件信息、联系电话、电子邮箱、社交账号、所在地、住址、<view class="u">支付信息</view>、车辆信息、发票信息、购车信息。当购车人是机构时，我们会收集购车机构信息。</view>
+      <view>9.当您选择我们协助提供汽车金融、保险服务时，为协助您更便捷地享受汽车金融服务，经您同意后，我们会为合作的金融机构代为收集您的上牌人及贷款联系人的姓名、有效身份证件信息、联系电话、<view class="u">支付信息</view>、<view class="u">信用信息</view>、<view class="u">保单</view>、购车合同、<view class="u">贷款合同</view>、登记证书信息、<view class="u">行驶证信息</view>、其他必要且经您同意的信息。</view>
+      <view>10.为向您提供维修保养和故障解决服务，我们会通过上汽通用官方平台收集您的姓名、联系电话、电子邮箱、社交账号、所在地、住址、车辆信息、<view class="u">发票信息</view>、历史维修保养信息、
+        <view class="u">有效身份证件信息</view>、<view class="u">驾照信息</view>、<view class="u">行驶证信息</view>、购车信息；若您通过车工坊门店使用上汽通用的产品或服务，我们会同样收集您的这些信息。</view>
+      <view>11.为了向您提供软件更新服务（OTA），我们会收集您的车辆识别码、车辆模块零件号信息、车辆启动状态信息、电瓶电量信息、挡位信息、更新数据信息。</view>
+      <view>12.为了向您提供会员商城购物服务，我们会通过上汽通用官方平台收集您的姓名、联系电话、电子邮箱、社交账号、所在地、住址、车辆信息、<view class="u">订单信息</view>、<view class="u">支付信息</view>。</view>
+      <view>13.为向您提供车辆置换及二手车交易服务，我们会收集您的姓名、联系电话、车牌号、车辆信息、<view class="u">有效身份证件信息</view>、<view class="u">驾照信息</view>、<view class="u">行驶证信息</view>、所在地、历史保修保养信息、购车信息、<view class="u">车险信息</view>。</view>
+      <view>14.为向您提供上门取送车服务，我们会收集您的姓名、联系电话、车牌号、车辆信息、所在地、住址、<view class="u">车辆位置信息</view>。</view>
+      <view>15.对于我们的自营充电站，为向您提供充电服务，根据国家或地方要求，我们的充电桩具有网联功能，当您插入充电枪，我们会收集您的车辆信息、故障代码、充电桩状态、充电过程数据、充电桩地理经纬度信息。</view>
+      <view>16.为向您提供客服和售后服务，当您与我们联系，提出售前、售中、售后争议纠纷处理申请或其他要求时，为了保障您的权益以及系统安全，核实您的身份，了解争议背景和您的要求，
+        我们会收集您的姓名、联系电话、电子邮箱、车牌号、车辆信息、<view class="u">车辆位置信息</view>、<view class="u">行驶轨迹</view>、<view class="u">有效身份证件信息</view>、
+        <view class="u">驾照信息</view>、<view class="u">行驶证信息</view>、所在地、住址、历史保修保养信息、购车信息、<view class="u">订单信息</view>、<view class="u">支付信息</view>、自营门店安保视频、录音、聊天记录、会员账号信息。</view>
+    </view>
+    <view>（二）为您驾驶上汽通用车辆提供服务</view>
+    <view>
+      <view>1.根据国家和地方法律法规要求，我们需要对上汽通用的新能源汽车进行车辆数据监控，并接入政府和我们的新能源汽车数据采集检测平台，为此，我们会收集车辆静态信息、车辆动态数据、驱动电机数据、整车数据、动力蓄电池数据、发动机数据、<view class="u">车辆位置数据</view>、充电数据、车辆碰撞数据、极值数据、报警数据、高压系统及零件数据，以及根据最新的法律法规或政府要求而需要收集的其他信息。</view>
+      <view>2.对于有网联功能的车辆，为了向您提供网联服务，车辆上装有SIM卡，根据法律法规要求，需要您进行车联网卡实名认证，由相关服务商收集您的相关个人信息。</view>
+      <view>3.为了向您提供驾驶辅助、导航、故障分析排除服务，提升您的驾驶体验，提供个性化服务，同时为了进行数据与安全分析和完善算法、改进现有产品和服务、研发新产品与服务，我们会通过车辆上的多种传感器收集车辆操作、性能、行驶、路况信息，具体包括车辆信息、速度信息、里程信息、发动机信息、变速箱信息、总线信息、能耗信息、行车电脑信息、电机信息、动力电池信息、蓄电池信息、高压系统信息、零件信息、<view class="u">位置信息</view>、<view class="u">行驶轨迹</view>、油门和刹车踏板操作信息、转向信息、远程操作服务信息（包括但不限于远程启动、远程开关车窗）、车辆状态信息（包括但不限于车门、车窗信息，下同）、事故信息、碰撞信息、诊断故障信息、辅助驾驶功能运行信息、道路环境信息、车辆周边环境信息。</view>
+      <view>4.为了向您提供车载娱乐服务，提升您的用车体验，提供个性化服务，同时为了进行数据与安全分析和完善算法、改进现有产品和服务、研发新产品与服务，我们会通过车辆应用平台收集您安装和使用车载应用程序的信息，具体包括车辆信息、会员账号信息、个性化设置信息、速度信息、里程信息、能耗信息、车牌信息，蓝牙或手机映射连接的设备的设备信息、歌曲信息、联系人信息、应用程序使用信息，车辆应用系统使用信息，车载APP的安装删除信息。</view>
+      <view>5.为了向您提供车辆周围环境远程查看服务，停车周围环境记录服务，以及车辆远程操作服务，我们会收集您的车辆识别码。</view>
+    </view> 
+    <view>（三）为您提供其他服务和履行法定义务</view>
+    <view>
+      <view>1.为了向您提供热线电话服务，保证和改善我们的服务质量，我们会对与您的通话录音。</view>
+      <view>2.根据汽车召回相关法律法规要求，我们会通过上汽通用官方平台收集您的姓名、联系电话、车辆信息、电子邮箱、所在地、住址、法律法规或政府要求的其他信息，以便在有需要时向您发送召回通知和提供召回服务。</view>
+      <view>3.我们会组织各种市场营销活动（包括但不限于试乘试驾、线下展示、车友会活动、电话和短信营销），当您自愿参与我们的市场营销活动时，为了联系您，向您提供产品与服务体验、介绍、营销和其他活动，我们可能会收集您的姓名、联系方式、电子邮箱、社交账号、所在地、住址、车辆信息、会员账号信息，并在您同意的前提下收集您的家庭信息、工作信息、兴趣爱好。</view>
+      <view>4.若您购买的上汽通用产品或服务能够享受国家或地方补贴，为了协助您申请补贴，根据法律法规或政府要求，我们会通过上汽通用官方平台收集您的姓名、联系电话、电子邮箱、所在地、住址、车辆信息、
+        <view class="u">订单信息</view>、<view class="u">支付信息</view>、<view class="u">有效身份证件信息</view>、<view class="u">驾照信息</view>、<view class="u">行驶证</view>、<view class="u">发票信息</view>、法律法规或政府要求的其他信息。</view>
+      <view>5.为了保障您的账户、交易和财产安全，防范钓鱼网站、网络漏洞、计算机病毒、网络攻击和其他可能的网络风险，判断交易风险、进行身份验证，记录、审计、分析、处置网络活动和事故，履行网络运营者的法定义务，我们会通过上汽通用官方在线平台收集您的设备信息、日志信息、会员账户信息、订单信息、<view class="u">支付信息</view>。</view>
+      <view>6.为了履行法定税收义务，当存在需要由我们代缴税收时（比如您获得了价值较高的礼品），根据相关法律法规或政府要求，我们会通过上汽通用官方平台收集您的姓名、联系电话、
+        电子邮箱、所在地、住址、<view class="u">有效身份证件信息</view>、<view class="u">发票信息</view>、法律法规或政府要求的其他信息。</view>
+      <view>7.为了配合政府调研或检查（包括但不限于对汽车业发展情况的调研，对市场主体合规经营的检查，提供统计资料等），当法律法规或政府要求时，
+        我们会通过上汽通用官方平台收集您的姓名、联系电话、车辆信息、<view class="u">有效身份证件信息</view>、<view class="u">订单信息</view>、<view class="u">发票信息</view>、法律法规或政府要求的其他信息。</view>
+    </view>
+    <view>（四）求职</view>
+    <view>若您申请我们的职位，为了了解您的基本情况、教育背景、职业背景，评估您与特定职位的符合度，与您取得联系，我们会通过上汽通用官方平台或委托的人力资源服务提供商收集您的姓名、性别、年龄、
+      出生日期、<view class="u">身份证号</view>、国籍、政治面貌、<view class="u">健康状况</view>、联系电话、电子邮箱、所在地、住址、教育背景、职业背景。</view>
+    <view>（五）拜访我们</view>
+    <view>若您因商务合作、受邀和其他原因需拜访上汽通用办公场所，为了保障办公场所安全，确认您的身份，维护您的权益，我们会通过上汽通用官方平台收集您的<view class="u">有效身份证件信息</view>、联系电话。</view>
+    <view>（六）商务合作</view>
+    <view>若您或您所工作的单位与我们有商务合作（比如是我们的经销商或合作伙伴，合作伙伴），为了与您或您所工作的单位取得联系，开展合作，执行合同或协议，我们会收集您的姓名、联系电话、电子邮箱。</view>
+    <view>（七）间接获取</view>
+    <view>为了向您提供本政策所述的服务，我们可能从其他合法来源获取您的个人信息，包括但不限于公开信息、社交媒体、我们的合作伙伴、供应商。比如，我们可能从您微信、微博获取您授权共享的账户信息（包括但不限于头像和昵称），并与您的上汽通用会员账户绑定，允许您直接登录、使用我们的产品和服务。</view>
+    <view>当您到访我们的授权经销商门店，从我们的授权经销商处购买产品、服务，向我们的授权经销商留下您的购车意向资料时，为向您提供购车服务以及相关服务和产品，提升您使用上汽通用产品和服务的体验，我们可能从授权经销商处获取您的个人信息。</view>
+    <view>（八）不属于我们收集个人信息的情形</view>
+    <view>请注意，若我们收集的信息本身无法定位到个人（比如您在线上平台搜索的关键词），或经技术处理后无法定位到个人（比如经匿名化处理后传输至上汽通用的信息），则不属于个人信息，我们有权在法律法规规定的范围内不经您的同意而收集和处理。安装在我们的产品或服务内的第三方软件、插件、SDK和其他第三方服务可能会收集您的个人信息，这并不属于上汽通用收集并处理您的个人信息，我们已经要求这些第三方履行保护您的个人信息的义务，请您理解，上汽通用无法控制第三方收集您的个人信息的行为，请您在使用第三方服务前仔细阅读第三方的个人信息保护政策，审慎使用第三方服务，若您有疑问，请咨询具体的第三方。</view>
+    <view>（九）关于上汽通用官方手机APP的特别提示</view>
+    <view>为了向您提供更为丰富的服务，方便您更便捷地使用我们的产品与服务，我们向您提供多款官方APP，包括iBuick APP，MyChevy APP，MyCadillac APP，车工坊 APP，凯迪拉克IQ APP。针对每一款APP我们设置了不同的APP个人信息说明，APP个人信息说明涵盖了该APP在不同业务功能下会收集的您的个人信息，以及APP获取的系统权限，第三方SDK和API列表等情况，
+      您可以点击此处查看APP个人信息说明。请在阅读并同意APP个人信息说明后再使用这些APP。</view>
+    <view>（十）关于收集和处理您的个人信息的目的的特别提示</view>
+    <view>我们仅会在本政策阐述的目的内收集和处理您的个人信息，整体上，我们收集您的个人信息用于以下目的，如需超过以下用途使用您的信息，我们将重新征求您的同意。</view>
+    <view>
+      <view>向您提供我们的产品或服务。包括但不限于，购车服务、维修保养服务、试驾服务、召回服务、售后支持服务、用户发帖功能、驾驶配套系统应用服务。</view>
+      <view>保证服务的安全。包括但不限于，我们会将您的信息用于身份验证和识别、安全防范、客户的安全服务的用途。</view>
+      <view>处理您关于产品与服务的提问或请求。包括但不限于，当客服与您沟通时，需要记录您提出的问题和联系方式，以有效解决您的提问和请求。</view>
+      <view>向您推荐您可能感兴趣的广告、资讯、通知，提供个性化服务。包括但不限于，通过您提供的联系方式，开展市场营销，对您进行回访，并向您发送商业信息。若您不希望收到我们的商业信息电话回访，您可以通过短信中说明的方式退订信息或在电话回访中明确拒绝。</view>
+      <view>为实现和优化我们的业务运营。包括但不限于，我们会将您的车辆数据用于研究和分析，以改善相关应用的功能，优化您的使用和体验。</view>
+      <view>为履行法律义务。为符合法律法规的规定，司法机关和其他监管机关的要求或指令，将您的个人信息用于特定目的。</view>
+      <view>数据分析。我们可能将收集的信息用于市场分析、内部审计、开发新产品和服务、运营、融资目的。</view>
+      <view>其他征得您同意的目的。</view>
+    </view>
+    <view>（十一）请您注意，在以下情形中，我们收集和使用您的个人信息无需征得您的同意：</view>
+    <view>
+      <view>为订立、履行您（仅指个人）作为一方当事人的合同所必需的，或者依照我们依法制定的劳动人事规章制度和签订的集体合同实施人力资源管理所必需的。</view>
+      <view>为履行我们的法定义务所必需的。</view>
+      <view>为应对突发公共卫生事件、或者紧急情况下为保护您的生命健康和财产安全所必需的。</view>
+      <view>为公共利益实施新闻报道、舆论监督等行为，在合理的范围内处理您个人信息的。</view>
+      <view>在合理的范围内处理您自行公开或者其他已经合法公开的个人信息的。</view>
+      <view>法律法规规定的其他情形。</view>
+    </view>
+    <view class="h3"><view class="span">三、我们如何使用 Cookie</view></view>
+    <view class="indent">我们会通过Cookies和其他追踪技术了解您使用我们网站的情况。Cookies是一种能够识别您设备的特定识别符号，通过识别您的设备，
+      <!-- 我们可以为您推荐个性化商品和广告。 -->
+      我们可以为您提供更有针对性的服务。
+      
+      我们将通过Cookies收集的信息分类汇总，
+      用于向不同群体客户提供更有针对性、更有价值的产品信息和服务。
+      通过Cookies收集的信息属于不能单独使用的个人信息，您理解并同意我们将通过Cookies收集的信息与您的其他信息结合使用。
+      大部分网页浏览器会自动打开Cookies，但您可以随时调整您的浏览器设置，
+      选择关闭Cookies。然而，Cookies能让您享受我们更优质、更个性化的服务，
+      如果您关闭了Cookies，可能无法完全体验或者我们网站上提供的所有服务，所以我们建议您将其设置为打开状态。</view>
+    <view class="h3"><view class="span">四、我们如何委托处理、提供、转移、公开披露您的信息</view></view>
+    <view>（一）委托处理</view>
+    <view>在本政策第二部分所描述的目的范围内，我们可能会聘请第三方协助我们向您提供本政策第二部分所描述的服务和场景。包括但不限于我们可能聘请合作伙伴协助我们向您提供车载娱乐服务、市场营销服务、会员服务、充电服务、售后服务、数据与安全分析服务。</view>
+    <view>对于我们委托处理个人信息的第三方，我们会与其签署数据和个人信息保护协议、保密协议或其他必要的书面文件以明确我们和第三方对于个人信息的保护义务，我们也会要求第三方严格按照适用的法律法规、行业规范、本政策和我们的要求，并采取必要的技术措施和管理措施来处理个人信息。</view>
+    <view>（二）提供</view>
+    <view>除非获得您的单独同意，否则我们不会向上汽通用以外的任何第三方提供您的个人信息。为了向您提供完整而优质的服务，我们会在满足合法、正当、必要和法定条件下向第三方提供您的个人信息。我们会与第三方签署数据和个人信息保护协议、保密协议或其他必要的书面文件以明确我们和第三方对于个人信息的保护义务，我们也会要求第三方严格按照适用的法律法规、本政策和我们的要求，并采取必要的技术措施和管理措施来处理个人信息。一般而言，我们可能向关联公司和合作伙伴提供您的个人信息：</view>
+    <view>
+      <view>向我们的关联公司提供。目前，我们可能提供您的个人信息的关联公司包括上海安吉星信息服务有限公司、上汽通用汽车金融有限责任公司、上汽通用融资租赁有限公司、上海汽车集团保险销售有限公司等。</view>
+      <view>向我们的合作伙伴提供。目前，我们的合作伙伴包括提供销售、营销、用车服务、车主和会员服务、保险和汽车金融服务、救援服务、售后服务、数据与安全分析服务、信息系统服务和其他服务的合作伙伴，包括但不限于我们的授权经销商、第三方支付机构、救援服务机构；以及提供车辆使用服务、驾驶辅助服务、故障分析排除服务、产品与服务改进服务、导航服务、车载娱乐系统服务、研发服务的合作伙伴。</view>
+    </view>
+    <view>（三）转移</view> 
+    <view>原则上，我们不会转移您的个人信息。但当获得您明确同意，或者当为合并、分立、解散、收购资产或业务转让或其他交易的需要时，我们可能会将您的个人信息转移，在转移您的个人信息前，我们会给予您适当通知，并确保您的个人信息在转移后得到与本政策相当的保护，否则我们将要求该公司、组织重新向您征求同意。</view>
+    <view>（四）公开披露</view>
+    <view>原则上，我们不会公开披露您的个人信息。但当获得您明确同意或您主动要求时，我们会公开披露您的个人信息。</view>
+    <view>（五）提供、转移、公开披露个人信息无需取得您单独同意的情形</view>
+    <view>请注意，在以下情形中，我们在共享、转让、公开披露您的个人信息前可能不会征求您的单独同意：</view>
+    <view>
+      <view>与我们履行法定义务或者法定职责所必需；</view>
+      <view>为应对突发公共卫生事件，或紧急情况下为保护自然人的生命健康和财产安全所必需；</view>
+      <view>为履行司法机关、行政机关的命令或要求有关的；</view>
+      <view>针对您已经自行公开的个人信息，或者其他已经合法公开的个人信息；</view>
+      <view>法律、行政法规规定的其他情形</view>
+    </view>
+    <view class="h3"><view class="span">五、我们如何存储您的个人信息</view></view>
+    <view>（一）存储的地点</view>
+    <view>原则上，我们在中华人民共和国（“中国”，为本政策之目的，不包括香港特别行政区、澳门特别行政区和台湾地区）境内收集和产生的个人信息将存储在位于中国境内。</view>
+    <view>为了给您提供完整和优质的服务，我们可能会使用我们遍布全球的资源。在遵守法律法规和取得您单独同意的前提下，基于合法、正当、必要的原则，我们可能会将您的个人信息传输至境外。在将您的个人信息传输至境外前，我们会根据适用法律、法规规定的要求，严格履行相关法律义务。</view>
+    <view>（二）存储的期限</view>
+    <view>原则上，我们仅会在本政策所述目的所需的最短期间内存储您的个人信息，当处理目的完成，我们会尽快删除您的个人信息或进行匿名化处理。</view>
+    <view>请您理解并同意，基于以下原因，我们可能会延长您的个人信息的存储期限：</view>
+    <view>
+      <view>根据相关法律法规规定。</view>
+      <view>根据法院判决、仲裁裁决或政府命令。</view>
+      <view>获得您的事先同意。</view>
+    </view>
+    <view class="h3"><view class="span">六、我们如何保护您的信息</view></view>
+    <view>（一）我们根据国家法律法规制定个人信息保护的政策和内部操作规程，运用符合业界标准的网络和数据安全防护措施保护您的个人信息，避免个人信息遭受未经授权访问、公开披露、使用、修改、损坏或丢失。</view>
+    <view>（二）请您知悉，互联网环境并非百分之百安全，我们将尽全力确保您提供给我们的个人信息的安全，但我们无法完全保证我们的所有安全管理措施绝对有效，我们提醒您在向我们提供个人信息前慎重决定。</view>
+    <view>（三）若不幸发生个人信息安全事件，我们将根据法律法规、政府要求以及我们的应急预案及时通知您，我们可能会以邮件、电话、短信、推送、公告等方式通知您安全事件的基本情况和可能的影响、我们已采取或将要采取的措施、对您的建议等。</view>
+    <view class="h3"><view class="span">七、您的权利</view></view>
+    <view class="ident">您有权查阅、复制、更正、删除您的个人信息，改变您授权同意的范围或撤回授权，以及注销您的账号。您管理个人信息的范围和方式将取决于您使用的具体服务，如您通过上汽通用官方在线平台的设置或
+    APP个人信息说明中提供的方式无法实现以下权利的，您可以通过本政策“联系我们”章节中的联系方式联系我们以行使您的相关权利。</view>
+    <view>（一）查阅权、复制权：您有权查阅和复制您提供给我们的您的个人信息。</view>
+    <view>（二）更正权、补充权：若您认为我们存储的您的个人信息不准确或者不完整，您有权请求我们更正、补充您的个人信息。</view>
+    <view>（三）删除权：有以下情形之一，我们会主动删除您的个人信息，若我们未删除，您有权请求我们删除：</view>
+    <view>
+      <view>关于您的个人信息的处理目的已实现、无法实现或者为实现处理目的不再必要。</view>
+      <view>我们停止提供产品或者服务，或者保存期限已届满。</view>
+      <view>您撤回同意。</view>
+      <view>我们违反法律、行政法规或者违反约定处理您的个人信息。</view>
+    </view>
+    <view>请您注意，我们遵守最小必要的原则处理您的个人信息，当您不再使用我们的产品和服务，比如将您所有的上汽通用车辆售出，请您及时联系我们，以便我们及时删除您的个人信息，法律法规另有规定除外。</view>
+    <view>（四）改变您授权同意的范围或者撤回授权：根据您具体使用的服务，您可以改变您授权同意的范围或者撤回您的授权。您可以通过删除个人信息、更改或关闭智能设备功能或者权限、更改上汽通用官方APP的设置、更改或关闭车载娱乐系统或者车辆功能或者权限等方式来改变您授权同意的范围或者撤回授权。</view>
+    <view>请您注意，某些服务或者功能的实现基于您提供的个人信息，若您改变授权同意的范围或者撤回授权，我们将无法继续为您提供相应的服务，也不再处理您的相应的个人信息，这可能会对您使用我们的产品与服务造成不利影响。您改变授权同意的范围或者撤回授权不影响此前基于您的授权或者同意而展开的个人信息处理。</view>
+    <view>（五）注销权：您有权注销您的账号。您可以在上汽通用官方APP中注销您的账号。路径请见各APP个人信息说明。</view>
+    <view>在注销账户前，我们可能需要您提供必要的个人信息以核实您的身份。只有在核实您的身份后，我们才会注销您的账户，法律法规另有规定除外。您的账户注销后，我们可能无法继续为您提供部分产品与服务，并会删除您的个人信息或者将您的个人信息匿名化。请您理解并同意，由于技术所限、法律或监管要求，我们可能无法满足您的所有要求，比如对某些个人信息，我们无法立即删除。请您注意，您的账号一旦注销将不可恢复，且有可能对您使用我们的产品和服务造成不利影响，我们无法为您找回相关信息，也无法恢复您的账户，请您在注销账户前慎重考虑。</view>
+    <view>（六）要求解释自动化决策。为了给您提供优质的服务，我们在部分场景和功能中会利用自动化决策机制，若您认为我们通过自动化决策方式为您做出的决定对您的权益有重大影响，您可以要求我们说明，或拒绝我们仅通过自动化决策的方式作出决定。</view>
+    <view>（七）其他合法权利。对于法律法规规定的其他您的合法权利，我们会根据具体情况响应您的请求。</view>
+    <view>（八）响应您的请求。原则上，对于您的合法请求我们会在收到并核实您的身份之日起十五个工作日内响应，法律法规另有规定除外。请您理解并同意，对于您的合理请求，我们原则上不收取费用，但是对于反复、超出合理限度的请求，我们将酌情收取一定费用；对于与您身份不直接关联、响应请求需要过多技术或者资金投入、与行业惯例不一致、没有合法依据或者违反法律法规、不切实际或者对他人的权益有不利影响的请求，我们可能会予以拒绝。</view>
+    <view>请您注意，在以下情形，我们无法响应您的请求：</view>
+    <view>
+      <view>与我们履行法律法规规定的义务有关的。</view>
+      <view>与国家安全、国防安全有关的。</view>
+      <view>与公共安全、公共卫生、重大公共利益有关的。</view>
+      <view>与侦查、起诉、审判、执行、行政执法、政府命令或者要求有关的。</view>
+      <view>我们合理相信您存在主观恶意或者滥用权利的。</view>
+      <view>出于维护您或其他个人的生命、财产等重大合法权益但又很难得到本人授权同意的。</view>
+      <view>响应您的请求会对他人的权益有不利影响的。</view>
+      <view>涉及商业秘密的。</view>
+      <view>法律法规规定的其他情形。</view>
+    </view>
+    <view class="h3"><view class="span">八、第三方服务</view></view>
+    <view class="indent">为了给您提供优质的服务，我们的产品和服务可能与其他第三方平台、设备、系统、软件等（统称“第三方平台”）连接以方便您使用。这些第三方平台可能独立运营，有自己的个人信息保护政策，我们建议您在使用第三方服务前阅读并了解其个人信息保护政策。由于第三方平台并非我们所有或控制，我们不对第三方平台的服务和内容內容、您对第三方平台的使用承担责任，若您对第三方服务有任何疑问，请咨询响应的第三方。有关我们官方手机APP中的第三方SDK的情况，请查阅APP个人信息说明。</view>
+    <view class="h3"><view class="span">九、不满14周岁未成年人个人信息保护</view></view>
+    <view class="indent">我们的产品和服务主要面向成年人，我们通常不会主动收集未满14周岁未成年人的个人信息。由于现实中我们难以确定用户的真实年龄，如果我们在无意的情况下收集了不满14周岁未成年人的个人信息，未成年人的监护人可以联系我们进行删除。如我们因业务需要（比如举办亲子类活动），我们可能需要收集不满14周岁未成年人的个人信息，此时我们会在法律法规规定的范围内且征得监护人的同意的前提下收集、处理不满14周岁未成年人的个人信息。</view>
+    <view class="h3"><view class="span">十、本政策的更新</view></view>
+    <view class="indent">基于业务发展、法律法规更新等原因，本政策可能不经通知而更新。</view>
+    <view class="indent">当本政策更新时，我们会通过上汽通用官方平台进行提示或者公告，并注明个人信息保护政策的最近更新日期。对于本政策的重大更新，我们会提供更为显著的通知方式，比如电话、短信、邮件、推送等。重大更新包括但不限于：</view>
+    <view>
+      <view>我们的服务模式发生重大变化。如处理个人信息的目的、处理的个人信息类型、个人信息的使用方式等。</view>
+      <view>我们在所有权结构、组织架构等方面发生重大变化。如业务调整、破产并购等引起的所有者变更等。</view>
+      <view>个人信息共享、转让或公开披露的主要对象发生变化。</view>
+      <view>您参与个人信息处理方面的权利及其行使方式发生重大变化。</view>
+      <view>我们负责处理个人信息安全的责任部门、联络方式及投诉渠道发生变化时。</view>
+      <view>个人信息安全影响评估报告表明存在高风险时。</view>
+    </view>
+    <view class="indent">请您注意，您继续使用我们的产品和服务意味着您同意并接受我们的新的个人信息保护政策。我们的个人信息保护政策的修改权和更新权由我们享有。为了便于您查阅，我们提供了历史版本的个人信息保护政策。</view>
+    <view class="h3"><view class="span">十一、联系我们及争议处理</view></view>
+    <view class="indent">上汽通用汽车有限公司的注册地址是中国（上海）自由贸易试验区申江路1500号，如果您对本政策或者我们在个人信息保护方面的工作有任何疑问、意见或建议，您可以通过拨打400 820 1188热线与我们联系。</view>
+    <view class="indent">一般情况下，我们将在验证您身份后的15个工作日内，或法律法规规定的更短期限内回复。</view>
+    <view class="indent">若您认为我们侵犯了您的合法权利，您除了可以通过上述热线联系我们，您还可以向有关部门投诉，或者将您与我们的纠纷提交至我们所在地有管辖权的法院诉讼处理。</view>
+    
+  </view>
+  
+  <!--iBuick APP 个人信息说明-->
+  <view class="tl box container" id="message">
+    <view class="tl box container">
+      <view class="title tc title-mar" id="myapp">iBuick APP个人信息说明</view>
+      <view class="time tr">更新、发布并生效于：2022年06月08日</view>
+      <!--测试环境  https://iq.apps-qa.sgmlink.com/ibuick/-->      
+      <!--生产环境 https://raa.oc.saic-gm.com/publish/ibuick/          -->
+      <!-- <view  class="time main-day2 tr">style="color: #238be7" href="https://raa.oc.saic-gm.com/publish/ibuick/app/userSpec/info_history.html?type=2">点击查看历史版本</a></view> -->
+      <view class='content'>
+        <view class="main_indent">
+          上汽通用汽车有限公司及其关联公司（以下简称“上汽通用”或“我们”）非常重视您的个人信息保护，并致力于采取有效措施保护您的个人信息安全。上汽通用制定了《个人隐私政策》以向您说明上汽通用如何收集和使用、分享和保护您的个人信息及其他与您的个人信息有关的事项，请您务必仔细阅读。除《个人隐私政策》外，针对iBuick APP有关收集和使用和分享您的个人信息的情形，上汽通用制定了本《个人信息说明》，请您在使用iBuick APP前务必仔细阅读。
+        </view>
+        <view class="main_indent">本《个人信息说明》涵盖了您浏览和使用iBuick APP时上汽通用收集和使用您的个人信息及其他与您的个人信息有关的事项，对于敏感个人信息，我们以加粗加下划线形式标记。本《个人信息说明》未规定部分适用《个人隐私政策》的规定，《个人隐私政策》规定与本《个人信息说明》不一致之处，以本《个人信息说明》规定为准。</view>
+        <view class="main_indent">您使用iBuick APP即表明您已阅读、理解并完全同意本《个人信息说明》，如果您不同意本《个人信息说明》，请勿使用iBuick APP。</view>
+        <view class="sec-title">一、iBuick APP如何收集和使用您的个人信息</view>
+        <view class="main_indent">上汽通用仅会出于以下目的收集和使用您的个人信息：</view>
+        <view class="main_indent">（一）您必须授权上汽通用收集和使用您个人信息的情形</view>
+        <view class="main_indent">上汽通用需要收集和使用您的下列信息才能提供iBuick APP的基本业务功能。若您不提供下列信息，iBuick APP将无法正常运行或为您提供服务。基本业务功能和其收集的个人信息类型包括：</view>
+        <view class="main-ol">
+          <view>用为了创建iBuick APP会员账户，需要收集您的⼿机号码，我们将通过发送短信验证码来验证您的⼿机号码是否有效。完成创建后可在iBuick APP平台上进⾏产品浏览、搜索、查询和其他基础服务，但⽆法使⽤维保预约、车况车控、安吉星和其他与⻋辆有关的服务。</view>
+          <view>当您想要使⽤iBuick APP平台的与您⻋辆相关的服务功能时，需要添加车辆，完成⻋主的实名认证，并建立车主会员账户，除前述注册信息外，我们还需要进一步收集您的姓名、购车经销商、
+            <view class="u">身份证照片</view>、<view class="u">行驶证或购车发票照片。</view></view>
+          <view>为了保障您正常使用我们的服务，提供消息推送服务，改进优化我们的服务体验和保障您的账号安全，我们会收集您的设备信息，包括设备型号、操作系统、唯一设备标识符（IMEI/IDFA/OAID/IDFV/MEID/IMSI）、登陆IP地址、iBuick APP软件版本号、接入网络的方式和状态、网络质量数据、设备加速器、服务日志信息。</view>
+        </view>
+        <view class="main_indent">（二）您可以选择授权上汽通用收集和使用您个人信息的情形</view>
+        <view class="main_indent">iBuick APP包括一些扩展业务功能，扩展业务功能可为您提供更多的服务和更好的使用体验。使用扩展业务功能需要您授权上汽通用收集和使用您的以下信息，您可以自行选择是否授权，若您不提供以下信息，您无法使用扩展业务功能，但您可以继续使用基本业务功能。扩展业务功能和其收集的个人信息类型包括：</view>
+        <view class="main-ol">
+          <view>预约购车：为了实现预约购车功能，您需要主动提供或经您同意及确认由我们读取您的个人信息，
+            包括您的姓名、<view class="u">有效证件号码（身份证号）</view>、手机号、地址（上牌城市）信息。</view>
+          <view>预约维保功能：为了实现预约维保功能，需收集姓名、手机号、<view class="u">位置信息</view>、车牌号、⻋辆识别代号（VIN）、车型及车系，以推荐附近经销商门店及对应车辆保养项目，推送预约单信息至门店，维修时间提醒。其中<view class="u">位置信息</view>需要获取您的手机权限。</view>
+          <view>维保预约单查询：为了实现维保预约单查询功能，需收集姓名、手机号、预约单号、预约单创建时间、预约单详情、预约单状态，以展示预约单信息，进行预约单信息跟进。</view>
+          <view>维保记录查询：为了实现维保记录查询功能，需收集姓名、手机号、维保记录类型、车型、记录创建时间、记录详情、电子单据状态，以展示维保记录内容，进行查看历史维保记录。</view>
+          <view>车控车况功能：为了实现车控和车控功能，需收集会员账号，⻋辆识别代号（VIN），以提供车辆状态查看，远程车辆控制功能。</view>
+          <view>商城功能：为了实现商城功能，需收集会员账号、<view class="u">位置信息</view>，以按照地理位置推荐用户所在区域的经销商的店铺，并根据用户账号提供查询订单等服务。其中<view class="u">位置信息</view>需要获取您的手机权限。</view>
+          <view>用户发帖：为了实现用户发帖功能，需收集手机号码、昵称、头像、<view class="u">位置信息</view>，以便用户进行帖子的创建及发布。其中拍摄功能和访问相册功能需要获取您的手机权限。</view>
+          <view>拍别克：为了实现拍别克功能，需收集手机号码、昵称、头像、<view class="u">位置信息</view>，以便用户进行帖子的创建及发布。其中拍摄功能和访问相册功能需要获取您的手机权限。</view>
+          <view>会员权益：为了实现展示会员权益功能，需收集会员账号、会员类型、加入时间，以展示会员级别，方便发放会员权益。</view>
+          <view>智能车辆手册：为了展示智能车辆手册，需收集手机会员账号，车辆识别代码（VIN），以按车型提供用户查看车辆电子手册。</view>
+          <view>我的电桩：为了实现我的电桩的功能，需收集电桩编号、VIN、地址，以绑定用户和家用充电桩。</view>
+          <view>智能充电：为了实现智能充电功能，需收集会员账号，<view class="u">位置信息</view>，以提供附件的充电站充电桩信息，和充电历史记录。其中<view class="u">位置信息</view>需要获取您的手机权限。</view>
+          <view>试乘试驾：为了实现试乘试驾功能，需收集姓名、手机号、<view class="u">位置信息</view>，以提交试乘试驾信息给到经销商。</view>
+          <view>用户资料：为了完善您的个人信息，需收集头像，性别，昵称。</view>
+          <view>推荐购：为了实现推荐购，需收集您的账号，以提供推荐购状态查询。</view>
+          <view>我的延保：为了显示您的延保信息，需收集会员账号，以按照会员账号，提供延保信息查询和展示。</view>
+          <view>我的收货地址：为了实现管理收货地址的功能，需收集您的收货地址，以便给您寄送实物奖品。</view>
+          <view>功能反馈：为了实现功能反馈功能，需收集您的手机号码、相册（图片库），以实现后续客服回访跟踪，其中读取相册需要获取您的手机权限。</view>
+          <view>查找经销商：为了实现查找经销商功能，需收集您的<view class="u">位置信息</view>，根据<view class="u">位置信息</view>按距离排序推荐经销商门店，其中<view class="u">位置信息</view>需要获取您的手机权限。</view>
+          <view>违章查询：为了实现违章查询功能，需收集您的⻋辆识别代号（VIN）、车型、发动机号、车牌号，以用于查询车辆是否有违章记录。</view>
+        </view>
+        <view class="sec-title">二、设备权限</view>
+        <view class="main_indent">
+          为了向您提供服务，iBuick APP可能在必要范围您向您申请获取您设备的下列权限。iBuick APP不会默认开启这些权限，只有在您主动确认开启权限后，iBuick APP才会通过这些权限收集个人信息。您可以在您的设备中逐项查看您上述权限的开启状态，并可以决定将这些权限随时开启或关闭（不同的设备可能有不同的更改方式，一般在您设备的“设置”中进行修改，具体请咨询您设备的制造商）。请您注意，您开启这些权限即代表您授权上汽通用收集和使用这些个人信息，您关闭权限即代表您取消了授权，上汽通用将不再继续收集和使用这些个人信息，也无法为您提供与这些权限所对应的服务。您关闭权限的决定不会影响此前基于您的授权所进行的个人信息的处理。</view>
+        <view class="main_indent">（一）iOS系统权限调用说明</view>
+        <view class="tablemar table" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none; width: 100%">
+          <view class="tr">
+            <view class='td1 td'>设备权限</view>
+            <view class='td2 td'>使用目的</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>相机（摄像头）</view>
+            <view class='td2 td'>用于证件（身份证，行驶证，购车发票）识别，论坛发帖，更换头像，扫描二维码功能，AR看车、参与拍别克活动</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>相册</view>
+            <view class='td2 td'>用于证件（身份证，行驶证，购车发票）上传，论坛发帖，更换头像，参与拍别克活动</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>位置信息</view>
+            <view class='td2 td'>用于提供基于位置的推荐服务（经销商位置，二手车经销商位置，充电站位置，同城活动）</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>蓝牙</view>
+            <view class='td2 td'>车辆蓝牙钥匙</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>话筒</view>
+            <view class='td2 td'>用于论坛发布视频</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>日历</view>
+            <view class='td2 td'>安吉星SDK内使用</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>FACEID</view>
+            <view class='td2 td'>安吉星SDK内使用</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>通讯录</view>
+            <view class='td2 td'>安吉星SDK内使用</view>
+          </view>
+        </view>
+        <view class="main_indent">（二）Android系统权限调用说明</view>
+        <view class="tablemar table" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none; width: 100%">
+          <view class="tr">
+            <view class='td1 td'>设备权限</view>
+            <view class='td2 td'>使用目的</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>相机（摄像头）</view>
+            <view class='td2 td'>用于证件（身份证，行驶证，购车发票）识别，论坛发帖，更换头像，扫描二维码功能，AR看车、参与拍别克活动</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>相册</view>
+            <view class='td2 td'>用于证件（身份证，行驶证，购车发票）上传，论坛发帖，更换头像，参与拍别克活动</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>位置信息</view>
+            <view class='td2 td'>用于提供基于位置的推荐服务（经销商位置，二手车经销商位置，充电站位置，同城活动）</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>蓝牙</view>
+            <view class='td2 td'>车辆蓝牙钥匙</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>话筒</view>
+            <view class='td2 td'>用于论坛发布视频</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>日历</view>
+            <view class='td2 td'>安吉星SDK内使用</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>通讯录</view>
+            <view class='td2 td'>安吉星SDK内使用</view>
+          </view>
+          <view class="tr">
+            <view class='td1 td'>电话</view>
+            <view class='td2 td'>直接拨打客服</view>
+          </view>
+        </view>
+        <view class="sec-title">三、iBuick APP接入的第三方服务</view>
+        <view class="main_indent">
+          
+          为了向您提供更多的服务和更好的使用体验，iBuick APP包含第三方的服务，包括第三方SDK（软件工具开发包）和第三方API（应用程序编程接口）。若您使用第三方服务，将由第三方收集和处理您的个人信息，第三方将根据其自己的个人信息保护政策收集和使用您的个人信息，而非上汽通用的《个人隐私政策》和本《个人信息说明》。上汽通用已经要求第三方以合法合规的方式收集和使用您的个人信息。请您理解，上汽通用无法控制第三方收集和使用您的个人信息，上汽通用建议您在使用第三方服务前仔细阅读第三方的个人信息保护政策，审慎使用第三方服务，若您对第三方收集和使用您的个人信息有疑问，请咨询该第三方。 </view>
+        <view class="main_indent">iBuick APP包含的第三方服务列举如下：</view>
+        <view class="main_indent">（一）SDK</view>
+        <view  class="table mar tour-table" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none; width: 100%">
+          <view class="tr">
+            <view class="td">名称</view>
+            <view class="td">使用场景</view>
+            <view class="td">使用目的</view>
+            <view class="td">收集的个人信息</view>
+            <view class="td">共享方式</view>
+            <view class="td">第三方名称</view>
+            <view class="td">第三方隐私协议或官方网站链接</view>
+          </view>
+          <view class="tr">
+            <view class="td">极光SDK</view>
+            <view class="td">向用户每次推送通知消息时</view>
+            <view class="td">用于信息推送</view>
+            <view class="td">会员账号、设备信息（IMEI，IDFA，Android ID，MAC，OAID，IMSI，UAID）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">深圳市和讯华谷信息技术有限公司</view>
+            <view class="td">https://www.jiguang.cn</view>
+          </view>
+          <view class="tr">
+            <view class="td">支付宝SDK</view>
+            <view class="td">在用户每次选择支付宝支付方式时</view>
+            <view class="td">订单支付</view>
+            <view class="td">订单信息、支付金额、设备信息（IMEI，Android ID， IDFA， OAID， IMSI，MAC）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">支付宝（杭州）信息技术有限公司</view>
+            <view class="td">www.alipayobjects.com </view>
+          </view>
+          <view class="tr">
+            <view class="td">安吉星SDK</view>
+            <view class="td">用户点击安吉星功能入口时</view>
+            <view class="td">使用安吉星服务</view>
+            <view class="td">手机号，会员账号、手机型号手机品牌 手机连接的地址</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">安吉星信息服务有限公司</view>
+            <view class="td">https://www.onstar.com.cn/portal/ZH/index/index.html</view>
+          </view>
+          <view class="tr">
+            <view class="td">高德SDK</view>
+            <view class="td">用户使用地图导航、定位、查看行程时</view>
+            <view class="td">提供地图查询及进行导航、查看近期行程，车辆定位服务</view>
+            <view class="td">位置信息，设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">高德软件有限公司</view>
+            <view class="td">https://lbs.amap.com/pages/privacy/</view>
+          </view>
+          <view class="tr">
+            <view class="td">微信SDK</view>
+            <view class="td">在用户每次选择登陆、微信支付、分享时</view>
+            <view class="td">微信登陆、支付、分享</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>（支付场合使用））、设备信息（IMEI，Android ID， IDFA， OAID， IMSI， MAC）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">深圳市腾讯计算机系统有限公司</view>
+            <view class="td">https://www.tencent.com</view>
+          </view>
+          <view class="tr">
+            <view class="td">IDCARD SCAN SDK</view>
+            <view class="td">用户扫描证件或车架号时</view>
+            <view class="td">扫描识别证件及车架号，用于车辆注册</view>
+            <view class="td"><view class="u">身份证号</view>、行驶证、发票、VIN、设备信息（Device ID，IMEI）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">上海合合信息科技股份有限公司</view>
+            <view class="td">https://www.intsig.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">听云</view>
+            <view class="td">在APP发生异常，崩溃及卡顿时</view>
+            <view class="td">用于开发者对网站性能监测平台优化提升前端性能</view>
+            <view class="td">设备信息（设备型号、操作系统版本、<view class="u">设备设置</view>、唯一设备标识符）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">北京基调网络股份有限公司</view>
+            <view class="td">https://www.tingyun.com/legal_declaration.html</view>
+          </view>
+          <view class="tr">
+            <view class="td">建设银行SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">中国建设银行股份有限公司</view>
+            <view class="td">http://www1.ccb.com/cn/mycom/register_xy_secret.html</view>
+          </view>
+          <view class="tr">
+            <view class="td">农业银行SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">中国农业银行股份有限公司</view>
+            <view class="td">https://www.abchina.com/cn/AboutABC/yszc/gryszc/</view>
+          </view>
+          <view class="tr">
+            <view class="td">浦发银行SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">上海浦东发展银行</view>
+            <view class="td">https://www.spdb.com.cn/ebank_2403/personal_online_banking/202001/t20200108_4746115.shtml</view>
+          </view>
+          <view class="tr">
+            <view class="td">工商银行SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">中国工商银行股份有限公司</view>
+            <view class="td">http://m.icbc.com.cn/ICBC/disclaimer/2.htm</view>
+          </view>
+          <view class="tr">
+            <view class="td">招商银行SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">招商银行股份有限公司</view>
+            <view class="td">http://www.cmbchina.com/personal/netbank/NetbankInfo.aspx?guid=ca085e03-b3f2-4ac8-8a35-3560e8276cb2</view>
+          </view>
+          <view class="tr">
+            <view class="td">邮政储蓄SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">中国邮政储蓄银行股份有限公司</view>
+            <view class="td">https://static-pbank.psbc.com/perbank/html/system/privacyShow.html</view>
+          </view>
+          <view class="tr">
+            <view class="td">银联SDK</view>
+            <view class="td">用户支付购买商品进行支付时</view>
+            <view class="td">用于大额订单支付</view>
+            <view class="td"><view class="u">订单信息</view>、<view class="u">支付金额</view>、设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">中国银联股份有限公司</view>
+            <view class="td">https://cn.unionpay.com/upowhtml/cn/templates/index/index.html</view>
+          </view>
+          <view class="tr">
+            <view class="td">行车记录仪</view>
+            <view class="td">用户查看记录仪内视频时</view>
+            <view class="td">用于查看行车记录仪里的视频</view>
+            <view class="td">行车记录仪拍摄的视频，设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">上海雅罗可斯汽车零部件有限公司</view>
+            <view class="td">暂无链接</view>
+          </view>
+          <view class="tr">
+            <view class="td">行车记录仪</view>
+            <view class="td">用户查看记录仪内视频时</view>
+            <view class="td">用于查看行车记录仪里的视频</view>
+            <view class="td">行车记录仪拍摄的视频，设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">上海迈隆汽车零部件有限公司</view>
+            <view class="td">http://www.mic-ron.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">行车记录仪</view>
+            <view class="td">用户查看记录仪内视频时</view>
+            <view class="td">用于查看行车记录仪里的视频</view>
+            <view class="td">行车记录仪拍摄的视频，设备信息（IMEI、IDFA、Android ID、MEID、MAC地址、OAID、IMSI、硬件序列号）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">江苏迈隆电子科技有限公司</view>
+            <view class="td">http://www.mic-ron.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">阿里SDK</view>
+            <view class="td">用户查看维保直播时</view>
+            <view class="td">用于查看车辆在维修站进行保养的视频</view>
+            <view class="td">视频图像、车架号、车牌号、会员账号、设备信息（IMEI，IDFA，Android ID，MAC，OAID，IMSI，UAID）</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">阿里云计算有限公司</view>
+            <view class="td">https://www.aliyun.com</view>
+          </view>
+          <view class="tr">
+            <view class="td">别克工具包</view>
+            <view class="td">在用户使用本App时</view>
+            <view class="td">用于开发者构建手机应用</view>
+            <view class="td">Anroid ID</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">上汽通用汽车有限公司</view>
+            <view class="td">https://www.buick.com.cn/</view>
+          </view>
+          <view class="tr">
+            <view class="td">行为SDK</view>
+            <view class="td">在用户使用本App时</view>
+            <view class="td">用于App提供方对App内功能使分析</view>
+            <view class="td">Anroid ID、Wi-Fi MAC、Wi-Fi IP</view>
+            <view class="td">SDK本机采集</view>
+            <view class="td">上汽通用汽车有限公司</view>
+            <view class="td">https://www.buick.com.cn/</view>
+          </view>
+        </view>
+        <view class="main_indent">（二）API</view>
+        <view class="table mar tour-table" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none; width: 100%">
+          <view class="tr">
+            <view class="td">名称</view>
+            <view class="td">使用场景</view>
+            <view class="td">使用目的</view>
+            <view class="td">收集的个人信息</view>
+            <view class="td">共享方式</view>
+            <view class="td">第三方名称</view>
+            <view class="td">第三方隐私协议或官方网站链接</view>
+          </view>
+          <view class="tr">
+            <view class="td">法大大</view>
+            <view class="td">用户需要进行电子签名时</view>
+            <view class="td">用于证书的生成、电子合同的显示、签署与查看</view>
+            <view class="td">姓名、<view class="u">身份证号</view>、手机号码</view>
+            <view class="td">API接口传输</view>
+            <view class="td">深圳法大大网络科技有限公司</view>
+            <view class="td">https://www.fadada.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">车轮</view>
+            <view class="td">用户查询违章记录</view>
+            <view class="td">用于车辆对应的违章记录</view>
+            <view class="td">⻋辆识别代号（VIN）、车型、发动机号、车牌所属地区</view>
+            <view class="td">API接口传输</view>
+            <view class="td">车轮互联科技（上海）股份有限公司</view>
+            <view class="td">https://m.chelun.com/2019/chelun-protocol/index.html#/privacy/1</view>
+          </view>
+          <view class="tr">
+            <view class="td">上汽金融</view>
+            <view class="td">用户需要申请购车贷款时</view>
+            <view class="td">申请购车贷款</view>
+            <view class="td">姓名、<view class="u">身份证号</view>、手机号码</view>
+            <view class="td">API接口传输</view>
+            <view class="td">上汽通用汽车金融有限责任公司</view>
+            <view class="td">https://www.saicgmac.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">上汽租赁</view>
+            <view class="td">用户需要申请购车贷款时</view>
+            <view class="td">申请购车贷款</view>
+            <view class="td">姓名、<view class="u">身份证号</view>、手机号码</view>
+            <view class="td">API接口传输</view>
+            <view class="td">上汽通用融资租赁有限公司</view>
+            <view class="td">https://www.saicgmf.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">Apple ID</view>
+            <view class="td">用户购买商品进行支付时</view>
+            <view class="td">使用Apple ID进行支付</view>
+            <view class="td">Apple ID账号</view>
+            <view class="td">API接口传输</view>
+            <view class="td">苹果（中国）有限公司</view>
+            <view class="td">https://www.apple.com.cn/legal/privacy/szh/</view>
+          </view>
+        </view>
+        <view class="main_indent">（三）H5</view>
+        <view  class="table mar tour-table" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none; width: 100%">
+          <view class="tr">
+            <view class="td">名称</view>
+            <view class="td">使用场景</view>
+            <view class="td">使用目的</view>
+            <view class="td">收集的个人信息</view>
+            <view class="td">共享方式</view>
+            <view class="td">第三方名称</view>
+            <view class="td">第三方隐私协议或官方网站链接</view>
+          </view>
+          <view class="tr">
+            <view class="td">特来电</view>
+            <view class="td">用户选择使用特来电充电桩充电时</view>
+            <view class="td">提供车辆充电桩位置查询及充电服务</view>
+            <view class="td">手机号</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">特来电新能源股份有限公司</view>
+            <view class="td">https://www.teld.cn/</view>
+          </view>
+          <view class="tr">
+            <view class="td">万帮星星</view>
+            <view class="td">用户选择使用万帮星星充电桩充电时</view>
+            <view class="td">提供车辆充电桩位置查询及充电服务</view>
+            <view class="td">手机号</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">万帮星星充电科技有限公司</view>
+            <view class="td">https://www.starcharge.com/zh-CN</view>
+          </view>
+          <view class="tr">
+            <view class="td">安悦充电</view>
+            <view class="td">用户选择使用安悦充电桩充电时</view>
+            <view class="td">提供车辆充电桩位置查询及充电服务</view>
+            <view class="td">手机号</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">上海上汽安悦充电科技有限公司</view>
+            <view class="td">http://www.anyopioneer.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">推荐购</view>
+            <view class="td">用户查看APP内展示的商品时</view>
+            <view class="td">为用户展示品牌推荐产品</view>
+            <view class="td">会员账号</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">上海网商电子商务有限公司</view>
+            <view class="td">暂无链接</view>
+          </view>
+          <view class="tr">
+            <view class="td">会员商城</view>
+            <view class="td">用户进入会员商城时</view>
+            <view class="td">为用户展示品牌推荐产品</view>
+            <view class="td">会员账号</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">上海赛可电子商务有限公司</view>
+            <view class="td">https://www.chexiang.com/</view>
+          </view>
+          <view class="tr">
+            <view class="td">移动实名认证</view>
+            <view class="td">用户选择进入移动的实名认证渠道时</view>
+            <view class="td">车辆SIM卡实名认证</view>
+            <view class="td">⻋辆识别代号（VIN）</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">中国移动通信集团有限公司</view>
+            <view class="td">http://www.10086.cn/index/</view>
+          </view>
+          <view class="tr">
+            <view class="td">联通实名认证</view>
+            <view class="td">用户选择进入联通的实名认证渠道时</view>
+            <view class="td">车辆SIM卡实名认证</view>
+            <view class="td">⻋辆识别代号（VIN）</view>
+            <view class="td">H5页面跳转</view>
+            <view class="td">中国联合网络通信集团有限公司</view>
+            <view class="td">http://www.chinaunicom.com.cn/</view>
+          </view>
+        </view>
+        <view class="sec-title">四、您对您的个人信息的权利</view>
+        <view class="main_indent">（一）您有权查阅、复制、更正、补充、删除您的个人信息，但法律法规规定的例外情形除外。您可以通过iBuick APP查阅、更新您账户中的个人资料和账号信息，进行账号绑定、密码修改等操作。您也可以拨打400 820 2020或400 820 1188热线行使您的前述权利。</view>
+        <view class="main_indent">（二）改变您授权同意的范围或撤回授权。您可以在iBuick APP中删除您的个人信息、更改隐私设置或在您的设备中更改设备权限（不同的设备可能有不同的更改方式，一般在您设备的“设置”中进行修改，具体请咨询您设备的制造商）等方式改变同意范围或撤回您的授权。当您执行前述操作后，我们将无法为您提供撤回同意或授权所对应的服务，但不会影响此前基于您的授权已经开展的个人信息处理。</view>
+        <view class="main_indent">（三）您有权注销您的账户，关于注销账户，请注意：</view>
+        <view class="main-ol">
+          <view>1.您可通过如下路径注销账户：打开iBuick APP，我的-设置-注销账号，进行注销操作。</view>
+          <view>2.注销账户需满足以下条件：
+          <view>（1）账号处于安全状态；</view>
+          <view>（2）别克服务/商城订单完成。</view>
+          </view>
+          <view>3.停止注销的情形。在注销期间，若您的账户涉及争议纠纷，包括但不限于投诉、举报、诉讼、仲裁、国家有权机关调查等，上汽通用有权自行终止账户的注销而无需另行得到您的同意。</view>
+          <view>4.注销账户的影响</view>
+          <view>（1）请您充分知悉，您注销iBuick APP账户的行为将导致上汽通用无法继续为您提供服务。注销成功后账户将不可恢复，您应在注销前自行备份账户所涉信息和数据。注销成功后将无法找回iBuick APP账户与您有关的任何信息（即使您用同样的手机号再次注册），相关的影响包括但不限于：
+          <view class="main-ol-ol">
+              <view class="roman">
+              <view>i.您将无法继续使用iBuick APP账户；</view>
+              <view>ii.iBuick APP账户的账户信息和历史信息，包括但不限于姓名、昵称、头像、积分、交易记录都将无法找回；</view>
+              <view>iii.IBuick APP以及通过iBuick APP登陆的上汽通用旗下其他APP和账户，包括但不限于MyChevy APP，MyCaddillac APP，车工坊 APP，安吉星 APP，IQ APP的所有记录都将无法找回，您将无法再使用这些APP和账户；</view>
+              <view>iv.注销iBuick APP账户视为您放弃iBuick APP账户以及通过iBuick APP登陆的上汽通用旗下其他APP和账户中的所有资产，包括但不限于优惠券、积分或其他卡券；</view>
+              <view>v.您理解并同意，上汽通用无义务也无法帮您恢复iBuick APP账户及相关账户资产或权限。</view>
+            </view>
+          </view>
+          （2）根据相关法律法规的要求，即使成功注销了iBuick APP账户，上汽通用也需要保留法律法规要求保存的信息，直至法律法规要求的保存期限届满，届满后上汽通用将会彻底删除这些信息。对于这些信息，上汽通用仅会在法律法规允许的范围内使用，不会用于其他目的。
+          </view>
+        </view>
+        <view class="main_indent">（四）自主管理控制营销信息及定向推送</view>
+        <view class="main-ol">
+          <view>1.消息推送。若您不希望收到iBuick APP的消息通知，您可以在首次安装iBuick APP时拒绝消息通知，或在您的设备中关闭iBuick APP的通知功能。</view>
+          <view>2.回访。若您不希望收到我们的电话回访，您可以在电话回访中明确拒绝。</view>
+        </view>
+        <view class="main_indent">（五）联系我们及争议处理</view>
+        <view class="main-ol">
+          <view>1.上汽通用汽车有限公司的注册地址是中国（上海）自由贸易试验区申江路1500号。您在使用iBuick APP时如有任何疑问，或有任何需求可以拨打400 820 2020或400 820 1188热线联系我们，一般情况下，我们将在验证您身份后的15个工作日内回复。</view>
+          <view>2.若您认为我们侵犯了您的合法权利，您除了可以通过上述热线联系我们，您还可以向有关部门投诉，或者将您与我们的纠纷提交至我们所在地有管辖权的法院诉讼处理。</view>
+        </view>
+        <view>完。</view>
+      </view>
+    </view>
+  </view>
+</view>

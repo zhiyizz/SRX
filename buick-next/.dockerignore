@@ -1,0 +1,17 @@
+Dockerfile
+.dockerignore
+npm-debug.log
+README.md
+.git
+
+.DS_Store
+
+assets
+components
+pages
+styles
+utils
+tsconfig.json
+public
+node_modules
+.next/cache

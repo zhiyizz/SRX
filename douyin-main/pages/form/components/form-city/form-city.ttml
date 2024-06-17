@@ -1,0 +1,11 @@
+<picker
+  header-text="地区选择器"
+  mode="region"
+  value="{{ value }}"
+  bindchange="changeHandler"
+  bindcancel="regionPickerCancel"
+>
+  <i-panel title="{{label}}">
+    <view class="input-common">{{ value[0] }}-{{ value[1] }}-{{ value[2] }}</view>
+  </i-panel>
+</picker>

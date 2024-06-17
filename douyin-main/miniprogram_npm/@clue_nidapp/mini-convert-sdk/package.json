@@ -1,0 +1,25 @@
+{
+  "name": "@clue_nidapp/mini-convert-sdk",
+  "version": "0.0.6-alpha.6",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist ./es && tsc -p tsconfig.json && tsc --outDir ./es --module ES6 && node scripts/addAnnotate.js",
+    "test": "yarn build && yarn unit && yarn unit:fengche",
+    "unit:fengche": "jest -c ../../jest/mp_fengche.js --env=./jest/jest-environment-mp.js",
+    "unit": "jest -c ../../jest/mp.js --env=./jest/jest-environment-mp.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@clue_nidapp/shared": "^2.0.1-alpha.3",
+    "typescript": "3.9.3"
+  },
+  "files": [
+    "dist",
+    "es"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "gitHead": "3bcfcbcd5dde79ed7af34246e4f921cfb5f1ef23"
+}

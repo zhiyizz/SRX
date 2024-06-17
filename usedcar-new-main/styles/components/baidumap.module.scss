@@ -1,0 +1,52 @@
+
+.bdglobal{
+  height: 300px;
+  :global{
+    .BMap_bubble_pop{
+      border-radius:0!important;
+      padding:15px!important;
+      transform: translateY(-15%);
+      border-color:#888!important;
+      img{
+        top:calc(100%)!important;
+      }
+      .BMap_bubble_top{
+        height:initial!important;
+        margin-bottom:10px;
+        .BMap_bubble_title{
+          height:initial!important;
+          line-height:initial!important;
+          white-space:initial!important;
+        }
+      }
+      .BMap_bubble_center{
+        height:initial!important;
+        .BMap_bubble_content{
+          height:initial!important;
+          position:relative!important;
+        }
+        p{
+          margin:0;
+          font-size:12px;
+          line-height:1.2;
+          &:nth-child(1){
+            margin-bottom:5px;
+          }
+        }
+        a{
+          color:var(--color-primary);
+          text-decoration:none;
+        }
+      }
+      .BMap_bubble_buttons{
+        &:nth-child(2){
+          div{
+            color:var(--color-dark);
+            font-size:30px!important;
+            right:5px!important;
+          }
+        }
+      }
+    }
+  }
+}

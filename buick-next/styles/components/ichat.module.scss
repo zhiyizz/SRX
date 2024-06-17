@@ -1,0 +1,45 @@
+@use '../variables' as *;
+
+.popup {
+  background: #fff;
+  bottom: 60px;
+  display: none;
+  position: fixed;
+  right: 70px;
+  z-index: 999;
+  width: 323px;
+
+  &.show {
+    bottom: 60px;
+    display: block;
+  }
+  .title {
+    background: $color-dark;
+    color: #fff;
+    display: flex;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+
+    h3 {
+      flex: 1 1 auto;
+      font-weight: normal;
+      margin: 0;
+    }
+    .close {
+      height: 30px;
+      width: 30px;
+    }
+  }
+
+  .container {
+    height: 475px;
+
+    iframe {
+      border: none;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

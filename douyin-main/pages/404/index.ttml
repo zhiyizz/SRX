@@ -1,0 +1,8 @@
+<!-- /Users/zhangfutian/Documents/topsrx/抖音/小程序/douyin/pages/404/index.ttml -->
+<view class="error">
+    <view class="content">
+        <view class="title">404</view>
+        <text>{{errText}}</text>
+    </view>
+    
+</view>

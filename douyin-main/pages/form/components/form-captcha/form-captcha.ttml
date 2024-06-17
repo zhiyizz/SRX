@@ -1,0 +1,24 @@
+<view class="captcha-wrapper">
+    <view class="captcha-content">
+        <icon class="captcha-close" type="cancel" size="24" bindtap="close">
+        </icon>
+        <view class="captcha-title">
+            <text>手机验证</text>
+        </view>
+        <view class="captcha-sub-title">
+            <text>短信验证码已发送至{{phoneNumber}}</text>
+        </view>
+        <form>
+            <!-- 短信验证码 -->
+            <view class="sms-validate">
+                <input type="number" class="sms-validate-input input-common" placeholder="请输入短信验证码" pattern="\d*"
+                    maxlength="4" bindinput="valueChangeHandler" />
+                <button class="text" size="mini" bindtap="getCode">{{ smsCountDown > 0 ? "重新发送(" + smsCountDown + ")": "获取验证码"
+                }}</button>
+            </view>
+            <!-- 提示、提交按钮 -->
+            <text></text>
+            <i-button phone={true} bindtap="submit">提交</i-button>
+        </form>
+    </view>
+</view>

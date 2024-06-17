@@ -1,0 +1,268 @@
+@import '../variables';
+
+.fbi-detail {
+  width: 100%;
+  height: var(--view-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transform: translateX(-100%);
+  transition: transform 0.6s ease-in-out;
+  overflow: hidden;
+  h1,h2,h3,h4,h5{
+    font-weight:100;
+  }
+
+  &.show {
+    transform: translateX(0%);
+  }
+
+  &-wrapper {
+    width: 95%;
+    height: 100%;
+    background-color: rgba($color: #000, $alpha: 0.99);
+    position: relative;
+
+    .close {
+      background: #000;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--color-primary);
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      font-family: $font-headline;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    .scroll-container {
+      height: 100%;
+    }
+
+    .content {
+      max-width: 1500px;
+      margin: 0 auto;
+      color: #fff;
+      height: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 60px 0;
+      font-size: 16.5px;
+      position: relative;
+
+      p {
+        margin: 0;
+      }
+
+      .title {
+        font-family: $font-headline;
+        letter-spacing: 0.15em;
+
+        .en {
+          text-transform: uppercase;
+          font-size:14px;
+        }
+
+        .cn {
+          font-size: 37.5px;
+          line-height: 1.4;
+        }
+      }
+      .tips {
+        font-size: 12px;
+        padding: 0 20px;
+        text-align: right;
+      }
+    }
+  }
+
+  :global(.big-play-button) {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    background:url(../../public/img/common/series/icon-play.png) no-repeat 8% 90%;
+
+    + img {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  &.common {
+
+    .fbi-detail-wrapper {
+      width: 80%;
+      background: #fff;
+      .close {
+        background:#fff;
+        i {
+          &::before,&::after {
+            background:#000;
+          }
+        }
+      }
+      .content {
+        width: 66%;
+        margin:0 auto;
+        color:#333;
+      }
+    }
+  }
+  &.narrow { 
+    .fbi-detail-wrapper {
+      .content {
+        width: 50%;
+        margin-left: 10%;
+      }
+    }
+  }
+}
+@media (max-width: 1799.98px) {
+  .fbi-detail {
+    &-wrapper {
+
+      .content {
+        padding:60px 120px 60px 30px;
+      }
+    }
+    &.common {
+      .fbi-detail-wrapper {
+        .content {
+          padding:60px 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .fbi-detail {
+    &-wrapper {
+      .close {
+        width: 42px * 0.85;
+        height: 42px * 0.85;
+        top: 30px * 0.85;
+        right: 30px * 0.85;
+        font-size: 20px * 0.85;
+      }
+
+      .content {
+        padding:(60px * 0.85) (120px * 0.85) (60px * 0.85) (30px * 0.85);
+        font-size: 16.5px * 0.85;
+
+        .title {
+          .en{
+            font-size:14px * 0.85;
+          }
+          .cn {
+            font-size: 37.5px * 0.85;
+          }
+        }
+      }
+    }
+    &.common {
+      .fbi-detail-wrapper {
+        .content {
+          padding:(60px * 0.85) 0;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .fbi-detail {
+    &-wrapper {
+      .close {
+        width: 42px * 0.75;
+        height: 42px * 0.75;
+        top: 30px * 0.75;
+        right: 30px * 0.75;
+        font-size: 20px * 0.75;
+      }
+
+      .content {
+        padding:(60px * 0.75) (120px * 0.75) (60px * 0.75) (30px * 0.75);
+        font-size: 16.5px * 0.75;
+
+        .title {
+          .en{
+            font-size:14px * 0.75;
+          }
+          .cn {
+            font-size: 37.5px * 0.75;
+          }
+        }
+      }
+    }
+    &.common {
+      .fbi-detail-wrapper {
+        .content {
+          padding:(60px * 0.75) 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .fbi-detail {
+    &-wrapper {
+      width: 100%;
+
+      :global(.scrollbar-track.show) {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .close {
+        width: 28px;
+        height: 28px;
+        top: 40px;
+        right: 12px;
+        font-size: 14px;
+      }
+
+      .content {
+        padding: 40px 0;
+        font-size: 14px;
+        .title {
+          padding: 0 25px;
+          .en{
+            font-size:13px;
+          }
+          .cn {
+            font-size: 24px;
+            line-height: 1.4;
+          }
+        }
+        .tips {
+          text-align: left;
+        }
+      }
+    }
+    &.common {
+      .fbi-detail-wrapper {
+        width: 100%;
+        .content {
+          width: 100%;
+        }
+      }
+    }
+    &.narrow { 
+      .fbi-detail-wrapper {
+        .content {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<i-panel title="{{label}}">
+    <i-checkbox 
+        bindchange="changeHandler"
+        wx:for="{{element.dataSource}}" 
+        position="right" 
+        wx:key="{{item.id}}" 
+        value="{{item.name}}"
+        checked="{{checkedValueMap[item.name]}}"
+    >
+    </i-checkbox>
+</i-panel>

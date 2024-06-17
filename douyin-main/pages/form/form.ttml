@@ -1,0 +1,31 @@
+<scroll-view id="scrollView" scroll-y style="width:100%;height:100vh">
+  <i-tabs bindchange="handleTabChange" current="{{ currentTab }}">
+    <i-tab tabKey="base" title="基础表单"></i-tab>
+    <i-tab tabKey="dealer" title="优选经销商表单"></i-tab>
+  </i-tabs>
+  <i-panel title="表单">
+    <view tt:for="{{elements}}" tt:key="{{element.id}}" tt:for-item="element">
+      <form-input label="{{element.label}}" tt:if="{{element.type === 1 | element.type === 8}}" bindvaluechange="formValueChange"
+        element="{{element}}"/>
+      <form-phone label="{{element.label}}" tt:elif="{{element.type === 2}}" bindvaluechange="formValueChange"
+        element="{{element}}"></form-phone>
+      <form-radio label="{{element.label}}" tt:if="{{element.type === 5 | element.type === 11}}" bindvaluechange="formValueChange"
+        element="{{element}}"></form-radio>
+      <form-checkbox label="{{element.label}}" tt:if="{{element.type === 12}}" bindvaluechange="formValueChange"
+        element="{{element}}"></form-checkbox>
+      <form-city label="{{element.label}}" tt:if="{{element.type === 7}}" bindvaluechange="formValueChange" element="{{element}}">
+      </form-city>
+      <form-select label="{{element.label}}" tt:if="{{element.type === 10}}" bindvaluechange="formValueChange" element="{{element}}"
+        bindgetpreferdata="getPreferData">
+      </form-select>
+    </view>
+    <view style="padding-top: 20px">
+      <i-button type="primary" size="default" bindtap="submit">
+        {{submitBtnText}}
+      </i-button>
+    </view>
+  </i-panel>
+</scroll-view>
+<form-captcha tt:if="{{showCaptcha}}" bindvalidatesuccess="submitWithCaptcha" bindclose="closeCaptcha"
+  phoneNumber="{{captchaOptions.phoneNumber}}" secretPhoneId="{{captchaOptions.secretPhoneId}}"
+  validateImgUrl="{{captchaOptions.validateImgUrl}}" validateType="{{captchaOptions.validateType}}"></form-captcha>

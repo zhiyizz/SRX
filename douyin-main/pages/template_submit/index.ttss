@@ -1,0 +1,41 @@
+.kv image,.testdrive image {
+    width:calc( 100% + 2px);
+    display: block;
+}
+.testdrive {
+    position: relative;
+    padding-bottom:40rpx;
+}
+.testdrive image {
+    position: absolute;
+}
+.i-panel-title{
+    text-align: center;
+}
+.td-form {
+    /* position: absolute;
+    left:0;
+    top:0;
+
+    height: 100%; */
+    width: 80%;
+    display: block;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.td-item {
+    height: 70rpx;
+    line-height: 70rpx;
+    padding:0 10px;
+    border:1px solid #8e96a0;
+    border-radius: 2px;
+    font-size:12px;
+    margin-top:10px;
+    color:#fff;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background:rgba(11,22,32,.6);
+    overflow:hidden;
+
+}

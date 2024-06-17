@@ -1,0 +1,82 @@
+.video_player {
+    width:100%; 
+    padding-bottom:calc(9/16 * 100%);
+    background:#000; 
+    position:relative; 
+    .videoplayer-preview-box {
+        position:absolute; 
+        width:100%; 
+        height: 100%;
+        z-index:20;
+
+        .pic {
+            height: 100%;
+            position: relative;
+        }
+        video {
+            position:absolute; 
+            left:0; 
+            top:0; 
+            width:100%; 
+            height:100%; 
+            object-fit:cover;
+        }
+        img {
+           
+            object-fit:cover;
+            width:100%; 
+            height:100%;
+        }
+        .big-play-button {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            z-index: 10;
+            display:none;
+            background:url(../../../public/img/common/play.png) no-repeat 3% 90%;
+        }
+    }
+    .videoBox {
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%!important;
+        height:101%!important;
+        overflow: hidden;
+        iframe {
+            position:absolute; top:0; z-index:inherit;
+        }
+    }
+    :global{
+        .ykplayer {z-index:inherit; }
+        // .ykplayer .x-video-player {z-index:84;}
+        .ykplayer .x-video-poster {z-index:10;}
+        .ykplayer .x-video-poster img {object-fit:cover;}
+        .ykplayer .x-youkulogo {display:none !important;}
+        .ykplayer .x-video-title {display: none !important;}
+        .ykplayer .x-video-button{z-index:91;}
+        .ykplayer .x-video-button .x-video-play-ico {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            z-index: 10;
+            left:0;
+            top:0;
+            margin:0;
+            background:url('../../../public/img/common/play.png') no-repeat 3% 90% ;
+            background-size:10%;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .video_player {
+        .videoplayer-preview-box {
+            .big-play-button {
+                display: block;
+            }
+        }
+    }
+}

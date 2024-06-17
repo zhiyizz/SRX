@@ -1,0 +1,117 @@
+.selling {
+  .steps {
+    margin-bottom:20px;
+    ul {
+      list-style-type:none;
+      margin:0;
+      padding:0;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap:30px 15px;
+      li {
+        text-align: center;
+        position:relative;
+        color: var(--color-primary);
+        font-family: var(--font-headline);
+        font-size: 12px;
+        svg {
+          width: 80%;
+        }
+        &.right {
+          &::after {
+            right:-10px;
+            top:30%;
+            transform: rotate(45deg);
+          }
+        }
+        &.down {
+          &::after {
+            left:50%;
+            margin-left:-4px;
+            bottom:-15px;
+            transform: rotate(135deg);
+          }
+        }
+        &.left {
+          &::after {
+            left:-10px;
+            top:35%;
+            transform: rotate(-135deg);
+          }
+        }
+        &:last-child{
+          &::after {
+            display: none;
+          }
+        }
+        &::after {
+          content: "";
+          width: 8px;
+          height: 8px;
+          border-right: 1px solid #666;
+          border-top:1px solid #666;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .selling {
+    .steps {
+      padding:20px 0;
+      ul {
+        grid-template-columns: repeat(5,1fr);
+        li {
+          font-size: 16px;
+          svg {
+            width: 100px;
+          }
+          &:nth-child(4){
+            &::after {
+              left: auto;
+              right:-10px;
+              top:30%;
+              transform: rotate(45deg);
+            }
+          }
+          &:nth-child(8){
+            grid-area: 1/5;
+            &::after {
+              top: auto;
+              left:50%;
+              margin-left:-4px;
+              bottom:-15px;
+              transform: rotate(135deg);
+            }
+           }
+          &:nth-child(7){
+            grid-area: 2/5
+          }
+          &:nth-child(6){
+            grid-area: 2/4
+          }
+          &:nth-child(5){
+            grid-area: 2/3;
+            &::after {
+              left:-10px;
+              top:35%;
+              transform: rotate(-135deg);
+            }
+          }
+          &:nth-child(9){
+            grid-area: 2/2;
+            &::after {
+              left:-10px;
+              top:35%;
+              transform: rotate(-135deg);
+            }
+          }
+
+          
+        }
+      }
+    }
+  }
+}

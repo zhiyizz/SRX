@@ -1,0 +1,12 @@
+.evaluation {
+  padding:20px 0;
+  h6 {
+    font:16px var(--font-headline);
+    margin-bottom: 20px;
+  }
+}
+@media (min-width:768px) {
+  .evaluation {
+    padding: 5% 0;
+  }
+}

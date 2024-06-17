@@ -1,0 +1,52 @@
+.main {
+    padding-bottom:125rpx;
+}
+.section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.section image  {
+    width:calc( 100% + 2px);
+    display: block;
+
+}
+
+.swiper video,.section video {
+    width:calc( 100% + 2px);
+    display: block;
+}
+.swiper video {
+    height: 100%;
+}
+.video-horizontal {
+    height: calc(100vw * (9/16));
+}
+.video-vertical {
+    height: calc(100vw * (16/9));
+}
+
+.target {
+    position: fixed;
+    left:0;
+    bottom:0;
+    height: 125rpx;
+    width: 100%;
+    
+}
+.target image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.target text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    z-index:10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}

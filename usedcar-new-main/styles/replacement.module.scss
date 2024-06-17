@@ -1,0 +1,135 @@
+.replace {
+  padding:20px 0;
+  .section {
+    padding: 5% 0;
+  }
+
+
+  .step {
+    border: 1px solid #999;
+    margin-top: -20px;
+    border-top: 0;
+    padding: 5px 5px 10px;
+    margin: -20px 0 40px 0;
+
+    .stepwrap {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      
+      .icon {
+        font-size: 13px;
+        text-align: center;
+        position: relative;
+
+        p {
+          font-size: 12px;
+          margin-top: -10px;
+        }
+
+        svg {
+          width: 70%;
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          right: -15px;
+          top: 50%;
+          margin-top: -5px;
+          width: 6px;
+          height: 6px;
+          display: block;
+          border-right: 1px solid #333;
+          border-bottom: 1px solid #333;
+          transform: rotate(-45deg);
+          margin: 0 auto;
+
+        }
+
+        &:last-child {
+          &::after {
+            display: none;
+          }
+        }
+      }
+    }
+
+  }
+
+  .step-section {
+    .title {
+      line-height: 1.2;
+      margin-bottom: 20px;
+
+      .en {
+        font-size: 14px;
+      }
+
+      h6 {
+        font-size: 16px;
+
+        span {
+          color: var(--color-primary);
+          margin-right: 5px;
+        }
+
+        b {
+          font-family: 'buickfont-headline';
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .replace {
+    .step {
+      padding: 20px 5px 30px;
+
+      .stepwrap {
+        width: 80%;
+        margin: 0 auto;
+
+        .icon {
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:992px) {
+  .replace {
+    .step {
+      .stepwrap {
+        width: 80%;
+        margin: 0 auto;
+
+        .icon {
+          svg {
+            width: 100px;
+          }
+
+
+          &::after {
+            width: 10px;
+            height: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:1200px) {
+  .replace {
+    .step {
+      margin-bottom: 60px;
+
+    }
+  }
+}

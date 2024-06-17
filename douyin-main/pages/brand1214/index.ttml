@@ -1,0 +1,97 @@
+<view class="section">
+    <image mode="widthFix" src="{{img.p1}}"></image>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p2}}"></image>
+    <swiper class="swiper"  id="swiper1"  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}" bindchange="changeIndicatorDots" >
+    <block >
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p2_1}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p2_2}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p2_3}}"></image>
+        </swiper-item>
+    </block>
+    </swiper>
+    <div class="swiper-dots">
+        <span tt:for="{{1,2,3}}"  class="{{swiper1_dot===index?'active':""}}"></span>
+    </div>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p3}}"></image>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p4}}"></image>
+    <swiper class="swiper"  id="swiper2"  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}" bindchange="changeIndicatorDots" >
+    <block >
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p4_1}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p4_2}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p4_3}}"></image>
+        </swiper-item>
+    </block>
+    </swiper>
+    <div class="swiper-dots">
+        <span tt:for="{{1,2,3}}"  class="{{swiper2_dot===index?'active':""}}"></span>
+    </div>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p5}}"></image>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p6}}"></image>
+    <swiper class="swiper"  id="swiper3"  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}" bindchange="changeIndicatorDots" >
+    <block >
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p6_1}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p6_2}}"></image>
+        </swiper-item>
+    </block>
+    </swiper>
+    <div class="swiper-dots">
+        <span tt:for="{{1,2}}"  class="{{swiper3_dot===index?'active':""}}"></span>
+    </div>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p7}}"></image>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p8}}"></image>
+    <swiper class="swiper"  id="swiper4"  autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}" bindchange="changeIndicatorDots" >
+    <block >
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p8_1}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p8_2}}"></image>
+        </swiper-item>
+        <swiper-item class="swiper-item">
+            <image mode="widthFix" src="{{img.p8_3}}"></image>
+        </swiper-item>
+    </block>
+    </swiper>
+    <div class="swiper-dots">
+        <span tt:for="{{1,2,3}}"  class="{{swiper4_dot===index?'active':""}}"></span>
+    </div>
+</view>
+<view class="section">
+    <image mode="widthFix" src="{{img.p9}}"></image>
+</view>
+<view class="fixed">
+    <view class="button" bindtap="onClick"><image mode="widthFix" src="{{img.button}}"></image></view> 
+    <!-- <button
+        open-type="getPhoneNumber"
+        bindgetphonenumber="getPhoneNumberHandler"
+        >
+        获取手机号码
+    </button>   -->
+</view>

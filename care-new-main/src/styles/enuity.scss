@@ -1,0 +1,40 @@
+.equity {
+  .section {
+    position: relative;
+    .gif {
+      position: absolute;
+      width: 80%;
+      left: 10%;
+
+      &.gif1 {
+        top:33%;
+      }
+      &.gif2 {
+        top:70%;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .equity {
+    .section {
+      .gifwrap {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        .gif {
+          position: initial;
+          top:0;
+          width: 25%;
+          margin:0 4%;
+          border-radius:4%;
+        
+        }
+      }
+    }
+  }
+}

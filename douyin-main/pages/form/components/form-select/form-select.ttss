@@ -1,0 +1,26 @@
+.td-select {
+    height: 70rpx;
+    line-height: 70rpx;
+    padding:0 10px;
+    border:1px solid #8e96a0;
+    border-radius: 2px;
+    font-size:12px;
+    margin-top:10px;
+    color:#fff;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background:rgba(11,22,32,.6)
+}
+.td-select .label {
+    min-width: 65px;
+    padding-right: 10px;
+}
+.td-select  input {
+    flex:1;
+    height: 70rpx;
+    line-height: 70rpx;
+}
+.td-select  .placeholder {
+    color:#fff;
+}

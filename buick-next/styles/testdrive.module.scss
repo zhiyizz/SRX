@@ -1,0 +1,313 @@
+@use 'sass:color';
+@use 'sass:math';
+@import 'variables';
+
+.control-base {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: solid 1px #c1c1c1;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 25px;
+  line-height: 25px;
+  outline: 0;
+  width: 100%;
+  padding:0;
+  color:var(--color-dark);
+}
+.select-base {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="crimson" viewBox="0 0 10 5.64"><path d="M0,.64.69,0,5,4.4,9.38,0,10,.63l-5,5Z"/><polygon points="9.38 0.01 4.99 4.4 0.69 0 0 0.64 4.99 5.64 10 0.63 9.38 0.01"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  background-size: 10px;
+  padding-right: 1em;
+  &::-ms-expand {
+    display: none;
+  }
+}
+.main {
+  position: relative;
+  overflow: hidden;
+}
+.background{
+  display: flex;
+  // margin-top:43px;
+  position: absolute;
+  top:0;
+  left:0;
+  img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    object-position: left center;
+    display:block;
+  }
+}
+.container{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  // margin-top:43px;
+  min-height: calc(100vh - 44px);
+  position: relative;
+  .mapbtn{
+    font-size:math.div(26px, 1.8);
+    color:$color-primary;
+    position: absolute;
+    top:440px;
+    right:30px;
+    display: flex;
+    align-items: center;
+    z-index:2;
+    svg{
+      width:20px;
+      height:20px;
+      stroke:$color-primary;
+      path,line{stroke-width:10px;}
+    }
+  }
+  .map{
+    width:100%;
+    height:200px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    transition:height .2s;
+    .bd-container{
+      opacity:0;
+      transition:opacity .2s ease-in;
+      height:100%;
+      pointer-events:none;
+      .wrapper{
+        height:100%;
+      }
+    }
+    &.show{
+      height:575px;
+      .bd-container{
+        pointer-events:initial;
+        opacity:1;
+      }
+    }
+  }
+  .tdform{
+    margin-top:200px;
+    background-color: #fff;
+    box-sizing: border-box;
+    min-height:74vh;
+    padding:20px 30px 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .title{
+      font-size:math.div(36px, 1.8);
+      margin-top:0;
+      font-weight:100;
+      font-family: $font-headline;
+      height:25px;
+      margin-bottom:10px;
+      overflow: hidden;
+    }
+    .content{
+      position: relative;
+      .group{
+        margin-bottom:10px;
+        height:45px;
+        overflow: hidden;
+        .label{
+          font-size:math.div(27px, 2);
+          color:#a3a3a3;
+          padding-left:0px;
+        }
+      }
+      input.control, select {
+        @extend .control-base;
+      }
+      select {
+        @extend .select-base;
+        
+        option {
+          color: $color-dark;
+        }
+        optgroup, option:disabled {
+          color: color.scale($color: $color-dark, $whiteness: 90%);
+          font-weight: normal;
+        }
+      }
+      .radio {
+        input {
+          height: 0;
+          width: 0;
+          opacity:0;
+        }
+        label {
+          align-items: center;
+          cursor: pointer;
+          display: flex;
+          height: 100%;
+  
+          .mark {
+            border: solid 1px #c1c1c1;
+            border-radius: 50%;
+            height: 10px;
+            margin-right: 0.4em;
+            position: relative;
+            width: 10px;
+          }
+          input:checked + span::after {
+            background: $color-primary;
+            border-radius: 50%;
+            content: "";
+            height: 6px;
+            left: 2px;
+            position: absolute;
+            top: 2px;
+            width: 6px;
+          }
+        }
+      }
+    }
+    .footer{
+      .agreement {
+        font-size:math.div(26px, 1.8);
+        margin:50px 0 20px;
+        label {
+          align-items: center;
+          display: flex;
+          input {
+            height: 0;
+            width: 0;
+            opacity:0;
+          }
+          .mark {
+            border: solid 1px $color-dark;
+            cursor: pointer;
+            display: block;
+            height:10px;
+            margin-right: .4em;
+            margin-top: -2px;
+            position: relative;
+            width:10px;
+          }
+          .mark-checked::after {
+            background: $color-primary;
+            content: "";
+            height: 6px;
+            left: 2px;
+            position: absolute;
+            top: 2px;
+            width: 6px;
+          }
+          a {
+            border-bottom: solid 1px $color-dark;
+            color: inherit;
+            cursor: pointer;
+            text-decoration: none;
+          }
+        }
+      }
+      :global(.btn) {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .background{
+    margin:0;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+  }
+
+  .container{
+    // margin-top:48px;
+    flex-direction: row;
+    min-height: calc(100vh - 49px);
+    align-items: stretch;
+    .mapbtn{
+      cursor: pointer;
+    }
+    .map{
+      width:auto;
+      flex:1;
+      height:auto;
+      position: relative;
+      &.show{
+        height:initial;
+      }
+    }
+    .tdform{
+      width:40vw;
+      margin-top:0;
+      min-height:auto;
+      box-sizing: border-box;
+    }
+  }
+}
+@media (min-width: 992px) {
+  .container{
+    min-height: calc(100vh - 51px);
+    // margin-top:50px;
+  }
+}
+@media (min-width: 1200px) {
+  .container{
+    .mapbtn{
+      top:460px;
+      right:50px;
+    }
+    .tdform{
+      width:35vw;
+      padding:30px 50px 60px;
+      .title{
+        margin-bottom:20px;
+      }
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .control-base {
+    height:30px;
+    line-height:30px;
+  }
+  .select-base {
+    background-size:12px;
+  }
+  .container{
+    // margin-top:52px;
+    min-height: calc(100vh - 53px);
+    .mapbtn{
+      font-size:math.div(28px, 1.8);
+      top:550px;
+      right:50px;
+      svg{
+        width:24px;
+        height:24px;
+      }
+    }
+    .tdform{
+      width:35vw;
+      .title{
+        font-size:math.div(40px, 1.8);
+      }
+      .content{
+        .group{
+          margin-bottom:20px;
+          height:50px;
+          overflow: hidden;
+          .label{
+            font-size:math.div(28px, 2);
+          }
+        }
+      }
+    }
+  }
+}

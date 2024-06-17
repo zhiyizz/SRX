@@ -1,0 +1,52 @@
+.section {
+  width: 100%;
+  overflow: hidden;
+}
+.section image {
+    width:calc( 100% + 2px);
+    display:block;
+    margin-top:-1px;
+  }
+.section {
+  position: relative;
+}
+.section .swiper {
+  position:absolute;
+  left:5%;
+  top:0;
+  width: 90%;
+  height: 100%;
+  overflow:hidden;
+
+}
+.swiper-dots {
+  position: absolute;
+  right:40rpx;
+  bottom:40rpx;
+}
+.swiper-dots span {
+  display: inline-block;
+  width: 27rpx;
+  height: 42rpx;
+  margin:0 2px;
+  background: url(https://m.buick.com.cn/douyinapp/brand1214/dot.png) no-repeat;
+  background-size: cover;
+}
+.swiper-dots span.active {
+  background: url(https://m.buick.com.cn/douyinapp/brand1214/dot_active.png) no-repeat;
+  background-size: cover;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  bottom:0;
+}
+.fixed .button {
+  text-align: center;
+  color:#fff;
+  font-size:0;
+  padding:0;
+}
+.fixed .button image {
+    width: 100%;
+}

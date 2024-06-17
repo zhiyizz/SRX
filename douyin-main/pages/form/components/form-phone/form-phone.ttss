@@ -1,0 +1,12 @@
+.phone-wrapper{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.phone-input{
+    flex:1;
+}
+.btn-phone {
+    background: none;
+ 
+}

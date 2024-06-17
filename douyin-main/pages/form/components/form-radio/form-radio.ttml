@@ -1,0 +1,13 @@
+<i-panel title="{{label}}">
+  <i-radio-group id="{{element.id}}" bindchange="changeHandler">
+    <i-radio
+      position="right" 
+      tt:for="{{element.dataSource}}" 
+      tt:key="{{item.value}}" 
+      value="{{item.name}}" 
+      checked="{{value === item.name}}" 
+      disabled="{{false}}"
+    >
+    </i-radio>
+  </i-radio-group>
+</i-panel>

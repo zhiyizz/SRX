@@ -1,0 +1,124 @@
+.moreList {
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+    li {
+     
+      border: 1px solid #c5c5c5;
+      margin-bottom:15px;
+      a {
+        display: flex;
+      }
+      .pic {
+        display: block;
+        position: relative;
+        width: calc(210px / (4/3));
+        .image {
+          object-fit: cover;
+          position: relative;
+          object-position: center;
+          
+        }
+      }
+      .info {
+        padding-left: 10px;
+        overflow: hidden;
+        .title {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #333;
+          font-size: 18px;
+          font-family: 'buickfont-headline';
+          margin-top:10px;
+        }
+        .sign {
+        font-size: 12px;
+        color:#707070;
+        }
+        .price {
+        color:var(--color-primary);
+        sub {
+          bottom: 0;
+        }
+        span {
+          font-size:28px;
+        }
+        }
+      }
+    }
+  }
+  .link {
+    text-align: center;
+    margin-top:20px;
+    a {
+      display: inline-block;
+      width: 140px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px;
+      color:#fff;
+      background: var(--color-primary);
+    }
+  }
+}
+
+
+@media (min-width:768px) {
+   .moreList {
+     .list {
+       display: grid;
+       grid-template-columns: repeat(4, minmax(0, 1fr));
+       gap:20px;
+       
+       li {
+        display: block;
+        overflow: hidden;
+        a {
+          display: block;
+         }
+        .pic {
+          width: 100%;
+        }
+       }
+     }
+   }
+}
+
+@media (min-width:992px) {
+  .moreList {
+    .list {
+      li {
+        .info {
+          .sign {
+            font-size:14px;
+          }
+          .price {
+            font-size: 16px;
+            sub {
+              font-size: 16px;
+              margin-bottom:10px;
+              vertical-align:middle;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:1200px) {
+  .moreList {
+    .list {
+      li {
+        .info {
+          .title {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}

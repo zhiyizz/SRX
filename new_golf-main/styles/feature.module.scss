@@ -1,0 +1,27 @@
+.feature {
+  .title {
+    font-size:18px;
+    font-weight: 600;
+    font-family: var(--font-headline);
+    padding:0 20px;
+    margin-bottom: 20px;
+  }
+  .section {
+    padding:30px 0;
+  }
+}
+
+@media (min-width:768px){
+  .feature {
+    width: 82%;
+    margin:0 auto;
+    max-width: 1200px;
+    padding-bottom: 100px;
+    .title {
+      padding:0;
+    }
+    .section {
+      padding:80px 0 0 0;
+    }
+  }
+}

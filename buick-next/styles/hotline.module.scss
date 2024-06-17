@@ -1,0 +1,133 @@
+@use 'variables' as *;
+
+.control-base {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: solid 1px rgba($color: $color-dark, $alpha: 0.25);
+  border-radius: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  outline: 0;
+  padding:0;
+  width: 100%;
+}
+.select-base {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="crimson" viewBox="0 0 10 5.64"><path d="M0,.64.69,0,5,4.4,9.38,0,10,.63l-5,5Z"/><polygon points="9.38 0.01 4.99 4.4 0.69 0 0 0.64 4.99 5.64 10 0.63 9.38 0.01"/></svg>');
+  background-repeat: no-repeat;
+  background-position: 99% center;
+  background-size: 8px;
+  color: $color-dark;
+  padding-right: 1em;
+
+  &::-ms-expand {
+    display: none;
+  }
+}
+
+
+.main {
+  .kv img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .content {
+    padding: 30px 20px;
+
+    .desc {
+      h2 {
+        font: 600 16px var(--font-headline);
+        margin: 0 0 10px;
+      }
+      p {
+        font-size: 13px;
+        margin: 0;
+      }
+    }
+    .location {
+      margin-bottom: 20px;
+
+      h3 {
+        font-size: 14px;
+        margin: 2em auto 10px;
+      }
+      p {
+        color: $color-dark;
+        font-size: 14px;
+        margin: 0 auto 20px;
+      }
+
+      .field {
+        column-gap: 12px;
+        display: flex;
+
+        .control {
+          // flex: 1 1 auto;
+          width: 50%;
+
+          select {
+            @extend .control-base;
+            @extend .select-base;
+          }
+        }
+      }
+    }
+
+    .list {
+      .item {
+        border-radius: 2px;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+        overflow: hidden;
+
+        .info {
+          border: solid 1px rgba($color: $color-dark, $alpha: 0.25);
+          border-radius: 2px 2px 0 0;
+          border-bottom: 0;
+          padding-bottom: 15px;
+        }
+        h4 {
+          display: flex;
+          font-size: 14px;
+          margin: 15px auto;
+          padding: 0 10px;
+
+          .dist {
+            color: $color-dark;
+            font-weight: normal;
+            margin-left: auto;
+          }
+        }
+        .address {
+          align-items: center;
+          display: flex;
+          font-size: 12px;
+          line-height: 15px;
+          margin: 0 10px;
+
+          svg {
+            stroke: $color-dark;
+            width: 20px;
+          }
+          .dist {
+            color: $color-dark;
+            margin-left: auto;
+          }
+        }
+      }
+
+      .empty {
+        padding: 0 0 20px;
+
+        p {
+          color: #666;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+
+.submit {
+
+  padding:20px;
+
+  .title {
+    text-align: center;
+    border-bottom:1px solid #000;
+    margin-bottom: 30px;
+    font-family: var(--font-headline);
+    padding-bottom: 10px;
+  }
+  .content {
+    .group {
+      margin-bottom: 10px;
+      h5 {
+        font-size:15px;
+        margin:0 0 10px 0;
+         p {
+          font-weight: normal;
+          font-size: 14px;
+          margin-top:10px;
+         }
+      }
+      p {
+        font-size: 14px;
+        margin:0;
+        line-height: 1.5;
+      }
+    }
+
+    .form {
+      margin:20px 0;
+      .item {
+        margin-bottom: 15px;
+        &-label {
+          font-size:14px;
+        }
+
+        &-wrap {
+           input {
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            border:0;
+            border-bottom:1px solid #ccc;
+            font-size: 13px;
+            text-align: left;
+            &[name='parrelation'] {
+              margin-top:10px;
+            }
+             &[type='date'] {
+                text-align: left;
+                text-align: -webkit-left;
+             }
+            &[type='date']::before{
+              display: inline-block;
+              width: 100px;
+              color:#999;
+              content: attr(placeholder);
+            }
+            &[type='date']:not([value=""])::before{
+              display: none;
+             
+            }
+            &::placeholder {
+              font-size: 12px;
+            }
+          }
+          select {
+            width: 100%;
+            height: 30px;
+            font-size: 13px;
+            border:0;
+            color:#333;
+            border-bottom:1px solid #ccc;
+            position: relative;
+            background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="rgba(0,0,0,.3)" viewBox="0 0 10 5.64"><path d="M0,.64.69,0,5,4.4,9.38,0,10,.63l-5,5Z"/><polygon points="9.38 0.01 4.99 4.4 0.69 0 0 0.64 4.99 5.64 10 0.63 9.38 0.01"/></svg>');
+            background-size: 15px;
+            background-repeat: no-repeat;
+            background-position: 98%;
+          }
+          .item-list {
+            margin-top:15px;
+            .row {
+              margin-bottom:10px;
+              label {
+                display: flex;
+                align-items: center;
+                input[type="checkbox"] {
+                  display: inline-block;
+                  width: inherit;
+                  margin-right:10px;
+  
+   
+                }
+                
+                // &:has(input:checked) ~ input {
+                //   display:block;
+                // }
+              }
+              // input{
+              //   display: none;
+              // }
+         
+            }
+          }
+          .testdrive-row {
+            .testdrive-col {
+              margin-bottom: 10px;
+              label {
+                display: flex;
+              }
+            }
+          }
+
+        }
+        .agreement {
+          display: flex;
+          font-size: 13px;
+          align-items:center;
+          input {margin-right:10px;}
+          a {
+            color:#333;
+          }
+        }
+      }
+    }
+    .submit {
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      border:1px solid #ccc;
+      padding:0;
+      background:none;
+      color:#666;
+      font-size:14px;
+      cursor: pointer;
+    }
+  }
+  .overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    z-index:100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.3);
+    .content {
+      width: 80%;
+      box-sizing: border-box;
+      background:#fff;
+      font-size: 13px;
+      padding:40px 20px 20px;
+      position: relative;
+      p {
+        padding:0;
+        margin:0;
+        line-height: 1.5;
+      }
+      .close {
+        cursor: pointer;
+        position: absolute;
+        right:20px;
+        top:20px;
+        width: 20px;
+        height: 20px;
+        display: block;
+        font-size: 0;
+        &::before,&::after {
+          content:"";
+          display: block;
+          height: 1px;
+          background:#000;
+        }
+        &::before {
+          transform: rotate(45deg);
+        }
+        &::after {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .submit {
+    width: 60%;
+    max-width: 800px;
+    margin:0 auto;
+    .title {
+      font-size: 20px;
+    }
+    .overlay {
+      .content {
+        max-width: 600px;
+        min-height: 200px;
+        display:flex;
+        align-items: center;
+        p {
+          font-size: 16px;
+        }
+      }
+     
+    }
+    .content {
+      .group {
+        h5 {
+          font-size: 18px;
+          margin:10px 0 20px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .form {
+        .item {
+          margin-bottom: 20px;
+          &-label,label  {
+            font-size: 16px;
+            margin-bottom: 5px;
+          }
+          input {
+            font-size: 14px;
+            &[type='date']:before{
+              display: none;
+             
+            }
+            &::placeholder {
+              font-size: 14px;
+            }
+          }
+          select {
+            font-size: 14px;
+          }
+          &-wrap {
+            .item-list {
+              .row {
+                label {
+                  font-size: 16px;
+                }
+              }
+            }
+            .testdrive-row {
+              display: flex;
+              gap: 20px;
+              .testdrive-col {
+                flex:1;
+                margin-bottom: 20px;
+
+              }
+            }
+  
+          }
+        }
+        .flex {
+          display: flex;
+          gap: 20px;
+          .item {
+            flex:1;
+          }
+        }
+       .submit {
+          width: 200px;
+          margin:0 auto;
+          display: block;
+       }
+      }
+
+    }
+
+  }
+}

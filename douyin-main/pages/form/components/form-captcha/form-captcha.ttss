@@ -1,0 +1,47 @@
+.captcha-wrapper{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.submit_phone {
+    background:#000;
+    color:#fff;
+}
+.captcha-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 300px;
+    height: 160px;
+    padding: 24px 12px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+.captcha-close{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+.captcha-title{
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.captcha-sub-title{
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.sms-validate{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.sms-validate-input{
+    flex: 1;
+}

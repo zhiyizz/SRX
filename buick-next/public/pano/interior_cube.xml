@@ -1,0 +1,14 @@
+<krpano version="1.18">
+	
+	<!-- the skin -->
+	<include url="skin/defaultskin.xml" />
+	
+	<!-- view settings -->
+	<view hlookat="0" vlookat="5" fovtype="MFOV" mfovratio="1.66667" fov="90" maxpixelzoom="1.5" fovmax="100" limitview="auto" />
+	
+
+	<image cubelabels="%$labels%">
+		<cube url="%$imgpath%" />
+	</image>
+
+</krpano>

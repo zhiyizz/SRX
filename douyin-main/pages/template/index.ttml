@@ -1,0 +1,40 @@
+<view class="main">
+    <view class="section" tt:for="{{infoData.moduledata}}" tt:for-index="arr" tt:for-item="item">
+        <block tt:if="{{item.type === 'image'}}">
+            <block tt:if="{{item.data.length > 1 }}">
+                <swiper class="swiper" indicator-dots="true" indicator-color="rgba(255,255,255,.5)" bindchange="bindchange"
+                    style="height:{{item.height}}rpx;">
+                    <block tt:for="{{item.data}}" tt:for-item="ditem">
+                        <swiper-item>
+                            <image mode="widthFix" src="{{ditem}}" ></image>
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </block>
+            <block tt:elif="{{item.data.length <= 1 }}" tt:for="{{item.data}}" tt:for-item="ditem" >
+                <image mode="widthFix" src="{{ditem}}" ></image>
+            </block>
+        </block>
+        
+        <block tt:if="{{item.type === 'video'}}">
+            <block tt:if="{{item.data.length > 1 }}">
+                <swiper class="{{item.display_mode==='横版'?'video-horizontal swiper':'video-vertical swiper'}}" indicator-dots="true" indicator-active-color="rgba(255,255,255)" indicator-color="rgba(255,255,255,.5)" bindchange="bindchange">
+                    <block tt:for="{{item.data}}" tt:for-item="ditem">
+                        <swiper-item>
+                            <video src="{{ditem.video}}" class="video-play" id="video-play-{{arr}}-{{index}}" bindplay="pause"   poster="{{ditem.poster}}" object-fit="contain"  ></video>
+                        </swiper-item>
+                    </block>
+                </swiper>
+            </block>
+            <block tt:elif="{{item.data.length <= 1 }}" tt:for="{{item.data}}" tt:for-item="ditem">
+                <video src="{{ditem.video}}" class="{{item.display_mode==='横版'?'video-horizontal video-play':'video-vertical video-play'}}"   id="video-play-{{arr}}" bindplay="pause"  poster="{{ditem.poster}}"  object-fit="contain" ></video>
+            </block>
+        </block>
+        
+    </view>
+
+    <view class="target" bindtap="onClick">
+       <image src="{{infoData.appoint_testdrive_button.bg}}" alt="" />
+       <text style="color:{{infoData.appoint_testdrive_button.color}}">{{infoData.appoint_testdrive_button.text}}</text>
+    </view>
+</view>

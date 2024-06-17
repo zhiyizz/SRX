@@ -1,0 +1,29 @@
+image: node:latest
+
+stages:
+  - build
+  - deploy
+  # 缓存 node_modules 减少打包时间，默认会清除 node_modules 和 dist 
+cache:
+  paths:
+    - node_modules/
+build:
+  stage: build
+  tags:
+    - dev
+  script:
+  # - echo "$CI_PROJECT_DIR"  # 拉取项目的根目录
+  - npm install
+  - ./node_modules/typescript/bin/tsc -p ./tsconfig.json
+  rules:
+    - if: $CI_COMMIT_TAG   
+
+deploy:
+  stage: deploy
+  tags:
+    - dev 
+  script:
+    - echo "//git-sh.topsrx.com/api/v4/projects/81/packages/npm/:_authToken=_7Gry4o9nzfikJxhsG8h">.npmrc
+    - npm publish
+  rules:
+    - if: $CI_COMMIT_TAG   

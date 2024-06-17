@@ -1,0 +1,210 @@
+.main {
+  .kv {
+    img {
+      width: 100%;
+    }
+  }
+
+  .section {
+    max-width: 1180px;
+    margin:20px auto;
+    &-text {
+      width: 88%;
+      margin:0 auto;
+      color:#1c1c1c;
+      font-size: 13px;
+      line-height: 21px;
+      text-align: justify;
+      margin-bottom: 35px;
+      text-align: left;
+      h4 {
+        font-size: 25px;
+        color: #0e0e0e;
+        font-weight: 400;
+        line-height: 30px;
+        margin:0 0 10px 0;
+      }
+    }
+    .group {
+      margin-top:80px;
+      
+      .container {
+        width: 88%;
+        margin: 0 auto;
+        .title {
+          margin: 20px 0;
+          .subTitle {
+            color: #1c1c1c;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          .en {
+            color: #78787d;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          h4 {
+            margin:0;
+            font-size: 25px;
+            color: #0e0e0e;
+            font-weight: 400;
+            line-height: 30px;
+          }
+        }
+        .text {
+          color: #78787d;
+          font-size: 13px;
+          line-height: 21px;
+          text-align: justify;
+          margin-bottom: 35px;
+        }
+        .linkButton {
+          color:#fff;
+          width: 90%;
+          margin:0 auto;
+          border: 1px solid #e40032;
+          background-color: #e40032;
+          font-size: 14px;
+          padding: 1em 0;
+          text-align: center;
+          border-radius: 3px;
+          display: block;
+          border-radius: 0;
+        }
+       
+      }
+      .swiperGroup {
+        .swiperSlide {
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+          }
+        }
+        :global {
+          .swiper-pagination,
+          .swiper-button-prev,
+          .swiper-button-next {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+@media (min-width: 768px) {
+
+  .main { 
+    .section {
+      &-text {
+        margin-bottom: 100px;
+        text-align: center;
+        h4 {
+          margin:0;
+          font-size: 32px;
+          font-weight: 400;
+          color: #0e0e0e;
+          line-height: 100px;
+        }
+      }
+      .group {
+        .container {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          padding:40px 0 100px;
+          gap:0 30px;
+          position: relative;
+          .title {
+            grid-column: 1 / span 2;
+            margin:0;
+            .en {
+              font-size: 16px;
+            }
+            h4 {
+              font-size: 34px;
+            }
+          }
+          .text {
+            grid-column: 4 / span 6;
+            margin:0;
+            display: flex;
+            align-items: end;
+            p {
+              margin:0;
+            }
+          }
+          .linkButton {
+            position: absolute;
+            left:0;
+            top:100px;
+            margin:0;
+            font-size: 28px;
+            height: 50px;
+            line-height: 50px;
+            padding:0;
+            grid-column: 1 / span 2;
+            margin-top:10px;
+          }
+        }
+        .swiperGroup {
+
+          :global {
+
+            .swiper-pagination {
+              display: block;
+            }
+            .swiper-button-prev,
+            .swiper-button-next {
+              display: block;
+              &::after {
+                color:#fff;
+                content:"";
+                font-size: 0;
+                width: 40px;
+                height: 40px;
+                display: block;
+                border-left: 1px solid #fff;
+                border-top: 1px solid #fff;
+              }
+            }
+            .swiper-button-prev {
+              transform: rotate(-45deg);
+              left:5%;
+            }
+            .swiper-button-next {
+              transform: rotate(135deg);
+              right:5%;
+            }
+            .swiper-pagination {
+              .swiper-pagination-bullet {
+                width: 50px;
+                height: 4px;
+                border-radius: 0;
+                background: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .main {
+    .section {
+      .group {
+        .container {
+          width: 100%;
+        }
+  
+      }
+    }
+  }
+}

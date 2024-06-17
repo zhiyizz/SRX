@@ -1,0 +1,30 @@
+@import url('https://www.buick.com.cn/css/global.css');
+
+ * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} 
+h4 {
+  font-weight: normal;
+}
+/* body {
+  padding-bottom:80px;
+} */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+input,select {
+  box-sizing: border-box;
+  background:none;
+}
+input::-webkit-date-and-time-value{ text-align:left; color:#666; }
+
+select {
+  appearance: none;
+}
+:focus-visible {outline:none; border:0;}
+@media (prefers-color-scheme: dark) {
+
+}

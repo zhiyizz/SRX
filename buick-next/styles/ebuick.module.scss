@@ -1,0 +1,108 @@
+@use 'sass:color';
+@use 'sass:math';
+@import 'variables';
+
+.main{
+  position: relative;
+  *{
+    box-sizing: border-box;
+  }
+}
+.title{
+  font:100 20px var(--font-headline);
+  text-align: center;
+  margin:0;
+  padding:30px 0;
+}
+.select-container{
+  margin-bottom:30px;
+  position: relative;
+  z-index:10;
+  .selected{
+    padding:0 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:16px;
+    &.open{
+      &::after{
+        transform: rotate(180deg);
+      }
+    }
+    &::after{
+      content:'';
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="crimson" viewBox="0 0 10 5.64"><path d="M0,.64.69,0,5,4.4,9.38,0,10,.63l-5,5Z"/><polygon points="9.38 0.01 4.99 4.4 0.69 0 0 0.64 4.99 5.64 10 0.63 9.38 0.01"/></svg>');
+      background-repeat: no-repeat;
+      background-position: 100% center;
+      background-size: 1em;
+      padding-right:1em;
+    }
+  }
+  .list{
+    font-size:14px;
+    display:none;
+    &.open{
+      display:block;
+    }
+    ul{
+      list-style:none;
+      padding:0;
+      margin:0;
+      display: flex;
+      flex-direction: column;
+      li{
+        height:36px;
+        display:flex;
+        align-items: center;
+        padding:0 20px;
+        border-bottom:1px solid var(--color-light);
+        &:hover{
+          background-color:var(--color-light);
+        }
+      }
+    }
+  }
+}
+.car-container{
+  display: flex;
+  flex-direction: column;
+  padding-bottom:60px;
+  .item{
+    position: relative;
+    margin-top:-15%;
+    a{color:var(--color-dark)}
+    .figure{
+      width: 80%;
+      margin: 0 auto -2%;
+      position: relative;
+
+      img {
+        display: block;
+        height: auto;
+        width: 100%;
+      }
+    }
+    .frame{
+      display: flex;
+      align-items: center;
+      width:100%;
+      padding:0 40px;
+      position: absolute;
+      left:0;
+      bottom:0;
+      h4{
+        font-weight:normal;
+        margin-right:10px;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1400px) {
+}

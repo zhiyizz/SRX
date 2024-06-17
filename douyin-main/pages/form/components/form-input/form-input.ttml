@@ -1,0 +1,8 @@
+<i-input
+  title="{{label}}"
+  value="{{value}}" 
+  type="text" 
+  bind:focus="focusHandler" 
+  bind:blur="blurHandler"
+  bind:change="changeHandler"
+/>

@@ -1,0 +1,59 @@
+view {
+    margin:10px 0;
+}
+.scroll {
+    overflow-y: auto;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.main,.box {
+    padding: 10px;
+    font-size:14px;
+    line-height: 28px;
+    overflow: hidden;
+    color:#666;
+}
+.main-title,.title {
+    font-size:16px;
+    font-weight: bold;
+    text-align: center;
+    margin:10px 0;
+    color:#333;
+}
+.main-day {text-align: right;}
+.b {display: inline; font-weight: bold; text-indent: 0; color:#303030;}
+.indent {
+    text-indent: 2em;
+    margin:10px 0;
+}
+.h3 {
+    font-size:16px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color:#303030;
+}
+.u {
+    display: inline;
+    text-decoration: underline;
+    font-weight: bold;
+    color:#303030;
+}
+.ol view {
+    list-style-type:circle;
+}
+.table {
+    display: inline-table;
+}
+.table .tr {
+    display: table-row;
+    border:1px solid #ccc;
+}
+.table .tr .td {
+    display: table-cell;
+    border:1px solid #ccc;
+    word-wrap: break-all;
+    word-break: break-all;
+}
+.roman view {
+    padding-left:20px;
+}

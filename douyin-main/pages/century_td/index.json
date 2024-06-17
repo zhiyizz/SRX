@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "provacy-component": "../privacy/privacy"
+    },
+    "navigationBarTitleText": "别克世纪"
+}

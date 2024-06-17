@@ -1,0 +1,54 @@
+
+.subMenu {
+  height: 38px;
+  line-height: 38px;
+  border-bottom:1px solid #d6d6d6;
+  padding:0;
+  ul {
+    white-space: nowrap;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x:auto;
+    list-style: none;
+    padding:0;
+    margin:0 auto;
+    text-align: center;
+    li {
+      padding:0 10px;
+      display: inline-block;
+      font-family: var(--font-headline);
+      &.active {
+        span {
+          padding-bottom:2px;
+          border-bottom:1px solid var(--color-primary);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width:768px){
+  .subMenu {
+     height: 50px;
+     line-height: 50px;
+     ul {
+      li {
+        font-size: 16px;
+        padding:0 3%;
+      }
+     }
+  }
+}
+@media (min-width:1200px){
+  .subMenu {
+     height: 60px;
+     line-height: 60px;
+     ul {
+      li {
+        font-size: 18px;
+        padding:0 2%;
+        
+      }
+     }
+  }
+}

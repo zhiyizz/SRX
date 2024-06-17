@@ -1,0 +1,108 @@
+// @font-face {
+//   font-family: 'buickfont';
+//   src: url('https://www.buick.com.cn/font/t450.eot');
+//   src: url('https://www.buick.com.cn/font/t450.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/t450.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/t450.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/t450.ttf') format('truetype');
+//   font-weight: 400 500;
+// }
+// @font-face {
+//   font-family: 'buickfont';
+//   src: url('https://www.buick.com.cn/font/t700.eot');
+//   src: url('https://www.buick.com.cn/font/t700.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/t700.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/t700.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/t700.ttf') format('truetype');
+//   font-weight: 700;
+// }
+// @font-face {
+//   font-family: 'buickfont-headline';
+//   src: url('https://www.buick.com.cn/font/h450.eot');
+//   src: url('https://www.buick.com.cn/font/h450.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/h450.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/h450.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/h450.ttf') format('truetype');
+//   font-weight: 400 500;
+// }
+// @font-face {
+//   font-family: 'buickfont-headline';
+//   src: url('https://www.buick.com.cn/font/h600.eot');
+//   src: url('https://www.buick.com.cn/font/h600.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/h600.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/h600.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/h600.ttf') format('truetype');
+//   font-weight: 600;
+// }
+// @font-face {
+//   font-family: 'buickfont-headline';
+//   src: url('https://www.buick.com.cn/font/h700.eot');
+//   src: url('https://www.buick.com.cn/font/h700.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/h700.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/h700.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/h700.ttf') format('truetype');
+//   font-weight: 700;
+// }
+
+// @font-face {
+//   font-family: 'buicken';
+//   src: url('https://www.buick.com.cn/font/en-tl.eot');
+//   src: url('https://www.buick.com.cn/font/en-tl.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/en-tl.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/en-tl.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/en-tl.ttf') format('truetype');
+//   font-weight: 400 500;
+// }
+// @font-face {
+//   font-family: 'buicken';
+//   src: url('https://www.buick.com.cn/font/en-tr.eot');
+//   src: url('https://www.buick.com.cn/font/en-tr.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/en-tr.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/en-tr.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/en-tr.ttf') format('truetype');
+//   font-weight: 600;
+// }
+// @font-face {
+//   font-family: 'buicken';
+//   src: url('https://www.buick.com.cn/font/en-tm.eot');
+//   src: url('https://www.buick.com.cn/font/en-tm.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/en-tm.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/en-tm.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/en-tm.ttf') format('truetype');
+//   font-weight: 700;
+// }
+// @font-face {
+//   font-family: 'buicken-headline';
+//   src: url('https://www.buick.com.cn/font/en-hl.eot');
+//   src: url('https://www.buick.com.cn/font/en-hl.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/en-hl.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/en-hl.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/en-hl.ttf') format('truetype');
+//   font-weight: 400;
+// }
+// @font-face {
+//   font-family: 'buicken-headline';
+//   src: url('https://www.buick.com.cn/font/en-hr.eot');
+//   src: url('https://www.buick.com.cn/font/en-hr.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/en-hr.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/en-hr.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/en-hr.ttf') format('truetype');
+//   font-weight: 600;
+// }
+// @font-face {
+//   font-family: 'buicken-headline';
+//   src: url('https://www.buick.com.cn/font/en-hm.eot');
+//   src: url('https://www.buick.com.cn/font/en-hm.eot?#iefix') format('embedded-opentype'),
+//        url('https://www.buick.com.cn/font/en-hm.woff2') format('woff2'),
+//        url('https://www.buick.com.cn/font/en-hm.woff') format('woff'),
+//        url('https://www.buick.com.cn/font/en-hm.ttf') format('truetype');
+//   font-weight: 700;
+// }
+
+// @font-face {
+//   font-family: 'buickfont-vf';
+//   src: url('https://www.buick.com.cn/font/yhvf.woff2') format('woff2') tech('variations'),
+//        url('https://www.buick.com.cn/font/yhvf.woff2') format('woff2-variations');
+//   font-weight: 100 1000;
+//   font-stretch: 25% 151%;
+// }

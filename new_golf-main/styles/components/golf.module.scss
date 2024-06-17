@@ -1,0 +1,38 @@
+.golf {
+  padding:0 20px;
+  .content {
+    font-size:13px;
+    line-height: 1.5;
+    max-height: 300px;
+    min-height: 100px;
+    overflow-y: auto;
+    h4 {
+      font-size: 16px;
+      margin:20px 0 10px;
+      font-weight: 600;
+    }
+
+    .question {
+      .title {
+        font-size: 14px;
+        font-family: var(--font-headline);
+        font-weight: 600;
+        margin-bottom:5px;
+      }
+      .text {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .golf {
+    padding:0;
+    .content {
+      max-height: 500px;
+      font-size: 16px;
+      
+    }
+  }
+}

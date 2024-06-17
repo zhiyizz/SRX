@@ -1,0 +1,53 @@
+version: '3.1'
+
+services:
+  next:
+    image: registry.zino.co/front-end/buick-next:latest
+    restart: unless-stopped
+    environment:
+      SECRET_TOKEN: ${SECRET_TOKEN}
+      PREVIEW_TOKEN: ${PREVIEW_TOKEN}
+      TRACKING_TOKEN: ${TRACKING_TOKEN}
+      STATIC_HOST: https://buicknew.blob.core.chinacloudapi.cn
+      BUICK_API: http://10.127.16.5:8002/buickapi/officialsite
+      PREVIEW_API: http://10.127.16.6:8003/webapi
+      DATA_API: ${DATA_API}
+      FORCE_USE_BACKUP: ${FORCE_USE_BACKUP}
+    # ports:
+    #   - 3000:3000
+    volumes:
+      - /mnt/data/compose/buick/public:/app/public
+      - /mnt/data/compose/buick/static:/app/.next/static
+    extra_hosts:
+      - service.zino.co:58.34.50.142
+
+  mob:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    ports:
+      - 4000:80
+    volumes:
+      - /mnt/data/compose/buick/mob:/usr/share/nginx/html:ro
+      - /mnt/data/compose/buick/nginx/mobile.conf:/etc/nginx/conf.d/default.conf:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: 100m
+        max-file: '10'
+
+  # pc only
+  pc:
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    ports:
+      - 3000:80
+      - 3001:80
+    volumes:
+      - /mnt/data/compose/buick/pc:/usr/share/nginx/html:ro
+      - /mnt/data/compose/buick/nginx/pc.conf:/etc/nginx/conf.d/default.conf:ro
+      # - /mnt/data/compose/buick/nginx/act.conf:/etc/nginx/conf.d/act.conf:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: 100m
+        max-file: '10'

@@ -1,0 +1,30 @@
+<view class="main">
+    <view class="kv"><image src="{{kv}}"  mode="widthFix" ></image></view>
+    <view class="testdrive">
+         <image src="{{bg}}"  mode="widthFix"></image> 
+        <i-panel title="{{titletext}}" theme="{{titlecolor}}" class="td-form">
+            <view tt:for="{{elements}}" tt:key="{{element.id}}" tt:for-item="element">
+              <form-input label="{{element.label}}"  class="td-item" tt:if="{{element.type === 1 | element.type === 8}}" bindvaluechange="formValueChange"
+                element="{{element}}"/>
+              <form-phone label="{{element.label}}" openid="{{openid}}"  class="td-item" tt:elif="{{element.type === 2}}" bindvaluechange="formValueChange"
+                element="{{element}}"></form-phone>
+              <!-- <form-radio label="{{element.label}}" tt:if="{{element.type === 5 | element.type === 11}}" bindvaluechange="formValueChange"
+                element="{{element}}"></form-radio>
+              <form-checkbox label="{{element.label}}" tt:if="{{element.type === 12}}" bindvaluechange="formValueChange"
+                element="{{element}}"></form-checkbox>
+              <form-city label="{{element.label}}" tt:if="{{element.type === 7}}" bindvaluechange="formValueChange" element="{{element}}">
+              </form-city> -->
+              <form-select  label=""  tt:if="{{element.type === 10}}" bindvaluechange="formValueChange" element="{{element}}">
+              </form-select>
+            </view>
+            <view style="margin-top:20px">
+              <i-button theme="{{[btnbgcolor,btnfontcolor]}}" type="primary" size="default" bindtap="submit">
+                {{btntext}}
+              </i-button>
+            </view>
+          </i-panel>
+    </view>
+</view>
+<form-captcha tt:if="{{showCaptcha}}" bindvalidatesuccess="submitWithCaptcha" bindclose="closeCaptcha"
+  phoneNumber="{{captchaOptions.phoneNumber}}" secretPhoneId="{{captchaOptions.secretPhoneId}}"
+  validateImgUrl="{{captchaOptions.validateImgUrl}}" validateType="{{captchaOptions.validateType}}"></form-captcha>

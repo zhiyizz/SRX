@@ -1,0 +1,54 @@
+@import 'variables';
+
+.main {
+  height: calc(100vh - var(--nav-height));
+  margin: 26vh auto;
+  width: 400px;
+
+  h2 {
+    font-family: var(--font-headline);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    padding: 0 30px;
+  }
+}
+
+.frame {
+  box-shadow: 0 0 12px rgba(#000, 0.3);
+  padding: 20px 30px;
+
+  h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 20px;
+  }
+
+  .group {
+    display: flex;
+
+    input {
+      appearance: none;
+      background: none;
+      border: 0;
+      border-bottom: solid 1px rgba($color: $color-dark, $alpha: 0.25);
+      border-radius: 0;
+      box-sizing: border-box;
+      font-size: 16px;
+      height: 30px;
+      line-height: 30px;
+      outline: 0;
+      padding:0;
+      width: 100%;
+    }
+    :global(.btn) {
+      font-size: 16px;
+      height: 30px;
+      margin: 0;
+      line-height: 30px;
+      white-space: nowrap;
+      min-width: auto;
+      width: 150px;
+    }
+  }
+}

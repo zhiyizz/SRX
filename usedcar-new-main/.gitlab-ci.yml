@@ -1,0 +1,247 @@
+.tests-staging:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - if: $CI_COMMIT_REF_NAME =~ /^stage-.+/
+
+.tests-release:
+  rules:
+    - if: $CI_COMMIT_REF_NAME == "main"
+  #     changes:
+  #       - assets/**/*
+  #       - components/**/*
+  #       - data/**/*
+  #       - pages/**/*
+  #       - styles/**/*
+  #       - utils/**/*
+  tags:
+    - release
+
+.build-base:
+  image: registry.zino.co/ci/runner/node-pnpm-lftp:latest
+  stage: build
+  before_script:
+    - pnpm install
+  script:
+    - pnpm build
+  artifacts:
+    paths:
+      - .next/
+    exclude:
+      - .next/cache/**/*
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+      - .next/cache/
+
+variables:
+  # When you use the dind service, you must instruct Docker to talk with
+  # the daemon started inside of the service. The daemon is available
+  # with a network connection instead of the default
+  # /var/run/docker.sock socket. Docker 19.03 does this automatically
+  # by setting the DOCKER_HOST in
+  # https://github.com/docker-library/docker/blob/d45051476babc297257df490d22cbd806f1b11e4/19.03/docker-entrypoint.sh#L23-L29
+  DOCKER_HOST: unix:///var/run/docker.sock
+  #
+  # The 'docker' hostname is the alias of the service container as described at
+  # https://docs.gitlab.com/ee/ci/services/#accessing-the-services.
+  #
+  # Specify to Docker where to create the certificates. Docker
+  # creates them automatically on boot, and creates
+  # `/certs/client` to share between the service and job
+  # container, thanks to volume mount from config.toml
+  #DOCKER_TLS_CERTDIR: "/certs"
+  #DOCKER_DRIVER: overlay2
+
+stages:
+  - build
+  - docker
+  - static
+  - deploy
+
+build:
+  extends:
+    - .build-base
+    - .tests-release
+
+build-image:
+  extends: .tests-release
+  image: docker:20.10.18
+  stage: docker
+  needs:
+    - job: build
+      artifacts: true
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker pull $CI_REGISTRY_IMAGE:deps || true
+    - docker pull $CI_REGISTRY_IMAGE:latest || true
+    
+    - docker build --cache-from $CI_REGISTRY_IMAGE:deps --target deps -t $CI_REGISTRY_IMAGE:deps .
+    - docker build --cache-from $CI_REGISTRY_IMAGE:latest --cache-from $CI_REGISTRY_IMAGE:deps -t $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA .
+
+    - docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+    # - docker push $CI_REGISTRY_IMAGE:latest
+    - docker push $CI_REGISTRY_IMAGE:deps
+    # - docker push $CI_REGISTRY_IMAGE:$CI_PIPELINE_ID
+
+# deploy-public:
+#   image: registry.zino.co/ci/runner/alpine-rsync:latest
+#   stage: static
+#   before_script:
+#     ##
+#     ## Install ssh-agent if not already installed, it is required by Docker.
+#     ## (change apt-get to yum if you use an RPM-based image)
+#     ##
+#     # - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+
+#     ##
+#     ## Run ssh-agent (inside the build environment)
+#     ##
+#     - eval $(ssh-agent -s)
+
+#     - mkdir ~/.ssh && chmod 700 ~/.ssh
+#     - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+#     - chmod 644 ~/.ssh/known_hosts
+
+#     ##
+#     ## Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+#     ## We're using tr to fix line endings which makes ed25519 keys work
+#     ## without extra base64 encoding.
+#     ## https://gitlab.com/gitlab-examples/ssh-private-key/issues/1#note_48526556
+#     ##
+#     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+
+#     ##
+#     ## Optionally, if you will be using any Git commands, set the user name and
+#     ## and email.
+#     ##
+#     # - git config --global user.email "user@example.com"
+#     # - git config --global user.name "User name"
+
+#   script:
+#     - rsync -av --exclude=".DS_Store" ./public $SSH_DESTINATION
+#   rules:
+#     - if: $CI_COMMIT_REF_NAME == "main"
+#       changes:
+#         - public/**/*
+#   tags:
+#     - release
+
+deploy:
+  extends: .tests-release
+  image: docker:20.10.18
+  stage: deploy
+  before_script:
+    ##
+    ## Install ssh-agent if not already installed, it is required by Docker.
+    ## (change apt-get to yum if you use an RPM-based image)
+    ##
+    - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+
+    ##
+    ## Run ssh-agent (inside the build environment)
+    ##
+    - eval $(ssh-agent -s)
+
+    - mkdir ~/.ssh && chmod 700 ~/.ssh
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+    - chmod 644 ~/.ssh/known_hosts
+
+    ##
+    ## Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+    ## We're using tr to fix line endings which makes ed25519 keys work
+    ## without extra base64 encoding.
+    ## https://gitlab.com/gitlab-examples/ssh-private-key/issues/1#note_48526556
+    ##
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+
+    ##
+    ## Optionally, if you will be using any Git commands, set the user name and
+    ## and email.
+    ##
+    # - git config --global user.email "user@example.com"
+    # - git config --global user.name "User name"
+
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - scp -r .next/static $SSH_DESTINATION
+    - docker pull $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+    - docker tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA $CI_REGISTRY_IMAGE:latest
+    - docker push $CI_REGISTRY_IMAGE:latest
+    - docker -H $DOCKER_HOST_PROD compose -p usedcar pull next
+    - docker -H $DOCKER_HOST_PROD compose -p usedcar up -d --no-deps
+  needs:
+    - job: build
+      artifacts: true
+    - build-image
+    # - job: deploy-public
+    #   optional: true
+  # environment:
+  #   name: production
+  #   url: https://www.buick.com.cn/usedcar
+  allow_failure: false
+  when: manual
+
+
+staging:
+  extends:
+    - .build-base
+    - .tests-staging
+  environment:
+    name: staging
+    action: prepare
+  tags:
+    - build
+  artifacts:
+    name: "$CI_COMMIT_REF_SLUG"
+  cache:
+    key: staging
+
+clean-staging-cache:
+  stage: static
+  script:
+    - Remove-Item -Path $env:STAGING_ROOT\.next\cache\images\* -Recurse
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^stage-.+/
+      changes:
+        - public/img/**/*
+  tags:
+    - stage
+
+deploy-public-stage:
+  stage: static
+  script:
+    - xcopy $env:CI_PROJECT_DIR\public $env:STAGING_ROOT\public /S /K /Y /Q
+  tags:
+    - stage
+  rules:
+    - if: $CI_COMMIT_REF_NAME =~ /^stage-.+/
+      changes:
+        - public/**/*
+
+deploy-stage:
+  extends: .tests-staging
+  stage: deploy
+  script:
+    - xcopy $env:CI_PROJECT_DIR\.next $env:STAGING_ROOT\.next /S /K /Y /EXCLUDE:$env:STAGING_ROOT\excfiles.txt
+    - xcopy $env:CI_PROJECT_DIR\data $env:STAGING_ROOT\data /S /K /Y /EXCLUDE:$env:STAGING_ROOT\excfiles.txt
+    - xcopy $env:CI_PROJECT_DIR\next.config.js $env:STAGING_ROOT /K /Y
+    - xcopy $env:CI_PROJECT_DIR\package.json $env:STAGING_ROOT /K /Y
+    - xcopy $env:CI_PROJECT_DIR\pnpm-lock.yaml $env:STAGING_ROOT /K /Y
+    - cd $env:STAGING_ROOT
+    - .\buick stopwait
+    - pnpm fetch --prod
+    - pnpm i -r --offline --prod
+    - .\buick start
+  # environment:
+  #   name: staging
+  #   url: https://webtest.buick.com.cn/usedcar
+  needs:
+    - job: staging
+      artifacts: true
+    - job: deploy-public-stage
+      optional: true
+  tags:
+    - stage

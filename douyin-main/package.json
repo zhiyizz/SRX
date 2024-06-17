@@ -1,0 +1,22 @@
+{
+  "name": "douyin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git-sh.topsrx.com:futian/douyin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clue_nidapp/captcha-core": "^2.0.1-alpha.2",
+    "@clue_nidapp/form-core": "^2.0.1-alpha.2",
+    "@clue_nidapp/mini-convert-sdk": "^0.0.6-alpha.6",
+    "@clue_nidapp/plugin-api-mini": "^0.0.2-alpha.2"
+  }
+}

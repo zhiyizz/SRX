@@ -1,0 +1,7 @@
+.element-wrapper {
+    display: flex;
+}
+.element{
+    flex: 1;
+    margin-bottom: 10px;
+}

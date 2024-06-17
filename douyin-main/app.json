@@ -1,0 +1,23 @@
+{
+    "pages": [
+        "pages/century/index",
+        "pages/template/index",
+        "pages/template_submit/index",
+        "pages/brand1214/index",
+        "pages/brand1214_td/index",
+        "pages/promotion1111/index",
+        "pages/promotion1111_td/index",
+        "pages/century_td/index",
+        "pages/index/index",
+        "pages/testdrive/testdrive",
+        "pages/privacy/privacy",
+        "pages/404/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "别克小程序",
+        "navigationBarTextStyle": "black"
+    },
+    "usingProvide":true
+}

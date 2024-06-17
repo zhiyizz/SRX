@@ -1,0 +1,34 @@
+@import '../variables';
+
+.error-page {
+  align-items: center;
+  background-color: $color-light;
+  color: $color-dark;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - var(--nav-height));
+  justify-content: center;
+  overflow: hidden;
+
+  > div {
+    transform: translate(0, -45%);
+  }
+
+  .title {
+    font-family: var(--font-headline);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1.2em;
+
+    .code {
+      // background-color: var(--color-primary);
+      // color: $color-light;
+      // padding: 0 5px;
+      color: var(--color-primary);
+    }
+
+    small {
+      margin-left: 1em;
+    }
+  }
+}

@@ -1,0 +1,157 @@
+.td image {
+    display:block;
+    width: 100%;
+}
+
+.formContainer image {
+    position: absolute;
+    width: calc( 100% + 2px);
+}
+.from image {
+    position: relative;
+    width: 100%;
+
+}
+.from .head,.from .footer {
+    font-size:0;
+}
+.from {
+    position:relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.from .content {
+    overflow:  hidden;
+    padding:0 25px;
+}
+.from .item {
+    height: 35px;
+    line-height: 35px;
+    padding:0 10px;
+
+    /* border:1px solid #8e96a0; */
+    border-radius: 2px;
+    font-size:12px;
+    margin-top:15px;
+    color:#8e96a0;
+    display: flex;
+    background:#f6f6f6;
+   
+}
+.from .item view {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.from .item.phone {
+    border:0;
+    padding:0;
+
+    /* display: grid;
+    width: calc(100% - 20px);
+    grid-template-columns:  1fr 100px; */
+}
+
+.from .item.phone .wrap {
+    /* border:1px solid #8e96a0; */
+    display: flex;
+    padding:0 10px;
+    float: left;
+    width: calc(100% - 100px);
+    
+}
+.from .item label {
+   display:inline-block;
+   width: 60px;
+
+}
+
+.from .item  button {
+    width: 100px;
+    float: right;
+    display: block;
+    background: none;
+    font-size:12px;
+    line-height: 35px;
+    text-align: center;
+    border-radius:0;
+    margin:0;
+    color:#000;
+    border-left:1px solid #ddd;
+    /* background:#fff; */
+    /* border:1px solid #8e96a0; */
+
+}
+.from .item  button::after {
+    display:none;
+}
+.from .item button.disabled {
+    color:#ccc !important;
+}
+.from .item input {
+    height: 35px;
+    line-height: 35px;
+    color:#8e96a0;
+}
+
+.from .ttui-cells .check {
+    display: flex;
+    font-size:12px;
+    color:#8e96a0;
+    line-height: 30px;
+    margin-top:10px;
+    vertical-align: middle;
+    color:#8e96a0;
+}
+.from .ttui-cells .check .privacy {
+    display: inline-block;
+}
+.from .ttui-cells .check checkbox {
+    transform: scale(.6);
+}
+.submit-button {
+    margin-top:10px;
+   
+}
+.submit-button button {
+    border-radius: 0;
+    color:#fff;
+    background: #d91e32;
+}
+
+.popup {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 100;
+    padding: 1em;
+    box-sizing: border-box;
+    display:none;
+}
+.popup.show {
+    display: block;
+}
+.popup .close {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.popup .close::after,.popup .close::before {
+    background-color: #000;
+    content: "";
+    height: 60%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    width: 1px;
+}
+.popup .close::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+}

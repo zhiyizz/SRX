@@ -1,0 +1,1505 @@
+{
+	"province" : [{
+		"proid" : "110000",
+		"proname" : "北京市",
+		"propy" : "B",
+		"citys" : [{
+			"cityid" : "1101",
+			"citypy" : "B",
+			"cityname" : "北京市"
+			}]
+		},{
+		"proid" : "120000",
+		"proname" : "天津市",
+		"propy" : "T",
+		"citys" : [{
+			"cityid" : "1201",
+			"citypy" : "T",
+			"cityname" : "天津市"
+			}]
+		},{
+		"proid" : "130000",
+		"proname" : "河北省",
+		"propy" : "H",
+		"citys" : [{
+			"cityid" : "1301",
+			"citypy" : "S",
+			"cityname" : "石家庄市"
+			},{
+			"cityid" : "1302",
+			"citypy" : "T",
+			"cityname" : "唐山市"
+			},{
+			"cityid" : "1303",
+			"citypy" : "Q",
+			"cityname" : "秦皇岛市"
+			},{
+			"cityid" : "1304",
+			"citypy" : "H",
+			"cityname" : "邯郸市"
+			},{
+			"cityid" : "1305",
+			"citypy" : "X",
+			"cityname" : "邢台市"
+			},{
+			"cityid" : "1306",
+			"citypy" : "B",
+			"cityname" : "保定市"
+			},{
+			"cityid" : "1307",
+			"citypy" : "Z",
+			"cityname" : "张家口市"
+			},{
+			"cityid" : "1308",
+			"citypy" : "C",
+			"cityname" : "承德市"
+			},{
+			"cityid" : "1309",
+			"citypy" : "C",
+			"cityname" : "沧州市"
+			},{
+			"cityid" : "1310",
+			"citypy" : "L",
+			"cityname" : "廊坊市"
+			},{
+			"cityid" : "1311",
+			"citypy" : "H",
+			"cityname" : "衡水市"
+			}]
+		},{
+		"proid" : "140000",
+		"proname" : "山西省",
+		"propy" : "S",
+		"citys" : [{
+			"cityid" : "1401",
+			"citypy" : "T",
+			"cityname" : "太原市"
+			},{
+			"cityid" : "1402",
+			"citypy" : "D",
+			"cityname" : "大同市"
+			},{
+			"cityid" : "1403",
+			"citypy" : "Y",
+			"cityname" : "阳泉市"
+			},{
+			"cityid" : "1404",
+			"citypy" : "C",
+			"cityname" : "长治市"
+			},{
+			"cityid" : "1405",
+			"citypy" : "J",
+			"cityname" : "晋城市"
+			},{
+			"cityid" : "1406",
+			"citypy" : "S",
+			"cityname" : "朔州市"
+			},{
+			"cityid" : "1422",
+			"citypy" : "X",
+			"cityname" : "忻州地区"
+			},{
+			"cityid" : "1423",
+			"citypy" : "L",
+			"cityname" : "吕梁地区"
+			},{
+			"cityid" : "1424",
+			"citypy" : "J",
+			"cityname" : "晋中地区"
+			},{
+			"cityid" : "1426",
+			"citypy" : "L",
+			"cityname" : "临汾地区"
+			},{
+			"cityid" : "1427",
+			"citypy" : "Y",
+			"cityname" : "运城地区"
+			}]
+		},{
+		"proid" : "150000",
+		"proname" : "内蒙古自治区",
+		"propy" : "N",
+		"citys" : [{
+			"cityid" : "1501",
+			"citypy" : "H",
+			"cityname" : "呼和浩特市"
+			},{
+			"cityid" : "1502",
+			"citypy" : "B",
+			"cityname" : "包头市"
+			},{
+			"cityid" : "1503",
+			"citypy" : "W",
+			"cityname" : "乌海市"
+			},{
+			"cityid" : "1521",
+			"citypy" : "H",
+			"cityname" : "呼伦贝尔盟"
+			},{
+			"cityid" : "1522",
+			"citypy" : "X",
+			"cityname" : "兴安盟"
+			},{
+			"cityid" : "1523",
+			"citypy" : "Z",
+			"cityname" : "哲里木盟"
+			},{
+			"cityid" : "1525",
+			"citypy" : "X",
+			"cityname" : "锡林郭勒盟"
+			},{
+			"cityid" : "1526",
+			"citypy" : "W",
+			"cityname" : "乌兰察布盟"
+			},{
+			"cityid" : "1527",
+			"citypy" : "Y",
+			"cityname" : "伊克昭盟"
+			},{
+			"cityid" : "1528",
+			"citypy" : "B",
+			"cityname" : "巴彦淖尔盟"
+			},{
+			"cityid" : "1529",
+			"citypy" : "A",
+			"cityname" : "阿拉善盟"
+			}]
+		},{
+		"proid" : "210000",
+		"proname" : "辽宁省",
+		"propy" : "L",
+		"citys" : [{
+			"cityid" : "2101",
+			"citypy" : "S",
+			"cityname" : "沈阳市"
+			},{
+			"cityid" : "2102",
+			"citypy" : "D",
+			"cityname" : "大连市"
+			},{
+			"cityid" : "2103",
+			"citypy" : "A",
+			"cityname" : "鞍山市"
+			},{
+			"cityid" : "2104",
+			"citypy" : "F",
+			"cityname" : "抚顺市"
+			},{
+			"cityid" : "2105",
+			"citypy" : "B",
+			"cityname" : "本溪市"
+			},{
+			"cityid" : "2106",
+			"citypy" : "D",
+			"cityname" : "丹东市"
+			},{
+			"cityid" : "2107",
+			"citypy" : "J",
+			"cityname" : "锦州市"
+			},{
+			"cityid" : "2108",
+			"citypy" : "Y",
+			"cityname" : "营口市"
+			},{
+			"cityid" : "2109",
+			"citypy" : "F",
+			"cityname" : "阜新市"
+			},{
+			"cityid" : "2110",
+			"citypy" : "L",
+			"cityname" : "辽阳市"
+			},{
+			"cityid" : "2111",
+			"citypy" : "P",
+			"cityname" : "盘锦市"
+			},{
+			"cityid" : "2112",
+			"citypy" : "T",
+			"cityname" : "铁岭市"
+			},{
+			"cityid" : "2113",
+			"citypy" : "C",
+			"cityname" : "朝阳市"
+			},{
+			"cityid" : "2114",
+			"citypy" : "H",
+			"cityname" : "葫芦岛市"
+			}]
+		},{
+		"proid" : "220000",
+		"proname" : "吉林省",
+		"propy" : "J",
+		"citys" : [{
+			"cityid" : "2201",
+			"citypy" : "C",
+			"cityname" : "长春市"
+			},{
+			"cityid" : "2202",
+			"citypy" : "J",
+			"cityname" : "吉林市"
+			},{
+			"cityid" : "2203",
+			"citypy" : "S",
+			"cityname" : "四平市"
+			},{
+			"cityid" : "2204",
+			"citypy" : "L",
+			"cityname" : "辽源市"
+			},{
+			"cityid" : "2205",
+			"citypy" : "T",
+			"cityname" : "通化市"
+			},{
+			"cityid" : "2206",
+			"citypy" : "B",
+			"cityname" : "白山市"
+			},{
+			"cityid" : "2207",
+			"citypy" : "S",
+			"cityname" : "松原市"
+			},{
+			"cityid" : "2208",
+			"citypy" : "B",
+			"cityname" : "白城市"
+			},{
+			"cityid" : "2224",
+			"citypy" : "Y",
+			"cityname" : "延边朝鲜族自治州"
+			}]
+		},{
+		"proid" : "230000",
+		"proname" : "黑龙江省",
+		"propy" : "H",
+		"citys" : [{
+			"cityid" : "2301",
+			"citypy" : "H",
+			"cityname" : "哈尔滨市"
+			},{
+			"cityid" : "2302",
+			"citypy" : "Q",
+			"cityname" : "齐齐哈尔市"
+			},{
+			"cityid" : "2303",
+			"citypy" : "J",
+			"cityname" : "鸡西市"
+			},{
+			"cityid" : "2304",
+			"citypy" : "H",
+			"cityname" : "鹤岗市"
+			},{
+			"cityid" : "2305",
+			"citypy" : "S",
+			"cityname" : "双鸭山市"
+			},{
+			"cityid" : "2306",
+			"citypy" : "D",
+			"cityname" : "大庆市"
+			},{
+			"cityid" : "2307",
+			"citypy" : "Y",
+			"cityname" : "伊春市"
+			},{
+			"cityid" : "2308",
+			"citypy" : "J",
+			"cityname" : "佳木斯市"
+			},{
+			"cityid" : "2309",
+			"citypy" : "Q",
+			"cityname" : "七台河市"
+			},{
+			"cityid" : "2310",
+			"citypy" : "M",
+			"cityname" : "牡丹江市"
+			},{
+			"cityid" : "2311",
+			"citypy" : "H",
+			"cityname" : "黑河市"
+			},{
+			"cityid" : "2323",
+			"citypy" : "S",
+			"cityname" : "绥化地区"
+			},{
+			"cityid" : "2327",
+			"citypy" : "D",
+			"cityname" : "大兴安岭地区"
+			}]
+		},{
+		"proid" : "310000",
+		"proname" : "上海市",
+		"propy" : "S",
+		"citys" : [{
+			"cityid" : "3101",
+			"citypy" : "S",
+			"cityname" : "上海市"
+			}]
+		},{
+		"proid" : "320000",
+		"proname" : "江苏省",
+		"propy" : "J",
+		"citys" : [{
+			"cityid" : "3201",
+			"citypy" : "N",
+			"cityname" : "南京市"
+			},{
+			"cityid" : "3202",
+			"citypy" : "W",
+			"cityname" : "无锡市"
+			},{
+			"cityid" : "3203",
+			"citypy" : "X",
+			"cityname" : "徐州市"
+			},{
+			"cityid" : "3204",
+			"citypy" : "C",
+			"cityname" : "常州市"
+			},{
+			"cityid" : "3205",
+			"citypy" : "S",
+			"cityname" : "苏州市"
+			},{
+			"cityid" : "3206",
+			"citypy" : "N",
+			"cityname" : "南通市"
+			},{
+			"cityid" : "3207",
+			"citypy" : "L",
+			"cityname" : "连云港市"
+			},{
+			"cityid" : "3208",
+			"citypy" : "H",
+			"cityname" : "淮阴市"
+			},{
+			"cityid" : "3209",
+			"citypy" : "Y",
+			"cityname" : "盐城市"
+			},{
+			"cityid" : "3210",
+			"citypy" : "Y",
+			"cityname" : "扬州市"
+			},{
+			"cityid" : "3211",
+			"citypy" : "Z",
+			"cityname" : "镇江市"
+			},{
+			"cityid" : "3212",
+			"citypy" : "T",
+			"cityname" : "泰州市"
+			},{
+			"cityid" : "3213",
+			"citypy" : "S",
+			"cityname" : "宿迁市"
+			}]
+		},{
+		"proid" : "330000",
+		"proname" : "浙江省",
+		"propy" : "Z",
+		"citys" : [{
+			"cityid" : "3301",
+			"citypy" : "H",
+			"cityname" : "杭州市"
+			},{
+			"cityid" : "3302",
+			"citypy" : "N",
+			"cityname" : "宁波市"
+			},{
+			"cityid" : "3303",
+			"citypy" : "W",
+			"cityname" : "温州市"
+			},{
+			"cityid" : "3304",
+			"citypy" : "J",
+			"cityname" : "嘉兴市"
+			},{
+			"cityid" : "3305",
+			"citypy" : "H",
+			"cityname" : "湖州市"
+			},{
+			"cityid" : "3306",
+			"citypy" : "S",
+			"cityname" : "绍兴市"
+			},{
+			"cityid" : "3307",
+			"citypy" : "J",
+			"cityname" : "金华市"
+			},{
+			"cityid" : "3308",
+			"citypy" : "9",
+			"cityname" : "衢州市"
+			},{
+			"cityid" : "3309",
+			"citypy" : "Z",
+			"cityname" : "舟山市"
+			},{
+			"cityid" : "3310",
+			"citypy" : "T",
+			"cityname" : "台州市"
+			},{
+			"cityid" : "3325",
+			"citypy" : "L",
+			"cityname" : "丽水地区"
+			}]
+		},{
+		"proid" : "340000",
+		"proname" : "安徽省",
+		"propy" : "A",
+		"citys" : [{
+			"cityid" : "3401",
+			"citypy" : "H",
+			"cityname" : "合肥市"
+			},{
+			"cityid" : "3402",
+			"citypy" : "W",
+			"cityname" : "芜湖市"
+			},{
+			"cityid" : "3403",
+			"citypy" : "B",
+			"cityname" : "蚌埠市"
+			},{
+			"cityid" : "3404",
+			"citypy" : "H",
+			"cityname" : "淮南市"
+			},{
+			"cityid" : "3405",
+			"citypy" : "M",
+			"cityname" : "马鞍山市"
+			},{
+			"cityid" : "3406",
+			"citypy" : "H",
+			"cityname" : "淮北市"
+			},{
+			"cityid" : "3407",
+			"citypy" : "T",
+			"cityname" : "铜陵市"
+			},{
+			"cityid" : "3408",
+			"citypy" : "A",
+			"cityname" : "安庆市"
+			},{
+			"cityid" : "3410",
+			"citypy" : "H",
+			"cityname" : "黄山市"
+			},{
+			"cityid" : "3411",
+			"citypy" : "C",
+			"cityname" : "滁州市"
+			},{
+			"cityid" : "3412",
+			"citypy" : "F",
+			"cityname" : "阜阳市"
+			},{
+			"cityid" : "3413",
+			"citypy" : "S",
+			"cityname" : "宿州市"
+			},{
+			"cityid" : "3424",
+			"citypy" : "L",
+			"cityname" : "六安地区"
+			},{
+			"cityid" : "3425",
+			"citypy" : "X",
+			"cityname" : "宣城市"
+			},{
+			"cityid" : "3426",
+			"citypy" : "C",
+			"cityname" : "巢湖地区"
+			},{
+			"cityid" : "3429",
+			"citypy" : "C",
+			"cityname" : "池州地区"
+			}]
+		},{
+		"proid" : "350000",
+		"proname" : "福建省",
+		"propy" : "F",
+		"citys" : [{
+			"cityid" : "3501",
+			"citypy" : "F",
+			"cityname" : "福州市"
+			},{
+			"cityid" : "3502",
+			"citypy" : "X",
+			"cityname" : "厦门市"
+			},{
+			"cityid" : "3503",
+			"citypy" : "P",
+			"cityname" : "莆田市"
+			},{
+			"cityid" : "3504",
+			"citypy" : "S",
+			"cityname" : "三明市"
+			},{
+			"cityid" : "3505",
+			"citypy" : "Q",
+			"cityname" : "泉州市"
+			},{
+			"cityid" : "3506",
+			"citypy" : "Z",
+			"cityname" : "漳州市"
+			},{
+			"cityid" : "3507",
+			"citypy" : "N",
+			"cityname" : "南平市"
+			},{
+			"cityid" : "3508",
+			"citypy" : "L",
+			"cityname" : "龙岩市"
+			},{
+			"cityid" : "3522",
+			"citypy" : "N",
+			"cityname" : "宁德地区"
+			}]
+		},{
+		"proid" : "360000",
+		"proname" : "江西省",
+		"propy" : "J",
+		"citys" : [{
+			"cityid" : "3601",
+			"citypy" : "N",
+			"cityname" : "南昌市"
+			},{
+			"cityid" : "3602",
+			"citypy" : "J",
+			"cityname" : "景德镇市"
+			},{
+			"cityid" : "3603",
+			"citypy" : "P",
+			"cityname" : "萍乡市"
+			},{
+			"cityid" : "3604",
+			"citypy" : "J",
+			"cityname" : "九江市"
+			},{
+			"cityid" : "3605",
+			"citypy" : "X",
+			"cityname" : "新余市"
+			},{
+			"cityid" : "3607",
+			"citypy" : "G",
+			"cityname" : "赣州市"
+			},{
+			"cityid" : "3622",
+			"citypy" : "Y",
+			"cityname" : "宜春地区"
+			},{
+			"cityid" : "3623",
+			"citypy" : "S",
+			"cityname" : "上饶地区"
+			},{
+			"cityid" : "3624",
+			"citypy" : "J",
+			"cityname" : "吉安地区"
+			},{
+			"cityid" : "3625",
+			"citypy" : "F",
+			"cityname" : "抚州地区"
+			}]
+		},{
+		"proid" : "370000",
+		"proname" : "山东省",
+		"propy" : "S",
+		"citys" : [{
+			"cityid" : "3701",
+			"citypy" : "J",
+			"cityname" : "济南市"
+			},{
+			"cityid" : "3702",
+			"citypy" : "Q",
+			"cityname" : "青岛市"
+			},{
+			"cityid" : "3703",
+			"citypy" : "Z",
+			"cityname" : "淄博市"
+			},{
+			"cityid" : "3704",
+			"citypy" : "Z",
+			"cityname" : "枣庄市"
+			},{
+			"cityid" : "3705",
+			"citypy" : "D",
+			"cityname" : "东营市"
+			},{
+			"cityid" : "3706",
+			"citypy" : "Y",
+			"cityname" : "烟台市"
+			},{
+			"cityid" : "3707",
+			"citypy" : "W",
+			"cityname" : "潍坊市"
+			},{
+			"cityid" : "3708",
+			"citypy" : "J",
+			"cityname" : "济宁市"
+			},{
+			"cityid" : "3709",
+			"citypy" : "T",
+			"cityname" : "泰安市"
+			},{
+			"cityid" : "3710",
+			"citypy" : "W",
+			"cityname" : "威海市"
+			},{
+			"cityid" : "3711",
+			"citypy" : "R",
+			"cityname" : "日照市"
+			},{
+			"cityid" : "3712",
+			"citypy" : "L",
+			"cityname" : "莱芜市"
+			},{
+			"cityid" : "3713",
+			"citypy" : "L",
+			"cityname" : "临沂市"
+			},{
+			"cityid" : "3714",
+			"citypy" : "D",
+			"cityname" : "德州市"
+			},{
+			"cityid" : "3715",
+			"citypy" : "L",
+			"cityname" : "聊城市"
+			},{
+			"cityid" : "3723",
+			"citypy" : "B",
+			"cityname" : "滨州地区"
+			},{
+			"cityid" : "3729",
+			"citypy" : "H",
+			"cityname" : "荷泽地区"
+			}]
+		},{
+		"proid" : "410000",
+		"proname" : "河南省",
+		"propy" : "H",
+		"citys" : [{
+			"cityid" : "4101",
+			"citypy" : "Z",
+			"cityname" : "郑州市"
+			},{
+			"cityid" : "4102",
+			"citypy" : "K",
+			"cityname" : "开封市"
+			},{
+			"cityid" : "4103",
+			"citypy" : "L",
+			"cityname" : "洛阳市"
+			},{
+			"cityid" : "4104",
+			"citypy" : "P",
+			"cityname" : "平顶山市"
+			},{
+			"cityid" : "4105",
+			"citypy" : "A",
+			"cityname" : "安阳市"
+			},{
+			"cityid" : "4106",
+			"citypy" : "H",
+			"cityname" : "鹤壁市"
+			},{
+			"cityid" : "4107",
+			"citypy" : "X",
+			"cityname" : "新乡市"
+			},{
+			"cityid" : "4108",
+			"citypy" : "J",
+			"cityname" : "焦作市"
+			},{
+			"cityid" : "4109",
+			"citypy" : "9",
+			"cityname" : "濮阳市"
+			},{
+			"cityid" : "4110",
+			"citypy" : "X",
+			"cityname" : "许昌市"
+			},{
+			"cityid" : "4111",
+			"citypy" : "9",
+			"cityname" : "漯河市"
+			},{
+			"cityid" : "4112",
+			"citypy" : "S",
+			"cityname" : "三门峡市"
+			},{
+			"cityid" : "4113",
+			"citypy" : "N",
+			"cityname" : "南阳市"
+			},{
+			"cityid" : "4114",
+			"citypy" : "S",
+			"cityname" : "商丘市"
+			},{
+			"cityid" : "4115",
+			"citypy" : "X",
+			"cityname" : "信阳市"
+			},{
+			"cityid" : "4127",
+			"citypy" : "Z",
+			"cityname" : "周口地区"
+			},{
+			"cityid" : "4128",
+			"citypy" : "Z",
+			"cityname" : "驻马店地区"
+			}]
+		},{
+		"proid" : "420000",
+		"proname" : "湖北省",
+		"propy" : "H",
+		"citys" : [{
+			"cityid" : "4201",
+			"citypy" : "W",
+			"cityname" : "武汉市"
+			},{
+			"cityid" : "4202",
+			"citypy" : "H",
+			"cityname" : "黄石市"
+			},{
+			"cityid" : "4203",
+			"citypy" : "S",
+			"cityname" : "十堰市"
+			},{
+			"cityid" : "4205",
+			"citypy" : "Y",
+			"cityname" : "宜昌市"
+			},{
+			"cityid" : "4206",
+			"citypy" : "X",
+			"cityname" : "襄樊市"
+			},{
+			"cityid" : "4207",
+			"citypy" : "E",
+			"cityname" : "鄂州市"
+			},{
+			"cityid" : "4208",
+			"citypy" : "J",
+			"cityname" : "荆门市"
+			},{
+			"cityid" : "4209",
+			"citypy" : "X",
+			"cityname" : "孝感市"
+			},{
+			"cityid" : "4210",
+			"citypy" : "J",
+			"cityname" : "荆州市"
+			},{
+			"cityid" : "4211",
+			"citypy" : "H",
+			"cityname" : "黄冈市"
+			},{
+			"cityid" : "4212",
+			"citypy" : "X",
+			"cityname" : "咸宁市"
+			},{
+			"cityid" : "4228",
+			"citypy" : "E",
+			"cityname" : "恩施土家族苗族自治州"
+			},{
+			"cityid" : "4290",
+			"citypy" : "S",
+			"cityname" : "省直辖县级行政单位"
+			}]
+		},{
+		"proid" : "430000",
+		"proname" : "湖南省",
+		"propy" : "H",
+		"citys" : [{
+			"cityid" : "4301",
+			"citypy" : "C",
+			"cityname" : "长沙市"
+			},{
+			"cityid" : "4302",
+			"citypy" : "Z",
+			"cityname" : "株洲市"
+			},{
+			"cityid" : "4303",
+			"citypy" : "X",
+			"cityname" : "湘潭市"
+			},{
+			"cityid" : "4304",
+			"citypy" : "H",
+			"cityname" : "衡阳市"
+			},{
+			"cityid" : "4305",
+			"citypy" : "S",
+			"cityname" : "邵阳市"
+			},{
+			"cityid" : "4306",
+			"citypy" : "Y",
+			"cityname" : "岳阳市"
+			},{
+			"cityid" : "4307",
+			"citypy" : "C",
+			"cityname" : "常德市"
+			},{
+			"cityid" : "4308",
+			"citypy" : "Z",
+			"cityname" : "张家界市"
+			},{
+			"cityid" : "4309",
+			"citypy" : "Y",
+			"cityname" : "益阳市"
+			},{
+			"cityid" : "4310",
+			"citypy" : "C",
+			"cityname" : "郴州市"
+			},{
+			"cityid" : "4311",
+			"citypy" : "Y",
+			"cityname" : "永州市"
+			},{
+			"cityid" : "4312",
+			"citypy" : "H",
+			"cityname" : "怀化市"
+			},{
+			"cityid" : "4325",
+			"citypy" : "L",
+			"cityname" : "娄底地区"
+			},{
+			"cityid" : "4331",
+			"citypy" : "X",
+			"cityname" : "湘西土家族苗族自治州"
+			}]
+		},{
+		"proid" : "440000",
+		"proname" : "广东省",
+		"propy" : "G",
+		"citys" : [{
+			"cityid" : "4401",
+			"citypy" : "G",
+			"cityname" : "广州市"
+			},{
+			"cityid" : "4402",
+			"citypy" : "S",
+			"cityname" : "韶关市"
+			},{
+			"cityid" : "4403",
+			"citypy" : "S",
+			"cityname" : "深圳市"
+			},{
+			"cityid" : "4405",
+			"citypy" : "S",
+			"cityname" : "汕头市"
+			},{
+			"cityid" : "4406",
+			"citypy" : "F",
+			"cityname" : "佛山市"
+			},{
+			"cityid" : "4407",
+			"citypy" : "J",
+			"cityname" : "江门市"
+			},{
+			"cityid" : "4408",
+			"citypy" : "Z",
+			"cityname" : "湛江市"
+			},{
+			"cityid" : "4409",
+			"citypy" : "M",
+			"cityname" : "茂名市"
+			},{
+			"cityid" : "4412",
+			"citypy" : "Z",
+			"cityname" : "肇庆市"
+			},{
+			"cityid" : "4413",
+			"citypy" : "H",
+			"cityname" : "惠州市"
+			},{
+			"cityid" : "4414",
+			"citypy" : "M",
+			"cityname" : "梅州市"
+			},{
+			"cityid" : "4415",
+			"citypy" : "S",
+			"cityname" : "汕尾市"
+			},{
+			"cityid" : "4416",
+			"citypy" : "H",
+			"cityname" : "河源市"
+			},{
+			"cityid" : "4417",
+			"citypy" : "Y",
+			"cityname" : "阳江市"
+			},{
+			"cityid" : "4418",
+			"citypy" : "Q",
+			"cityname" : "清远市"
+			},{
+			"cityid" : "4419",
+			"citypy" : "D",
+			"cityname" : "东莞市"
+			},{
+			"cityid" : "4420",
+			"citypy" : "Z",
+			"cityname" : "中山市"
+			},{
+			"cityid" : "4451",
+			"citypy" : "C",
+			"cityname" : "潮州市"
+			},{
+			"cityid" : "4452",
+			"citypy" : "J",
+			"cityname" : "揭阳市"
+			},{
+			"cityid" : "4453",
+			"citypy" : "Y",
+			"cityname" : "云浮市"
+			},{
+			"cityid" : "4454",
+			"citypy" : "Z",
+			"cityname" : "珠海市"
+			}]
+		},{
+		"proid" : "450000",
+		"proname" : "广西壮族自治区",
+		"propy" : "G",
+		"citys" : [{
+			"cityid" : "4501",
+			"citypy" : "N",
+			"cityname" : "南宁市"
+			},{
+			"cityid" : "4502",
+			"citypy" : "L",
+			"cityname" : "柳州市"
+			},{
+			"cityid" : "4503",
+			"citypy" : "G",
+			"cityname" : "桂林市"
+			},{
+			"cityid" : "4504",
+			"citypy" : "W",
+			"cityname" : "梧州市"
+			},{
+			"cityid" : "4505",
+			"citypy" : "B",
+			"cityname" : "北海市"
+			},{
+			"cityid" : "4506",
+			"citypy" : "F",
+			"cityname" : "防城港市"
+			},{
+			"cityid" : "4507",
+			"citypy" : "Q",
+			"cityname" : "钦州市"
+			},{
+			"cityid" : "4508",
+			"citypy" : "G",
+			"cityname" : "贵港市"
+			},{
+			"cityid" : "4509",
+			"citypy" : "Y",
+			"cityname" : "玉林市"
+			},{
+			"cityid" : "4521",
+			"citypy" : "N",
+			"cityname" : "南宁地区"
+			},{
+			"cityid" : "4522",
+			"citypy" : "L",
+			"cityname" : "柳州地区"
+			},{
+			"cityid" : "4524",
+			"citypy" : "H",
+			"cityname" : "贺州地区"
+			},{
+			"cityid" : "4526",
+			"citypy" : "B",
+			"cityname" : "百色地区"
+			},{
+			"cityid" : "4527",
+			"citypy" : "H",
+			"cityname" : "河池地区"
+			}]
+		},{
+		"proid" : "460000",
+		"proname" : "海南省",
+		"propy" : "H",
+		"citys" : [{
+			"cityid" : "4601",
+			"citypy" : "H",
+			"cityname" : "海口市"
+			},{
+			"cityid" : "4602",
+			"citypy" : "S",
+			"cityname" : "三亚市"
+			}]
+		},{
+		"proid" : "500000",
+		"proname" : "重庆市",
+		"propy" : "Z",
+		"citys" : [{
+			"cityid" : "5001",
+			"citypy" : "Z",
+			"cityname" : "重庆市"
+			}]
+		},{
+		"proid" : "510000",
+		"proname" : "四川省",
+		"propy" : "S",
+		"citys" : [{
+			"cityid" : "5101",
+			"citypy" : "C",
+			"cityname" : "成都市"
+			},{
+			"cityid" : "5103",
+			"citypy" : "Z",
+			"cityname" : "自贡市"
+			},{
+			"cityid" : "5104",
+			"citypy" : "P",
+			"cityname" : "攀枝花市"
+			},{
+			"cityid" : "5105",
+			"citypy" : "9",
+			"cityname" : "泸州市"
+			},{
+			"cityid" : "5106",
+			"citypy" : "D",
+			"cityname" : "德阳市"
+			},{
+			"cityid" : "5107",
+			"citypy" : "M",
+			"cityname" : "绵阳市"
+			},{
+			"cityid" : "5108",
+			"citypy" : "G",
+			"cityname" : "广元市"
+			},{
+			"cityid" : "5109",
+			"citypy" : "S",
+			"cityname" : "遂宁市"
+			},{
+			"cityid" : "5110",
+			"citypy" : "N",
+			"cityname" : "内江市"
+			},{
+			"cityid" : "5111",
+			"citypy" : "L",
+			"cityname" : "乐山市"
+			},{
+			"cityid" : "5113",
+			"citypy" : "N",
+			"cityname" : "南充市"
+			},{
+			"cityid" : "5115",
+			"citypy" : "Y",
+			"cityname" : "宜宾市"
+			},{
+			"cityid" : "5116",
+			"citypy" : "G",
+			"cityname" : "广安市"
+			},{
+			"cityid" : "5131",
+			"citypy" : "Y",
+			"cityname" : "雅安地区"
+			},{
+			"cityid" : "5132",
+			"citypy" : "A",
+			"cityname" : "阿坝藏族羌族自治州"
+			},{
+			"cityid" : "5133",
+			"citypy" : "G",
+			"cityname" : "甘孜藏族自治州"
+			},{
+			"cityid" : "5134",
+			"citypy" : "L",
+			"cityname" : "凉山彝族自治州"
+			},{
+			"cityid" : "5137",
+			"citypy" : "B",
+			"cityname" : "巴中地区"
+			},{
+			"cityid" : "5138",
+			"citypy" : "M",
+			"cityname" : "眉山地区"
+			},{
+			"cityid" : "5139",
+			"citypy" : "Z",
+			"cityname" : "资阳地区"
+			}]
+		},{
+		"proid" : "520000",
+		"proname" : "贵州省",
+		"propy" : "G",
+		"citys" : [{
+			"cityid" : "5201",
+			"citypy" : "G",
+			"cityname" : "贵阳市"
+			},{
+			"cityid" : "5202",
+			"citypy" : "L",
+			"cityname" : "六盘水市"
+			},{
+			"cityid" : "5203",
+			"citypy" : "Z",
+			"cityname" : "遵义市"
+			},{
+			"cityid" : "5222",
+			"citypy" : "T",
+			"cityname" : "铜仁地区"
+			},{
+			"cityid" : "5223",
+			"citypy" : "Q",
+			"cityname" : "黔西南布依族苗族自治州"
+			},{
+			"cityid" : "5224",
+			"citypy" : "B",
+			"cityname" : "毕节地区"
+			},{
+			"cityid" : "5225",
+			"citypy" : "A",
+			"cityname" : "安顺地区"
+			},{
+			"cityid" : "5226",
+			"citypy" : "Q",
+			"cityname" : "黔东南苗族侗族自治州"
+			},{
+			"cityid" : "5227",
+			"citypy" : "Q",
+			"cityname" : "黔南布依族苗族自治州"
+			}]
+		},{
+		"proid" : "530000",
+		"proname" : "云南省",
+		"propy" : "Y",
+		"citys" : [{
+			"cityid" : "5301",
+			"citypy" : "K",
+			"cityname" : "昆明市"
+			},{
+			"cityid" : "5303",
+			"citypy" : "Q",
+			"cityname" : "曲靖市"
+			},{
+			"cityid" : "5304",
+			"citypy" : "Y",
+			"cityname" : "玉溪市"
+			},{
+			"cityid" : "5321",
+			"citypy" : "Z",
+			"cityname" : "昭通地区"
+			},{
+			"cityid" : "5323",
+			"citypy" : "C",
+			"cityname" : "楚雄彝族自治州"
+			},{
+			"cityid" : "5325",
+			"citypy" : "H",
+			"cityname" : "红河哈尼族彝族自治州"
+			},{
+			"cityid" : "5326",
+			"citypy" : "W",
+			"cityname" : "文山壮族苗族自治州"
+			},{
+			"cityid" : "5327",
+			"citypy" : "S",
+			"cityname" : "思茅地区"
+			},{
+			"cityid" : "5328",
+			"citypy" : "X",
+			"cityname" : "西双版纳傣族自治州"
+			},{
+			"cityid" : "5329",
+			"citypy" : "D",
+			"cityname" : "大理白族自治州"
+			},{
+			"cityid" : "5330",
+			"citypy" : "B",
+			"cityname" : "保山地区"
+			},{
+			"cityid" : "5331",
+			"citypy" : "D",
+			"cityname" : "德宏傣族景颇族自治州"
+			},{
+			"cityid" : "5332",
+			"citypy" : "L",
+			"cityname" : "丽江地区"
+			},{
+			"cityid" : "5333",
+			"citypy" : "N",
+			"cityname" : "怒江傈僳族自治州"
+			},{
+			"cityid" : "5334",
+			"citypy" : "D",
+			"cityname" : "迪庆藏族自治州"
+			},{
+			"cityid" : "5335",
+			"citypy" : "L",
+			"cityname" : "临沧地区"
+			}]
+		},{
+		"proid" : "540000",
+		"proname" : "西藏自治区",
+		"propy" : "X",
+		"citys" : [{
+			"cityid" : "5401",
+			"citypy" : "L",
+			"cityname" : "拉萨市"
+			},{
+			"cityid" : "5421",
+			"citypy" : "C",
+			"cityname" : "昌都地区"
+			},{
+			"cityid" : "5422",
+			"citypy" : "S",
+			"cityname" : "山南地区"
+			},{
+			"cityid" : "5423",
+			"citypy" : "R",
+			"cityname" : "日喀则地区"
+			},{
+			"cityid" : "5424",
+			"citypy" : "N",
+			"cityname" : "那曲地区"
+			},{
+			"cityid" : "5425",
+			"citypy" : "A",
+			"cityname" : "阿里地区"
+			},{
+			"cityid" : "5426",
+			"citypy" : "L",
+			"cityname" : "林芝地区"
+			}]
+		},{
+		"proid" : "610000",
+		"proname" : "陕西省",
+		"propy" : "S",
+		"citys" : [{
+			"cityid" : "6101",
+			"citypy" : "X",
+			"cityname" : "西安市"
+			},{
+			"cityid" : "6102",
+			"citypy" : "T",
+			"cityname" : "铜川市"
+			},{
+			"cityid" : "6103",
+			"citypy" : "B",
+			"cityname" : "宝鸡市"
+			},{
+			"cityid" : "6104",
+			"citypy" : "X",
+			"cityname" : "咸阳市"
+			},{
+			"cityid" : "6105",
+			"citypy" : "W",
+			"cityname" : "渭南市"
+			},{
+			"cityid" : "6106",
+			"citypy" : "Y",
+			"cityname" : "延安市"
+			},{
+			"cityid" : "6107",
+			"citypy" : "H",
+			"cityname" : "汉中市"
+			},{
+			"cityid" : "6124",
+			"citypy" : "A",
+			"cityname" : "安康地区"
+			},{
+			"cityid" : "6125",
+			"citypy" : "S",
+			"cityname" : "商洛地区"
+			},{
+			"cityid" : "6127",
+			"citypy" : "Y",
+			"cityname" : "榆林地区"
+			}]
+		},{
+		"proid" : "620000",
+		"proname" : "甘肃省",
+		"propy" : "G",
+		"citys" : [{
+			"cityid" : "6201",
+			"citypy" : "L",
+			"cityname" : "兰州市"
+			},{
+			"cityid" : "6202",
+			"citypy" : "J",
+			"cityname" : "嘉峪关市"
+			},{
+			"cityid" : "6204",
+			"citypy" : "B",
+			"cityname" : "白银市"
+			},{
+			"cityid" : "6205",
+			"citypy" : "T",
+			"cityname" : "天水市"
+			},{
+			"cityid" : "6221",
+			"citypy" : "J",
+			"cityname" : "酒泉地区"
+			},{
+			"cityid" : "6222",
+			"citypy" : "Z",
+			"cityname" : "张掖地区"
+			},{
+			"cityid" : "6223",
+			"citypy" : "W",
+			"cityname" : "武威地区"
+			},{
+			"cityid" : "6224",
+			"citypy" : "D",
+			"cityname" : "定西地区"
+			},{
+			"cityid" : "6226",
+			"citypy" : "L",
+			"cityname" : "陇南地区"
+			},{
+			"cityid" : "6227",
+			"citypy" : "P",
+			"cityname" : "平凉地区"
+			},{
+			"cityid" : "6228",
+			"citypy" : "Q",
+			"cityname" : "庆阳地区"
+			},{
+			"cityid" : "6229",
+			"citypy" : "L",
+			"cityname" : "临夏回族自治州"
+			},{
+			"cityid" : "6230",
+			"citypy" : "G",
+			"cityname" : "甘南藏族自治州"
+			}]
+		},{
+		"proid" : "630000",
+		"proname" : "青海省",
+		"propy" : "Q",
+		"citys" : [{
+			"cityid" : "6301",
+			"citypy" : "X",
+			"cityname" : "西宁市"
+			},{
+			"cityid" : "6321",
+			"citypy" : "H",
+			"cityname" : "海东地区"
+			},{
+			"cityid" : "6322",
+			"citypy" : "H",
+			"cityname" : "海北藏族自治州"
+			},{
+			"cityid" : "6323",
+			"citypy" : "H",
+			"cityname" : "黄南藏族自治州"
+			},{
+			"cityid" : "6325",
+			"citypy" : "H",
+			"cityname" : "海南藏族自治州"
+			},{
+			"cityid" : "6326",
+			"citypy" : "G",
+			"cityname" : "果洛藏族自治州"
+			},{
+			"cityid" : "6327",
+			"citypy" : "Y",
+			"cityname" : "玉树藏族自治州"
+			},{
+			"cityid" : "6328",
+			"citypy" : "H",
+			"cityname" : "海西蒙古族藏族自治州"
+			}]
+		},{
+		"proid" : "640000",
+		"proname" : "宁夏回族自治区",
+		"propy" : "N",
+		"citys" : [{
+			"cityid" : "6401",
+			"citypy" : "Y",
+			"cityname" : "银川市"
+			},{
+			"cityid" : "6402",
+			"citypy" : "S",
+			"cityname" : "石嘴山市"
+			},{
+			"cityid" : "6403",
+			"citypy" : "W",
+			"cityname" : "吴忠市"
+			},{
+			"cityid" : "6422",
+			"citypy" : "G",
+			"cityname" : "固原地区"
+			}]
+		},{
+		"proid" : "650000",
+		"proname" : "新疆维吾尔自治区",
+		"propy" : "X",
+		"citys" : [{
+			"cityid" : "6501",
+			"citypy" : "W",
+			"cityname" : "乌鲁木齐市"
+			},{
+			"cityid" : "6502",
+			"citypy" : "K",
+			"cityname" : "克拉玛依市"
+			},{
+			"cityid" : "6522",
+			"citypy" : "H",
+			"cityname" : "哈密地区"
+			},{
+			"cityid" : "6523",
+			"citypy" : "C",
+			"cityname" : "昌吉回族自治州"
+			},{
+			"cityid" : "6527",
+			"citypy" : "B",
+			"cityname" : "博尔塔拉蒙古自治州"
+			},{
+			"cityid" : "6528",
+			"citypy" : "B",
+			"cityname" : "巴音郭楞蒙古族自治州"
+			},{
+			"cityid" : "6529",
+			"citypy" : "A",
+			"cityname" : "阿克苏地区"
+			},{
+			"cityid" : "6530",
+			"citypy" : "K",
+			"cityname" : "克孜勒苏柯尔克孜自治州"
+			},{
+			"cityid" : "6531",
+			"citypy" : "K",
+			"cityname" : "喀什地区"
+			},{
+			"cityid" : "6532",
+			"citypy" : "H",
+			"cityname" : "和田地区"
+			},{
+			"cityid" : "6540",
+			"citypy" : "Y",
+			"cityname" : "伊犁哈萨克自治州"
+			},{
+			"cityid" : "6541",
+			"citypy" : "Y",
+			"cityname" : "伊犁地区"
+			},{
+			"cityid" : "6542",
+			"citypy" : "T",
+			"cityname" : "塔城地区"
+			},{
+			"cityid" : "6543",
+			"citypy" : "A",
+			"cityname" : "阿勒泰地区"
+			},{
+			"cityid" : "6590",
+			"citypy" : "Z",
+			"cityname" : "直辖行政单位"
+			}]
+		},{
+		"proid" : "710000",
+		"proname" : "台湾省",
+		"propy" : "T",
+		"citys" : [{
+			"cityid" : "710001",
+			"citypy" : "T",
+			"cityname" : "台湾"
+			}]
+		},{
+		"proid" : "810000",
+		"proname" : "香港特别行政区",
+		"propy" : "X",
+		"citys" : [{
+			"cityid" : "810001",
+			"citypy" : "X",
+			"cityname" : "香港"
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+    "navigationBarTitleText": "clue-form",
+    "usingComponents": {
+        "form-input": "./components/form-input/form-input",
+        "form-phone": "./components/form-phone/form-phone",
+        "form-radio": "./components/form-radio/form-radio",
+        "form-checkbox": "./components/form-checkbox/form-checkbox",
+        "form-select": "./components/form-select/form-select",
+        "form-city": "./components/form-city/form-city",
+        "form-captcha": "./components/form-captcha/form-captcha",
+        "i-panel": "../../iview/panel/index",
+        "i-button": "../../iview/button/index",
+        "i-tabs": "../../iview/tabs/index",
+        "i-tab": "../../iview/tab/index"
+    }
+}

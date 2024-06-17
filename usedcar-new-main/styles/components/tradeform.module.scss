@@ -1,0 +1,323 @@
+.tradeform {
+  padding-bottom: 30px;
+
+  .gridItem {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+  }
+  .formItem {
+    width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    height: 36px;
+    line-height: 34px;
+    margin-bottom: 10px;
+    position: relative;
+
+    input,
+    select {
+      background: none;
+      border: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      option:checked {
+        color:#f00;
+      }
+    }
+
+    input {
+      &::placeholder {
+        color: #666;
+      }
+    }
+    input[type="month"] {
+      position: absolute;
+      padding-left:60px;
+    }
+    input[type='month']:valid {
+      padding:0;
+    }
+    input[type="month"]::before{
+      content:attr(placeholder) !important;
+      min-width: 60px;
+      position: absolute;
+      left:0;
+      height: 100%;
+      line-height: 36px;
+    }
+
+    input[type='month']:valid::before {
+      display: none;
+      padding:0;
+    }
+
+
+    select {
+      background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="crimson" viewBox="0 0 10 5.64"><path d="M0,.64.69,0,5,4.4,9.38,0,10,.63l-5,5Z"/><polygon points="9.38 0.01 4.99 4.4 0.69 0 0 0.64 4.99 5.64 10 0.63 9.38 0.01"/></svg>');
+      background-repeat: no-repeat;
+      background-position: 99%;
+      background-size: 10px;
+
+    }
+  }
+  .agreement {
+    font-size:14px;
+    margin:20px 0 20px;
+ 
+    label {
+      align-items: center;
+      display: flex;
+      color: var(--color-dark);
+      input {
+        height: 0;
+        width: 0;
+        opacity:0;
+      }
+      .mark {
+        border: solid 1px var(--color-dark);
+        cursor: pointer;
+        display: block;
+        height:10px;
+        margin-right: .4em;
+        margin-top: -2px;
+        position: relative;
+        width:10px;
+      }
+      .mark-checked::after {
+        background: var(--color-primary);
+        content: "";
+        height: 6px;
+        left: 2px;
+        position: absolute;
+        top: 2px;
+        width: 6px;
+      }
+      a {
+        border-bottom: solid 1px var(--color-dark);
+        color: inherit;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+  .btn-wrap {
+    display: flex;
+    padding:10px 20px;
+    button {
+      height: 40px;
+      line-height: 40px;
+      flex:1;
+      margin:0 10px;
+      font-size:16px;
+      border:1px solid transparent;
+      background:none;
+      &[type=submit]{
+        background: var(--color-primary);
+        color:#fff;
+      }
+      &[type=reset]{
+        border:1px solid var(--color-primary);
+        color:var(--color-primary);
+      }
+    }
+  }
+  .evalresult {
+    position: fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.5);
+    display: none;
+    z-index: 100;
+    &.show {
+      display: flex;
+    }
+    .evalresult_wrap {
+      padding:40px 20px;
+      background: #fff;
+      border-radius: 5px;
+      width:80%;
+      min-height: 30vh;
+      .tabnav {
+        ul {
+          margin:0;
+          list-style-type:none;
+          padding:0;
+          display: grid; 
+          grid-template-columns: repeat(3,1fr);
+          text-align: center;
+          gap: 0 5%;
+          li {
+            border:1px solid var(--color-dark);
+            font-size: 15px;
+            color:var(--color-dark);
+            height: 30px;
+            line-height: 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            &.active {
+              background:var(--color-dark);
+              color:#fff;
+            }
+          }
+        }
+      }
+      .noprice {
+        text-align: center;
+        font-size:18px;
+        line-height: 60px;
+        margin-top:20px;
+      }
+      .price {
+        text-align: center;
+        padding:20px 0;
+        .title {
+          background:#eee;
+          display:inline-block;
+          padding:5px 20px;
+          position: relative;
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left:50%;
+            margin-left:-5px;
+            bottom:-5px;
+            transform: rotate(-45deg);
+            background:#eee;
+            width: 10px;
+            height: 10px;
+            z-index:0;
+          }
+        }
+        p {
+          line-height: 60px;
+          span {
+            font-size: 24px;
+            color: var(--color-primary);
+            padding:0 5px 0 0;
+          }
+        }
+      }
+      .tips {
+        line-height: 1.5;
+        text-align: center;
+        padding:0 20px;
+      }
+      .source {
+        text-align: center;
+        font-size: 12px;
+        margin-top:10px;
+      }
+      .btn_submit {
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        background: var(--color-primary);
+        color:#fff;
+        text-align: center;
+        margin-top:20px;
+      }
+    }
+  }
+}
+
+@media (min-width:768px) {
+  .tradeform {
+    font-size: 16px;
+    .formRow {
+      display: grid;
+      gap: 20px 60px;
+      margin-bottom: 20px;
+    }
+    .replace {
+      .formRow {
+        &.row1 {
+          grid-template-columns: repeat(3,1fr);
+        }
+        &.row2 {
+          grid-template-columns: repeat(3,1fr);
+        }
+        &.row3 {
+          grid-template-columns: repeat(2,1fr);
+        }
+        &.row4 {
+          grid-template-columns: repeat(2,1fr);
+        }
+      }
+    }
+    .evaluation {
+      .formRow {
+        &.row1 {
+          grid-template-columns: repeat(3,1fr);
+        }
+        &.row2 {
+          grid-template-columns: repeat(2,1fr);
+        }
+        &.row3 {
+          grid-template-columns: repeat(2,1fr);
+        }
+        &.row4 {
+          grid-template-columns: repeat(2,1fr);
+        }
+      }
+    }
+    .sell {
+    .formRow {
+      &.row1 {
+        grid-template-columns: repeat(2,1fr);
+      }
+      &.row2 {
+        grid-template-columns: repeat(3,1fr);
+      }
+      &.row3 {
+        grid-template-columns: repeat(2,1fr);
+      }
+      &.row4 {
+        grid-template-columns: repeat(2,1fr);
+      }
+    }
+    }
+    .agreement {
+      label {
+        justify-content: center;
+        font-size: 16px;
+      }
+    }
+    .btn-wrap {
+      width: 30%;
+      margin:0 auto;
+      button {
+         font-size: 18px;
+      }
+    }
+    .evalresult {
+      .evalresult_wrap {
+        width: 60%;
+        height: auto;
+        max-width: 1000px;
+        min-height: 340px;
+        .tabnav {
+          ul {
+            li {
+              font-size: 18px;
+              height: 40px;
+              line-height: 40px;
+            }
+          }
+        }
+        .btn_submit {
+          display: block;
+          width: 120px;
+          margin:40px auto 0;
+        }
+      }
+    }
+  }
+
+
+}

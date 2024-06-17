@@ -1,0 +1,16 @@
+.error {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error .content {
+    text-align: center;
+}
+.error .content .title {
+    font-size: 80rpx;
+}
+.error .content text {
+    font-size: 14px;
+    color:#666;
+}

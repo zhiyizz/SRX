@@ -1,0 +1,14 @@
+{
+   
+    "usingComponents": {
+        "form-input": "../form/components/form-input/form-input",
+        "form-phone": "../form/components/form-phone/form-phone",
+        "form-radio": "../form/components/form-radio/form-radio",
+        "form-checkbox": "../form/components/form-checkbox/form-checkbox",
+        "form-select": "../form/components/form-select/form-select",
+        "form-city": "../form/components/form-city/form-city",
+        "form-captcha": "../form/components/form-captcha/form-captcha",
+        "i-panel": "../../iview/panel/index",
+        "i-button": "../../iview/button/index"
+    }
+}
